@@ -4,7 +4,8 @@
 %%text Kazimodal
 %%textfont - 14
 %%vskip 1cm
-%
+
+
 X:1
 T:Cercle circassien
 G:Kazimodal
@@ -14,9 +15,12 @@ Q:C3=140
 P:(AB)2AC
 M:6/8
 S:M\'ethode de Yann Dour, t. 1
-%%MIDI gchord fzzczz
 K:Am
 P:A
+%%MIDI gchord fzzczz
+%%MIDI chordprog 0
+%%MIDI bassprog 0
+%%MIDI program 0
 |: "Am"E2 A "C"A2 G | "Am"E2 E "G"DB,D | "F"E2 A A2 B | "Dm"cAc "Em"BGB |
 	"Am"E2 A "C"A2 G | "Am"E2 E "G"DB,D |\
 	 "F"EAB "Dm"cdc | "Em"BcB "Am"A3 :|
@@ -111,3 +115,9 @@ P:H
 	"F"a2 e "Dm"fed | "F"c"G"B"Em"G "F"A2 e :|2\
 	"F"a2 e "Dm"fed | "F"c"G"B"Em"G "F"A3 ||
 %%text 1: Fl\^ute + accord\'eon + percussion
+
+
+% L'encha\^inement voulu :
+%%abccat P:ABACDEDFG2H2ACDFGH
+%%vskip 1cm
+%%text L'encha\^inement voulu : ABACDEDFG2H2ACDFGH

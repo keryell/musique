@@ -14,12 +14,7 @@ Q:C3=140
 P:(AB)2AC
 M:6/8
 S:M\'ethode de Yann Dour, t. 1
-%%%MIDI program 109
-%%%%MIDI gchord fzcfzcfzcfzc
 %%MIDI gchord fzzczz
-%%%MIDI chordprog 105
-%%%%MIDI bassprog 32
-%%%MIDI bassvol 127
 K:Am
 P:A
 |: "Am"E2 A "C"A2 G | "Am"E2 E "G"DB,D | "F"E2 A A2 B | "Dm"cAc "Em"BGB |
@@ -46,11 +41,11 @@ Q:C3/1=140
 P:(DE)2DF
 M:6/8
 S:?
-%%MIDI program 109
 %%MIDI gchord fzzczc
 %%MIDI chordprog 105
 %%MIDI bassprog 32
 %%MIDI bassvol 127
+%%MIDI program 109
 K:Bm
 P:I
 "Bm"B2 c \
@@ -77,7 +72,11 @@ C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
 Q:C3/1=140
 P:G3
 M:6/8
-%%MIDI gchord fzzczz
+%%MIDI gchord fzcccf
+%%MIDI chordprog 105
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 3
 K:Em
 P:G
 |: "Em"Bef "G"gfg | "D"agf "C"gfg | efg "D"fdf | "Bm"agf "Em"gfg |
@@ -96,7 +95,11 @@ C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
 Q:C3=140
 P:H3
 M:6/8
-%%MIDI gchord fzzczz
+%%MIDI gchord fzcczf
+%%MIDI chordprog 25
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 73
 K:Am
 P:H
 |: "Am"Ace "B"^d2 e | "Am"Ace "B"^d2 e | "Am"aee aee | "F"edc "Em"BcB |

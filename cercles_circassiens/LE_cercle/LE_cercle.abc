@@ -27,6 +27,7 @@ P:A
 	 "F"EAB "Dm"cdc | "Em"BcB "Am"A3 :|
 |: "C"e2 e efe | "D"dcB A2 B | "F"cAA ABc | "G"dBB "Em"Bcd |
 	"C"e2 e efe | "D"dcB A2 B | "F"cdc "G"BcB | "Am"A2 A A3 :|
+%%text 1: Am au saz
 
 
 X: 2
@@ -43,16 +44,17 @@ S:?
 %%MIDI chordprog 105
 %%MIDI bassprog 32
 %%MIDI bassvol 127
-K:F
+K:D
 P:I
-"Dm"D2 E \
+"Bm"B2 c \
 P:B
-|: F2 F "F"FGA | "C"GEC CDE | "Bb"F2 D DEF | "Am"ECA, A,DE |
-"Dm"F2 F "F"FGA | "C"GEC CDE | "Bb"FED "Am"EFE |1 "Dm"D2 D D2 E :|2\
-"Dm"D2 D D"Am"A"G"=B |
-|: "F"c2 c c=BA | "C"GEC "Am"C3 | "Bb"d2 d ded | "Am"c2 A A2 "C"B |
-"F"cFA cBA | "C"GEC "Am"CDE | "Bb"FED "C"EDC |1\
-"Dm"D2 D D"Am"A"G"=B :|2 "Dm"D2 D "Dm"D2 E ||
+|: d2 d "D"def | "A"ecA ABc | "G"d2 B Bcd | "F#m"cAF FBc |
+"Bm"d2 d "D"def | "A"ecA ABc | "G"dcB "F#m"cdc |1 "Bm"B2 B B2 c :|2\
+"Bm"B2 B B"F#m"f"E"^g |
+|: "D"a2 a a^gf | "A"ecA "F#m"A3 | "G"b2 b bc'b | "F#m"a2 f f2 "A"g |
+"D"adf agf | "A"ecA "F#m"ABc | "G"dcB "A"cBA |1\
+"Bm"B2 B B"F#m"f"E"^g :|2 "Bm"B2 B B2 c ||
+%%text 1: Fl\^ute + guitare open 3 cordes aigu\"es
 
 
 X: 3
@@ -70,6 +72,8 @@ P:C
 Bef "G"gfg | "D"agf "C"gfg | efg "D"fdf | agf "Em"e3 :|
 |: "C"e'2 e' "Em"b2 b | "C"e'2 e' "Em"b2 b | bab "Am"c'2 c' | c'd'c' "Em"b3 |
 "G"bc'b "D"a2 a | "Am"aba "C"g2 g | efg "D"fdf | "Bm"agf "Em"e3 :|
+%%text 1: Em
+%%text 2: Descente Em, D, C, Bm
 
 
 X:4
@@ -91,3 +95,4 @@ P:D
 	"Am"aee c'ba | "Em"bee d'c'b |1\
 	"F"a2 e "Dm"fed | "F"c"G"B"Em"G "F"A2 e :|2\
 	"F"a2 e "Dm"fed | "F"c"G"B"Em"G "F"A3 ||
+%%text 1: Fl\^ute + accord\'eon + percussion

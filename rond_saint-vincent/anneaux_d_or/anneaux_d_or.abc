@@ -11,7 +11,7 @@ G:Kazimodal
 R:Rond de Saint-Vincent
 C:Traditionnel, arrangement http://kazimodal.trad.org
 Q:C2=90
-P:AB5
+P:AB2
 M:4/4
 K:Am
 P:A
@@ -43,7 +43,7 @@ G:Kazimodal
 R:Rond de Saint-Vincent
 C:Traditionnel, arrangement http://kazimodal.trad.org
 Q:C2=90
-P:CD5
+P:D2
 M:4/4
 K:Am
 P:C
@@ -80,30 +80,46 @@ X:3
 T:Carmen
 G:Kazimodal
 R:Rond de Saint-Vincent
-C:Bizet, arrangement http://kazimodal.trad.org
+C:Georges Bizet, arrangement http://kazimodal.trad.org
 Q:C2=90
-P:AB5
+P:E2
 M:4/4
-K:Em
-P:D
+K:Dm
+%%MIDI gchord ffczffcfffcffzcf
+P:E
+|: "Dm"d_d c>c _c_B A>A | _AG "Gm"FE/2F/2 GF "A"E2 |
+"Dm"d_d c>c _c_B A>A |1 "Gm"GF "A"ED/2E/2 FE "Dm"D2 :|2\
+	"Gm"GF "A"ED/2E/2 FE "Dm"D>A ||
+K:D
+|: "D"DE F>A FE "Bm"D>E | FG "F#m"A/2A/2A/2A/2 BA "Em"G>B |\
+	EF "C"G>B GF "Em"E>F | GA "G"B/2B/2B/2B/2 cB "A"A>A :|
+
 
 X:4
-T:1000 \^Anes dans le pr\'es et alla danser
+T:1000 \^Anes dans le pr\'e et alla danser
 G:Kazimodal
 R:Rond de Saint-Vincent
 C:Ronan Keryell, arrangement http://kazimodal.trad.org
 Q:C2=90
-P:D4
+P:F4
 M:4/4
 K:Em
-P:D
+P:F
 %MIDI program 109
 %%%MIDI gchord ffcfffcfffcfffcf
 %%MIDI gchord ffczffcfffcffzcf
 %MIDI chordprog 105
 %MIDI bassprog 32
 %MIDI bassvol 127
-ED/2E/2 GE/2E/2 |
+|: "Em"E/2G/2F/2E/2 "D"D/2EF/2 "C"GA/2F/2 "D"GF |\
+	 "Em"E/2G/2F/2E/2 "D"FF "G"B/2AG/2 "D"FG |
+"Em"EF/2G/2 "D"F/2EF/2 "C"GB "Em"EF/2G/2 |\
+%%MIDI gchord ffczffcfffcffzzz
+	"D"FF/2F/2 "G"Bd B/2AB/2 "Bm"Fz :|
+%%MIDI gchord ffczffcfffcffzcf
 K:Am
-|: "Am"AB/2c/2 "G"BA/2B/2 "F"ce "Am"AB/2c/2 | "Dm"dd eg ef/2d/2 "Em"e2 :|
+|: "Am"AG/2A/2 "F"c/2c/2c "G"B/2A/2B/2c/2 "Am"A2 |\
+	"C"cA/2c/2 "Dm"d/2dd/2 "Em"ed/2e/2 "Am"cA |
+"Am"AG/2A/2 "F"c/2c/2c "G"B/2A/2B/2c/2 "Am"A2 |\
+	 "C"cA/2c/2 "Dm"d/2dd/2 "Em"ed/2e/2 "Am"cA :|
 %%text Break Em/G/Am/Bm Em/G/Am/Em

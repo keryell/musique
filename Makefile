@@ -1,10 +1,17 @@
+LISTE_MORCEAUX=larides_8/LE_laride_8/LE_laride_8.abc plin/LE_plin/LE_plin.abc bourrees_2/saut_terne/saut_terne.abc larides_6/Groill/larides_6.abc scottish/Groilh/groilh.abc hanter-dro/L_HanterDro/hanter-dro.abc rond_saint-vincent/anneaux_d_or/anneaux_d_or.abc mazurka/Escholiers/Escholiers.abc andro/L_Andro/andro.abc kost_ar_c_hoad/LE_kost_ar_c_hoad/kost.abc dans_leon/LA_dans_leon/LA_dans_leon.abc cercles_circassiens/LE_cercle/LE_cercle.abc gavottes/LA_gavotte/LA_gavotte.abc valses/Floating_from_Skerry/Floating_from_Skerry.abc divers/galop_nantais/galop_nantais.abc
+
+LISTE_MORCEAUX_MID=$(shell echo $(LISTE_MORCEAUX) | sed 's,\([^/]*\.\)abc,all/\1mid,g')
+LISTE_MORCEAUX_WAV=$(LISTE_MORCEAUX_MID:.mid=.wav)
+LISTE_MORCEAUX_CDR=$(LISTE_MORCEAUX_MID:.mid=.cdr)
+
+
 PARTITION_DIR = $(HOME)/public_html/trad/partitions
 RELATIVE_DIR = `pwd | sed 's,.*/\([^/]*/[^/]*\),\1,'`
 TARGET_DIR = $(PARTITION_DIR)/$(RELATIVE_DIR)
 
 MIDI = $(ABC:.abc=1.mid)
-PS = $(ABC:.abc=.ps)
-PDF = $(ABC:.abc=.pdf)
+PS = $(ABC:.abc=.ps) $(ABC:.abc=+2.ps)
+PDF = $(ABC:.abc=.pdf) $(ABC:.abc=+2.pdf)
 HTML = $(ABC:.abc=.html)
 AUFILE = $(ABC:.abc=.au)
 AU = $(ALLMIDI_DIR)/$(AUFILE)
@@ -13,6 +20,7 @@ ALLMIDI_DIR = all
 ALLMIDI_TAR_GZ = $(ABC:.abc=.mid.tar.gz)
 YAPS_SCALE=0.9
 
+AB2AB	= abc2abc
 #TIMIDITY=timidity -c gravis.cfg
 TIMIDITY=timidity
 
@@ -24,6 +32,8 @@ world: $(TARGETS)
 
 clean:
 	rm -fr $(TARGETS) $(ALLMIDI_DIR) *.mid
+	find . -name '*.wav' -exec rm '{}' \;
+	find . -name '*.cdr' -exec rm '{}' \;
 
 # No longer recompile stuff since the tools may not be on the WWW server.
 #install : $(TARGETS)
@@ -56,7 +66,7 @@ playall: $(ALLMIDI_DIR)/$(ALLMIDI)
 
 %.ps : %.abc Makefile
 	#abc2ps $* -x -n -p -O = -o
-	yaps $< -s $(YAPS_SCALE)
+	yaps $< -s $(YAPS_SCALE) || abcmidi-yaps $< -s $(YAPS_SCALE)
 
 %.pdf : %.ps
 	ps2pdf $<
@@ -66,6 +76,11 @@ $(ALLMIDI_DIR):
 
 $(ALLMIDI_DIR)/$(ABC): $(ABC) $(ALLMIDI_DIR)
 	abccat $(ABC) > $@
+
+### transpositions...
+T	= 2
+%-$(T).abc: %.abc; $(AB2AB) $< -t -$(T) > $@
+%+$(T).abc: %.abc; $(AB2AB) $< -t  $(T) > $@
 
 %.html : %.abc
 	echo '<TD><FONT COLOR="#000000"><A HREF="'$(RELATIVE_DIR)/$(ABC)'">ABC</A></FONT></TD>' > $@
@@ -90,4 +105,16 @@ $(ALLMIDI_DIR)/$(ABC): $(ABC) $(ALLMIDI_DIR)
 #       #musixflx $*
 #       tex $*
 #       dvips -o $*.ps $*.dvi
+
+
+%.cdr : %.wav
+	sox $< $@
+
+%.wav : %.mid
+	timidity -s 44100 -OwS $<
+
+cd: $(LISTE_MORCEAUX_CDR)
+
+cdwrite:
+	cdrecord -v -overburn -audio speed=1 dev=0,0,0 $(LISTE_MORCEAUX_CDR)
 

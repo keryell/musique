@@ -16,7 +16,7 @@ M:6/8
 S:M\'ethode de Yann Dour, t. 1
 %%%MIDI program 109
 %%%%MIDI gchord fzcfzcfzcfzc
-%%MIDI gchord fzzczzfzzczz
+%%MIDI gchord fzzczz
 %%%MIDI chordprog 105
 %%%%MIDI bassprog 32
 %%%MIDI bassvol 127
@@ -28,48 +28,49 @@ P:A
 |: "C"e2 e efe | "D"dcB A2 B | "F"cAA ABc | "G"dBB "Em"Bcd |
 	"C"e2 e efe | "D"dcB A2 B | "F"cdc "G"BcB | "Am"A2 A A3 :|
 
-X:2
+
+X: 2
 T:Cercle circassien
 G:Kazimodal
 R:Cercle circassien
 C:?, arrangement Ronan Keryell http://kazimodal.trad.org
-Q:C3=140
+Q:C3/1=140
 P:IB4
 M:6/8
 S:?
 %%MIDI program 109
-%%MIDI gchord fzzczzfzzczz
+%%MIDI gchord fzzczc
 %%MIDI chordprog 105
 %%MIDI bassprog 32
 %%MIDI bassvol 127
-K:Am
+K:F
 P:I
-"Am"A2 B \
+"Dm"D2 E \
 P:B
-|: c2 c "C"cde | "G"dBG GAB | "F"c2 A ABc | "Em"BGE EAB |
-	"Am"c2 c "C"cde | "G"dBG GAB | "F"cBA "Em"BcB |1 "Am"A2 A A2 B :|2\
-	"Am"A2 A A"Em"e"D"^f |
-|: "C"g2 g g^fe | "G"dBG "Em"G3 | "F"a2 a aba | "Em"g2 e e2 "G"f |
-	"C"gce gfe | "G"dBG "Em"GAB | "F"cBA "G"BAG |1\
-	 "Am"A2 A A"Em"e"D"^f :|2 "Am"A2 A "Am"A2 B ||
+|: F2 F "F"FGA | "C"GEC CDE | "Bb"F2 D DEF | "Am"ECA, A,DE |
+"Dm"F2 F "F"FGA | "C"GEC CDE | "Bb"FED "Am"EFE |1 "Dm"D2 D D2 E :|2\
+"Dm"D2 D D"Am"A"G"=B |
+|: "F"c2 c c=BA | "C"GEC "Am"C3 | "Bb"d2 d ded | "Am"c2 A A2 "C"B |
+"F"cFA cBA | "C"GEC "Am"CDE | "Bb"FED "C"EDC |1\
+"Dm"D2 D D"Am"A"G"=B :|2 "Dm"D2 D "Dm"D2 E ||
 
-%%newpage
 
-X:3
+X: 3
 T:Tarentelle
 G:Kazimodal
 R:Tarentelle
 C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
-Q:C3=140
+Q:C3/1=140
 P:C4
 M:6/8
-%%MIDI gchord fzzczzfzzczz
-K:Am
+%%MIDI gchord fzzczz
+K:Em
 P:C
-|: "Am"EAB "C"cBc | "G"dcB "F"cBc | ABc "G"BGB | "Em"dcB "Am"cBc |
-	EAB "C"cBc | "G"dcB "F"cBc | ABc "G"BGB | dcB "Am"A3 :|
-|: "F"a2 a "Am"e2 e | "F"a2 a "Am"e2 e | ede "Dm"f2 f | fgf "Am"e3 |
-	"C"efe "G"d2 d | "Dm"ded "F"c2 c | ABc "G"BGB | "Em"dcB "Am"A3 :|
+|: "Em"Bef "G"gfg | "D"agf "C"gfg | efg "D"fdf | "Bm"agf "Em"gfg |
+Bef "G"gfg | "D"agf "C"gfg | efg "D"fdf | agf "Em"e3 :|
+|: "C"e'2 e' "Em"b2 b | "C"e'2 e' "Em"b2 b | bab "Am"c'2 c' | c'd'c' "Em"b3 |
+"G"bc'b "D"a2 a | "Am"aba "C"g2 g | efg "D"fdf | "Bm"agf "Em"e3 :|
+
 
 X:4
 T:Cercle circassien
@@ -79,7 +80,7 @@ C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
 Q:C3=140
 P:D4
 M:6/8
-%%MIDI gchord fzzczzfzzczz
+%%MIDI gchord fzzczz
 K:Am
 P:D
 |: "Am"Ace "B"^d2 e | "Am"Ace "B"^d2 e | "Am"aee aee | "F"edc "Em"BcB |

@@ -5,7 +5,8 @@
 %%textfont - 14
 %%vskip 1cm
 
-X: 1
+
+X:1
 T:Da\~ns leon
 G:Kazimodal
 R:Da\~ns leon
@@ -17,8 +18,13 @@ Q:C2/1=112
 P:A4
 K:G
 P:A
+%%MIDI chordprog 41
+%%MIDI bassprog 43
+%%MIDI program 73
+%%MIDI bassvol 127
 |:\
 M:4/4
+%%MIDI gchord fcf2fzc2
 "G"GA "Em"({Bc}B>G) (B"Am"c) AB |\
 M:5/4
 	"Bm"dd "C"c2 B2 "D"A4 ::\
@@ -26,9 +32,9 @@ M:4/4
 "G"GB "Bm"d>d cB "Am"(AB/2)c/2 |\
 M:5/4
 	"Bm"dc "C"B2 "D"A2 "G"G4 :|
+%%text 2: guitare accords ouverts
 
-
-X: 2
+X:2
 T:Da\~ns leon
 G:Kazimodal
 R:Da\~ns leon
@@ -40,6 +46,12 @@ Q:C2/1=112
 P:B4
 K:D
 P:B
+M:4/4
+%%MIDI chordprog 41
+%%MIDI bassprog 43
+%%MIDI program 71
+%%MIDI bassvol 127
+%%MIDI gchord fcf2fzc2
 "F#m"Ac/2B/2 AF "Em"GE "F#m"AG/2A/2 |\
 M:5/4
 	"G"BB "A"A2 "Em"G2 "F#m"F4 |\
@@ -53,10 +65,12 @@ M:5/4
 	({EF}E)F "G"G2 "A"E2 "D"F4 :|2\
 M:5/4
 	(EG) "A"F2 "G"E2 "D"D4 ||
+%%text 1: F#m continu ouvert guitare + fl\^ute
+%%text 2: guitare accords ouverts
 
 
 
-X: 3
+X:3
 T:Da\~ns leon
 G:Kazimodal
 R:Da\~ns leon
@@ -65,10 +79,15 @@ S:Tonio\`u Breizh-Izel 1388 (Pleiber-Krist)
 M:4/4
 L:1/8
 Q:C2=112
-P:C4
+P:C2
 K:Dm
 P:C
+%%MIDI gchordoff
+V:1
+K:Dm
+%%MIDI program 52
 |:\
+M:4/4
 "Dm"Ad "C"(c>d) cB "Bb"({AB}A)G |\
 M:5/4
 	Ad "Gm"({cB}c)>d cB "Am"({AB}A4) :|\
@@ -84,5 +103,100 @@ M:4/4
 	"Dm"({FE}D)E F2 "C"(GF/2G/2) "F"A>A |\
 M:5/4
 	({AB}A)d "Gm"d2 "Am"(ed/2)c/2 "Bb"d4 ||
+V:2
+K:Dm
+%%MIDI program 54
+|:\
+M:4/4
+dg (f>g) fe ({de}d)c |\
+M:5/4
+dg ({fe}f)>g fe ({de}d4) :|\
+M:4/4
+Bc d>c de dc |\
+M:5/4
+AB c>d BA G4 |
+M:4/4
+GA B2 c2 d>c |\
+M:5/4
+({de}d)g g2 f2 g4 |\
+M:4/4
+({BA}G)A B2 (cB/2c/2) d>d |\
+M:5/4
+({de}d)g g2 (ag/2)f/2 g4 ||
+V:3
+K:Dm
+%%MIDI program 54
+|:\
+M:4/4
+DB (A>B) AG ({FG}F)E |\
+M:5/4
+FB ({AG}A)>B AG ({DE}D4) :|\
+M:4/4
+B,E F>E FG FE |\
+M:5/4
+CD E>F DC B,4 |
+M:4/4
+B,C D2 E2 F>E |\
+M:5/4
+({FG}F)B B2 A2 B4 |\
+M:4/4
+({DC}B,)C D2 (ED/2E/2) F>F |\
+M:5/4
+({FG}F)B B2 (cB/2)A/2 G4 ||
+V:4
+K:Dm
+%%MIDI program 53
+|:\
+M:4/4
+EA (G>A) GF ED |\
+M:5/4
+EA G>A GF E4 :|\
+M:4/4
+DE F>E FG FE |\
+M:5/4
+CD E>F DC B,4 |
+M:4/4
+A,B, C2 D2 E>D |\
+M:5/4
+EA B2 G2 [F4A4] |\
+M:4/4
+A,B, C2 (DD/2E/2) F>F |\
+M:5/4
+FF B2 (AG/2)A/2 B4 ||
+%%text 2: entr\'ee basse continue
 
-
+X:4
+T:Da\~ns leon
+G:Kazimodal
+R:Da\~ns leon
+C:Traditionnel, arrangement http://kazimodal.trad.org
+S:Tonio\`u Breizh-Izel 1388 (Pleiber-Krist)
+M:4/4
+L:1/8
+Q:C2=112
+P:D4
+K:Dm
+P:D
+%%MIDI gchordon
+%%MIDI chordprog 41
+%%MIDI bassprog 43
+%%MIDI bassvol 127
+%%MIDI program 73
+|:\
+M:4/4
+%%MIDI gchord fcf2fzc2
+"Dm"Ad "C"(c>d) cB "Bb"({AB}A)G |\
+M:5/4
+	Ad "Gm"({cB}c)>d cB "Am"({AB}A4) :|\
+M:4/4
+"Dm"FG "F"A>G AB "C"AG |\
+M:5/4
+	"Gm"EF G>A "Am"FE "Bb"D4 |
+M:4/4
+	"Dm"DE "F"F2 "Gm"G2 "Am"A>G |\
+M:5/4
+	({AB}A)d "Bb"d2 "C"c2 "Dm"d4 |\
+M:4/4
+	"Dm"({FE}D)E F2 "C"(GF/2G/2) "F"A>A |\
+M:5/4
+	({AB}A)d "Gm"d2 "Am"(ed/2)c/2 "Bb"d4 ||

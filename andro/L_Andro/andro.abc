@@ -1,65 +1,67 @@
-\headline{L'Andro}
-%\bigskip
+%%textfont Helvetica 60
+%%centre L'Andro
+%%textfont - 20
+%%text Kazimodal
+%%textfont - 14
+%%vskip 1cm
 %
 X:1
 T:Andro 1
 G:Kazimodal
 R:Andro
 C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
-Q:C2=108
-P:A5
+Q:C2=100
+P:A4
 M:4/4
 S:Tonioù Breizh-Izel 1718 (Ardeven)
-K:C
+K:D
 P:A
 %\large
 %%MIDI program 109
-%%MIDI gchord fcfcfcfc
+%%MIDI gchord fcffcfcz
 %%MIDI chordprog 105
+%%MIDI chordvol 60
 %%MIDI bassprog 32
 %%MIDI bassvol 127
-|: "C"G(G/2A/2) "Em"{GA}G>E "Am"AA "G"G/2G/2G |\
-"C"G>A "Em"{GA}GE "Am"{E}A/2A/2A "G"G2 :|
-|: "G"(G/2F/2)(D/2E/2) "Am"(CD/2)E/2 "Dm"FD "C"EC |\
-"Am"{AB}AB/2c/2 "G"B>G "F"AF "C"G2 |
-"Dm"(G/2F/2)(D/2E/2) "Em"G(D/2E/2) "F"(F/2D/2)E "C"C2 |\
-"Am"{AB}AB/2c/2 "G"BG "F"A"G"B "C"c2 :|
-
-\bigskip
-
+|: "D"A(A/2B/2) "F#m"{AB}A>F "Bm"BB "A"A/2A/2A |\
+"D"A>B "F#m"{AB}AF "Bm"{F}B/2B/2B "A"A2 :|
+|: "A"(A/2G/2)(E/2F/2) "Bm"(DE/2)F/2 "Em"GE "D"FD |\
+"Bm"{Bc}Bc/2d/2 "A"c>A "G"BG "D"A2 |
+"Em"(A/2G/2)(E/2F/2) "F#m"A(E/2F/2) "G"(G/2E/2)F "D"D2 |\
+"Bm"{Bc}Bc/2d/2 "A"cA "G"B"A"c "D"d2 :|
+%%text Intro : 2 Macarena à la basse et guitare
 
 X:2
 T:Andro 2
 G:Kazimodal
 R:Andro
 C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
-Q:C2=112
-P:B5
+Q:C2=100
+P:B4
 M:4/4
 S:Tonioù Breizh-Izel 1721 (Pleskob)
-K:F
+K:G
 P:B
 %\large
 %%%%MIDI program 109
-%%MIDI gchord fcfcfcfc
+%%MIDI gchord fcffcfcz
 %%MIDI chordprog 105
+%%MIDI chordvol 60
 %%MIDI bassprog 32
 %%MIDI bassvol 127
-|: "F"{FG}F/2C/2F/2A/2 "C"{GA}G>E "Bb"D"C"E "F"FF |\
-C(F/2A/2) "Gm"{GA}G>F "Bb"D"C"E "F"F2 :|
-"F"{FG}FG/2A/2 "Gm"G>G "Am"{FG}FG/2A/2 "C"G2 |\
-"F"{FG}FG/2A/2 "Dm"FF "C"(E/2F/2)"Bb"D/2E/2 "Am"C2 |
-"F"{FG}FG/2A/2 "Gm"G>G "Bb"{FG}FG/2A/2 "C"G2 |\
-"F"{FG}FA/2G/2 "Gm"(F/2E/2)"Am"D/2E/2 "Bb"{FG}F(E/2"C"G/2) "F"F2 ||
-
-\bigskip
+|: "G"{GA}G/2D/2G/2B/2 "D"{AB}A>F "C"E"D"F "G"GG |\
+D(G/2B/2) "Am"{AB}A>G "C"E"D"F "G"G2 :|
+"G"{GA}GA/2B/2 "Am"A>A "Bm"{GA}GA/2B/2 "D"A2 |\
+"G"{GA}GA/2B/2 "Em"GG "D"(F/2G/2)"C"E/2F/2 "Bm"D2 |
+"G"{GA}GA/2B/2 "Am"A>A "C"{GA}GA/2B/2 "D"A2 |\
+"G"{GA}GB/2A/2 "Am"(G/2F/2)"Bm"E/2F/2 "C"{GA}G(F/2"D"A/2) "G"G2 ||
 
 X:3
 T:Andro 3
 G:Kazimodal
 R:Andro
 C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
-Q:C2=112
+Q:C2=100
 P:C5
 M:4/4
 S:Tonioù Breizh-Izel 1721 (Lokmariaker)
@@ -67,14 +69,20 @@ K:Dm
 P:C
 %\large
 %%%%MIDI program 109
-%%MIDI gchord fcfcfcfc
+%%MIDI gchord fcffcfcz
 %%MIDI chordprog 105
+%%MIDI chordvol 60
 %%MIDI bassprog 32
 %%MIDI bassvol 127
-|: "Dm"D(F/2G/2) "F"{AB}A>c "C"{Bc}BG "Bb"(G/2A/2)F |\
+|: "Dm"D(F/2G/2) "F"{AB}A>c "C"{Bc}BG "Bb"(G/2A/2)F \
 |1 "F"{FG}F/2(E/2F) "Gm"(G/2A/2)G/2E/2 "Bb"FD "Am"AF :|2\
 "F"(F/2A/2)G/2E/2 "Gm"{FG}F>D "Am"(E/2G/2)E/2F/2 "Bb"D2 |
 |: "Dm"{DE}DF/2D/2 "Am"E(G/2A/2) "Gm"{GA}GE "Bb"FD |\
 "C"(E/2F/2)G/2E/2 "Am"(A/2G/2)E/2F/2 "Bb"(DE/2)D/2 "C"C2 |
 "Dm"{DE}DF/2D/2 "Am"E(G/2A/2) "Gm"{GA}GE "Bb"FD |\
 "C"(E/2F/2)G/2E/2 "Am"{AB}AG/2E/2 "Bb"(F/2G/2)"C"E/2F/2 "Dm"D2 :|
+%%text 1: aboe + guitare Dm
+%%text 2: aboe + guitare
+%%text 3: guitare
+%%text 4: bombarde + guitare
+%%text 5: haché, bombarde + guitare

@@ -76,6 +76,8 @@ R:Dañs Plin
 C:Traditionnel
 P:D5
 S:Pennoù Skoulm
+M:12/8
+Q:C3=72
 K:Em
 P:D
 Q:C3=72
@@ -86,8 +88,8 @@ M:12/8
 %%MIDI program 50
 |: Bcd "Em"He3 fdc "D"Hd3 | "Am"cce Hc3 "Bm"dBA HB3 :|
 %%text Arr\^et 1 temps pour mieux repartir
-Q:C2=156
 M:4/4
+Q:C2=156
 %%MIDI gchord fzczcfcz
 %%MIDI chordprog 0
 %%MIDI bassprog 0
@@ -129,9 +131,9 @@ G:Kazimodal
 R:Dañs Plin
 C:Traditionnel
 Q:C2=160
-P:H4
 M:4/4
-S:basse bourdon accordéon
+P:H4
+K:Em
 P:I
 K:Em
 "Em"B \
@@ -145,6 +147,7 @@ P:H
 |: "D"A>G AB "C"ED EB | "D"A>G "Bm"AB "Em"E2 EB :|
 |: "D"A>G AB "C"ed BB | "D"AG "Am"Ac "Bm"B3 "G"B |\
 	"D"A>G AB "C"ed BB | "D"A>F "C"G"D"F "Em"E2 EB :|
+%%text 1: basse bourdon accord\'eon
 
 
 X:7

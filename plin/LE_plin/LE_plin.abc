@@ -57,6 +57,8 @@ M:4/4
 S:Tonioù Breizh-Izel 1213 (Duod)
 K:Em
 P:C
+Q:C2=160
+M:4/4
 %%MIDI gchord fzczcfcz
 %%MIDI chordprog 67
 %%MIDI bassprog 70
@@ -115,13 +117,13 @@ P:E
 %%MIDI bassvol 127
 %%MIDI chordprog 41
 %%MIDI program 23
-|: "Am"A>G AB ed "G"B2 | "F"c2 Ac "G"BB "Am"A2 :|
+|: "Am"A>G AB "G"ed B2 | "F"c2 Ac "Em"BB "Am"A2 :|
 P:F
-|: "Am"e>d "G"gf ed "C"c2 | (3cBc "G"dd cd "Am"e2 |\
-	"Am"e>d "G"gf ed "C"c2 | (3cBc "G"dd cB "Am"A2 :|
+|: "Am"e>d "G"gf ed "C"c2 | (3cBc "Dm"dd cd "Em"e2 |\
+	e>d gf ed "F"c2 | (3cBc "G"dd "Em"cB "Am"A2 :|
 P:G
-|: "Am"e>d "G"gf ed "C"c2 | (3cBc "G"dd cd "Am"e2 |\
-	"Am"e>d "G"gf ed "C"c2 | (3cBc "G"dd cB "Am"AB :|
+|: "Am"e>d "G"gf ed "C"c2 | (3cBc "Dm"dd cd "Em"e2 |\
+	e>d "F"gf ed "F"c2 | (3cBc "G"dd "Em"cB "Am"AB :|
 
 
 X:6

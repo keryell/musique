@@ -17,7 +17,8 @@ M:4/4
 K:Am
 P:A
 %MIDI program 109
-%%MIDI gchord ffcfffcfffcfffcf
+%%%MIDI gchord ffcfffcfffcfffcf
+%%MIDI gchord ffczffcfffcffzcf
 %MIDI chordprog 105
 %MIDI bassprog 32
 %MIDI bassvol 127
@@ -49,44 +50,30 @@ M:4/4
 K:Am
 P:C
 %MIDI program 109
-%%MIDI gchord ffff
-%%MIDI chordvol 0
 %MIDI bassprog 32
 %%MIDI bassvol 127
 V:1
-E/2E/2E/2 |
-w: Je n'ai plus
+%%MIDI gchord z
+"Em"E/2E/2E/2 |
 V:2
 A/2A/2A/2 |
-V:3
-A,/2A,/2A,/2 |
+%%text Basse continue en La
 P:D
 V:1
-|: AB A/2B/2c/2A/2 G/2A/2B A/2G/2^F/2E/2
-w: que 10 ans \`a rou-ler ma jeu-nes-se, ain-si l'en
-	|1 AB A/2B/2c/2A/2 G/2A/2B A/2E/2E/2E/2
-w: vie m'y prend d'al-ler voir ma ma\^i-tres-se. Je n'ai plus
-	:|2 AB A/2B/2c/2A/2 G/2A/2B AA/2B/2 ||
-w: vie m'y prend d'al-ler voir ma ma\^i-tres-se. Nous i-
+%%MIDI gchord f2f2fffffff2ffcf
+|: AB A/2B/2c/2A/2 G/2A/2B A/2G/2^F/2E/2 
+%%MIDI gchord f2f2fffffff2ffcf
+	|1 AB A/2B/2c/2A/2 G/2A/2B A/2E/2E/2E/2 :|2\
+%%MIDI gchord f2f2fffffff2f2cf
+	AB A/2B/2c/2A/2 G/2A/2B AA/2B/2 ||
+%%MIDI gchord f2fff2fffff2f2ff
 |: cd/2c/2 Bc/2B/2 A/2G/2^F EA/2B/2
-w: rons tous les deux Li-son ma Li-set-te, nous i-
-	|1 cd/2c/2 BB/2A/2 G/2A/2B/2G/2 AA/2B/2
-w: rons tous les deux faire nos a-mou-ret - te. Nous i-
-	:|2 cd/2c/2 BB/2A/2 G/2A/2B/2G/2 A/2E/2E/2E/2 ||
-w: rons tous les deux faire nos a-mou-ret - te. Je n'ai plus
+%%MIDI gchord f2fff2fffffff2ff
+	|1 cd/2c/2 BB/2A/2 G/2A/2B/2G/2 AA/2B/2	:|2\
+%%MIDI gchord f2fff2ffffffffff
+	 cd/2c/2 BB/2A/2 G/2A/2B/2G/2 A/2E/2E/2E/2 ||
 V:2
 |: de d/2e/2f/2d/2 c/2d/2e d/2c/2B/2A/2
-	|1 de d/2e/2f/2d/2 c/2d/2e d/2A/2A/2A/2
-	:|2 de d/2e/2f/2d/2 c/2d/2e dd/2e/2 ||
+	|1 de d/2e/2f/2d/2 c/2d/2e d/2A/2A/2A/2	:|2 de d/2e/2f/2d/2 c/2d/2e dd/2e/2 ||
 |: fg/2f/2 ef/2e/2 d/2c/2B Ad/2e/2
-	|1 fg/2f/2 ee/2d/2 c/2d/2e/2c/2 dd/2e/2
-	:|2 fg/2f/2 ee/2d/2 c/2d/2e/2c/2 d/2A/2A/2A/2 ||
-V:3
-|: A,A, A,/2A,/2A,/2A,/2 A,/2A,/2A, A,/2A,/2B/2A,/2
-	|1 A,A, A,/2A,/2A,/2A,/2 A,/2A,/2A, A,/2A,/2A,/2A,/2
-	:|2 A,A, A,/2A,/2A,/2A,/2 A,/2A,/2A, A,A,/2A,/2 ||
-|: A,A,/2A,/2 A,A,/2A,/2 A,/2A,/2A, A,A,/2A,/2
-	|1 A,A,/2A,/2 A,A,/2A,/2 A,/2A,/2A,/2A,/2 A,A,/2A,/2
-	:|2 A,A,/2A,/2 A,A,/2A,/2 A,/2A,/2A,/2A,/2 A,/2A,/2A,/2A,/2 ||
-
-
+	|1 fg/2f/2 ee/2d/2 c/2d/2e/2c/2 dd/2e/2	:|2 fg/2f/2 ee/2d/2 c/2d/2e/2c/2 d/2A/2A/2A/2 ||

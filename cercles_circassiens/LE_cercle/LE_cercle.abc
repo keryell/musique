@@ -11,7 +11,7 @@ G:Kazimodal
 R:Cercle circassien
 C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
 Q:C3=140
-P:A4
+P:(AB)2AC
 M:6/8
 S:M\'ethode de Yann Dour, t. 1
 %%%MIDI program 109
@@ -25,9 +25,16 @@ P:A
 |: "Am"E2 A "C"A2 G | "Am"E2 E "G"DB,D | "F"E2 A A2 B | "Dm"cAc "Em"BGB |
 	"Am"E2 A "C"A2 G | "Am"E2 E "G"DB,D |\
 	 "F"EAB "Dm"cdc | "Em"BcB "Am"A3 :|
+P:B
 |: "C"e2 e efe | "D"dcB A2 B | "F"cAA ABc | "G"dBB "Em"Bcd |
 	"C"e2 e efe | "D"dcB A2 B | "F"cdc "G"BcB | "Am"A2 A A3 :|
 %%text 1: Am au saz
+P:C
+|: "C"e2 e efe | "D"dcB A2 B | "F"cAA ABc | "G"dBB "Em"Bcd |
+	"C"e2 e efe | "D"dcB A2 B | "F"cdc "G"BcB |1 "Am"A2 A A3 :|2\
+	"Am"A3 \
+K:Bm
+	"Bm"B2 c
 
 
 X: 2
@@ -36,7 +43,7 @@ G:Kazimodal
 R:Cercle circassien
 C:?, arrangement Ronan Keryell http://kazimodal.trad.org
 Q:C3/1=140
-P:IB4
+P:(DE)2DF
 M:6/8
 S:?
 %%MIDI program 109
@@ -44,17 +51,22 @@ S:?
 %%MIDI chordprog 105
 %%MIDI bassprog 32
 %%MIDI bassvol 127
-K:D
+K:Bm
 P:I
 "Bm"B2 c \
-P:B
+P:D
 |: d2 d "D"def | "A"ecA ABc | "G"d2 B Bcd | "F#m"cAF FBc |
 "Bm"d2 d "D"def | "A"ecA ABc | "G"dcB "F#m"cdc |1 "Bm"B2 B B2 c :|2\
 "Bm"B2 B B"F#m"f"E"^g |
+P:E
 |: "D"a2 a a^gf | "A"ecA "F#m"A3 | "G"b2 b bc'b | "F#m"a2 f f2 "A"g |
 "D"adf agf | "A"ecA "F#m"ABc | "G"dcB "A"cBA |1\
 "Bm"B2 B B"F#m"f"E"^g :|2 "Bm"B2 B B2 c ||
 %%text 1: Fl\^ute + guitare open 3 cordes aigu\"es
+P:F
+|: "D"a2 a a^gf | "A"ecA "F#m"A3 | "G"b2 b bc'b | "F#m"a2 f f2 "A"g |
+"D"adf agf | "A"ecA "F#m"ABc | "G"dcB "A"cBA |1\
+"Bm"B2 B B"F#m"f"E"^g :|2 "Bm"B3 " "z3 ||
 
 
 X: 3
@@ -63,11 +75,11 @@ G:Kazimodal
 R:Tarentelle
 C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
 Q:C3/1=140
-P:C4
+P:G3
 M:6/8
 %%MIDI gchord fzzczz
 K:Em
-P:C
+P:G
 |: "Em"Bef "G"gfg | "D"agf "C"gfg | efg "D"fdf | "Bm"agf "Em"gfg |
 Bef "G"gfg | "D"agf "C"gfg | efg "D"fdf | agf "Em"e3 :|
 |: "C"e'2 e' "Em"b2 b | "C"e'2 e' "Em"b2 b | bab "Am"c'2 c' | c'd'c' "Em"b3 |
@@ -82,11 +94,11 @@ G:Kazimodal
 R:Cercle circassien
 C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
 Q:C3=140
-P:D4
+P:H3
 M:6/8
 %%MIDI gchord fzzczz
 K:Am
-P:D
+P:H
 |: "Am"Ace "B"^d2 e | "Am"Ace "B"^d2 e | "Am"aee aee | "F"edc "Em"BcB |
 	"Am"Ace "E/F"^d2 e | "Am"Ace "E/F"^d2 e |1\
 	 "Am"aee "F"fed | "Em"cBG "Am"A3 :|2\

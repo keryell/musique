@@ -27,13 +27,14 @@ P:A
 E3 \
 P:B
 |: "Em"B3 B2c d2e | "CM7"B6 c2B |\
-	"D"A3 B3/2A3/2 G3/2A3/2 | "Em"B2c B3/2A3/2 G3/2A3/2 |
-B3 B2c d2e | "C"B6 c2B | "D"A3 B3/2A3/2 G2F |1 "Em"E6 E3 :|2 "Em"E6 e3/2d3/2 |
+	"D"A3 B3/2A3/2 G3/2A3/2 | "Bm"B2c B3/2A3/2 G3/2A3/2 |
+"Em" B3 B2c d2e | "C"B6 c2B | "D"A3 B3/2A3/2 "Bm"G2F |1\
+	"Em"E6 E3 :|2 "Em"E6 e3/2d3/2 |
 |: "Am"c3 c2B "Bm"c2d | "C"e3 e3/2d3/2 "D"d3/2c3/2 |\
-	"Em"B3 B3/2"D"A3/2 B2c | "Em"B3 B3 e3/2d3/2 |
+	"Em"B3 B3/2"D"A3/2 B2c | "Bm"B3 "Em"B3 e3/2d3/2 |
 "Am"c3 c2B "Bm"c2d | "C"e3 e3/2d3/2 "D"d3/2c3/2 |\
-	"Em"B3 A3/2G3/2 "D"F2G |1 F3 "Em"E3 e3/2d3/2 :|2\
-	F3 "Em"E3 E3 ||
+	"Em"B3 A3/2G3/2 "D"F2G |1 "Bm"F3 "Em"E3 e3/2d3/2 :|2\
+	"Bm"F3 "Em"E3 E3 ||
 
 
 X:2
@@ -56,13 +57,14 @@ P:C
 V:1
 %%MIDI program 75
 |: "Em"B3 B2c d2e | "CM7"B6 c2B |\
-	"D"A3 B3/2A3/2 G3/2A3/2 | "Em"B2c B3/2A3/2 G3/2A3/2 |
-B3 B2c d2e | "C"B6 c2B | "D"A3 B3/2A3/2 G2F |1 "Em"E6 E3 :|2 "Em"E6 e3/2d3/2 |
+	"D"A3 B3/2A3/2 G3/2A3/2 | "Bm"B2c B3/2A3/2 G3/2A3/2 |
+"Em" B3 B2c d2e | "C"B6 c2B | "D"A3 B3/2A3/2 "Bm"G2F |1\
+	"Em"E6 E3 :|2 "Em"E6 e3/2d3/2 |
 |: "Am"c3 c2B "Bm"c2d | "C"e3 e3/2d3/2 "D"d3/2c3/2 |\
-	"Em"B3 B3/2"D"A3/2 B2c | "Em"B3 B3 e3/2d3/2 |
+	"Em"B3 B3/2"D"A3/2 B2c | "Bm"B3 "Em"B3 e3/2d3/2 |
 "Am"c3 c2B "Bm"c2d | "C"e3 e3/2d3/2 "D"d3/2c3/2 |\
-	"Em"B3 A3/2G3/2 "D"F2G |1 F3 "Em"E3 e3/2d3/2 :|2\
-	F3 "Em"E3 E3 ||
+	"Em"B3 A3/2G3/2 "D"F2G |1 "Bm"F3 "Em"E3 e3/2d3/2 :|2\
+	"Bm"F3 "Em"E3 E3 ||
 V:2
 %%%MIDI transpose 12
 %%MIDI program 69

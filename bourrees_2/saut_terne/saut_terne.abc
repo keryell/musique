@@ -6,12 +6,34 @@
 %%vskip 1cm
 
 X: 1
+T:Sot terne
+G:Kazimodal
+R:Bourr\'ee 2 temps
+C:Ronan Keryell, arrangement http://kazimodal.trad.org
+Q:C2=145
+P:(B)4
+M:4/4
+%%MIDI gchord c2ffccf2
+%%MIDI chordprog 105
+%%MIDI chordvol 80
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 69
+K:EPhr
+P:A
+|: "Em"E>F GA BG EB |1 "Dm"A>G FD E>F "Em"ED :|2 \
+	"F"A>G FD "Em"E>E E2 ||
+P:B
+K:Dm
+|: "Bb"d>B Fd "C"ec Ge | "Dm"f>e dc dc AF | "Gm"B>A Gd "Am"c>B AG | "Bb"B>A GF "C"G>G- G>G :|
+
+X: 2
 T:Bout D
 G:Kazimodal
 R:Bourr\'ee 2 temps
 C:Ronan Keryell, arrangement http://kazimodal.trad.org
 Q:C2=145
-P:AB10
+P:CD10
 M:4/4
 %%MIDI gchord c2ffccf2
 %%MIDI chordprog 105
@@ -20,9 +42,9 @@ M:4/4
 %%MIDI bassvol 127
 %%MIDI program 69
 K:Dm
-P:A
+P:C
 A/2
-P:B
+P:D
 |: "Dm"D>F GD "F"A2-A>F |1 "Gm"G>A Bd "Am"AG EF :|2 \
 "Gm"GG- GG z"Am"A A>A ||
 |: "Dm"D>F GD "F"A2-A>F |1 "Gm"G>A Bd "Am"AG EF :|2 \

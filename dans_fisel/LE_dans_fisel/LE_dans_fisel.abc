@@ -1,0 +1,189 @@
+%%textfont Helvetica 60
+%%centre LE da\~ns Fisel
+%%textfont - 20
+%%text Kazimodal
+%%textfont - 14
+%%vskip 1cm
+
+
+X:1
+T:Ton simple fisel
+G:Kazimodal
+R:Da\~ns fisel
+C:Traditionnel, arrangement http://kazimodal.trad.org
+Q:C3=156
+S:Tonioù Breizh-Izel 1128 (Gro\~nvel)
+P:A(BC)4BD
+M:12/8
+K:C
+P:A
+%%MIDI gchord fzzczzfzcfzz
+%%MIDI gchord fzfczzfzzfzc
+%%MIDI chordprog 41
+%%MIDI bassprog 42
+%%MIDI program 0
+"Em"G \
+P:B
+|: "Am"A2 ({de}d) c2 ({de}d) "G"B2 c "F"A3 | c2 d "C"(ed)c "Dm"d3 "Em"e3 :|
+P:C
+|: "Am"A>Bc "Dm"d2 B c2 A "Em"G2 c |1 "F"B2 d ({Bc}B2) c "G"A3 "Am"A3 :|2\
+	"F"B2 d ({Bc}B2) c "G"A3 "Am"A2 "Em"G ||
+P:D
+|: "Am"A>Bc "Dm"d2 B c2 A "Em"G2 c |1 "F"B2 d ({Bc}B2) c "G"A3 "Am"A3 :|2\
+	"F"B2 d ({Bc}B2) c "G"A3 "Am"A2 \
+K:D
+D ||
+
+
+X:2
+T:Ton simple fisel
+G:Kazimodal
+R:Da\~ns fisel
+C:Traditionnel, arrangement http://kazimodal.trad.org
+S:Tonioù Breizh-Izel 1124 (Treogan)
+Q:C3=156
+P:F5
+M:12/8
+K:D
+P:E
+D \
+P:F
+%%MIDI gchord fzzczzfzcfzz
+%%MIDI gchord fzfczzfzzfzc
+%%MIDI chordprog 42
+%%MIDI chordvol 40
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+%%MIDI program 71
+|: "D"F2 G "F#m"A2 ({FG}F) "Bm"D2 ({EF}E) D2 C/2D/2 |\
+	"G"E2 F E2 D "A"E3 "D"F3 :|
+|: "D"F2 G "F#m"A2 ({FG}F) "Bm"D2 ({EF}E) "G"D2 C/2D/2 |1\
+	"Em"E2 F "A"G2 E "G"D3 "D"D3 :|2 "Em"E2 F "A"G2 E "G"D3 "D"D2 D ||
+
+
+X:3
+T:Ton simple fisel
+G:Kazimodal
+R:Da\~ns fisel
+C:Traditionnel, arrangement http://kazimodal.trad.org
+S:Tonioù Breizh-Izel 1131 (Mael-Karaez)
+Q:C3=156
+P:H5
+M:12/8
+K:Dm
+P:G
+D \
+P:H
+%%MIDI gchord fzzczzfzzfzc
+%%MIDI gchord fzfczzfzzfzc
+%%MIDI chordprog 42
+%%MIDI bassprog 43
+%%MIDI program 41
+|: "Dm"A2 B "C"G>AF "Bb"D2 E "Dm"F2 D | "F"F2 A "Gm"G2 F "Bb"G2 B "Am"A2 D :|
+|:"Dm" A2 B "F"A2 F "Gm"G>AF "Bb"D2 F | "C"E2 G "Bb"F>ED "Am"E2 C "Gm"D2 D :|
+
+
+X:4
+T:Bal fisel
+G:Kazimodal
+R:Da\~ns fisel
+C:Traditionnel, arrangement http://kazimodal.trad.org
+S:Tonioù Breizh-Izel 2122 (Ploure)
+P:I5
+M:12/8
+K:Am
+P:I
+Q:C3=92
+%%MIDI gchord fzzc2cfzfc3
+%%MIDI chordprog 42
+%%MIDI bassprog 43
+%%MIDI program 74
+|: "Am"({ef}e)>ef "C"e2 f ({ef}e/2)dc3/2 "G"HB3 |\
+	"Dm"d>fe d2 "Em"e "F"({cd}c/2)Bc3/2 "Am"HA3 :|
+Q:C3=156
+%%MIDI gchord fzfczzfzzfzc
+| "Am"({AB}A)>ef "C"({ef}e2) "G"d d2 B "F"c A2  |\
+	"Am"({AB}A)>GA "C"c2 e "Dm"d2 ({cd}c) "Em"(B3/2c3/2) |\
+	"Am"({AB}A)>(ef) "C"e3 "G"({de}d)>dB "F"c3 |\
+Q:C3=140
+	"Dm"A>(Bd) \
+Q:C3=120
+	"F"({cd}c/2)BA3/2 \
+Q:C3=105
+	"G"B2 G "Am"HA3 |
+
+
+X:5
+T:Ton double fisel
+G:Kazimodal
+R:Da\~ns fisel
+C:Traditionnel, arrangement http://kazimodal.trad.org
+Q:C3=156
+S:Tonioù Breizh-Izel 1143 (Treogan)
+Q:C3=156
+P:L5
+M:12/8
+K:Dm
+P:K
+A \
+P:L
+%%MIDI gchord fzfczzfzzfzc
+%%MIDI chordprog 41
+%%MIDI bassprog 42
+%%MIDI program 0
+|: "Dm"A2 G A2 B "C"A2 G F2 G |1 "Bb"A2 ({GA}G) F3 "Am"E3 "Gm"D(A<G) :|2 \
+	"Bb"A2 ({GA}G) "Gm"F3 "Am"E3 "Bb"D3 |
+|: "C"({EF}E2) F G2 E "F"({FG}F2) D C2 D | "Am"E2 G E2 F "Bb"({DE}D3) "Gm"D3 |
+"Am"({EF}E2) F G2 E "Bb"({FG}F2) D C2 D |1\
+	"C"E2 F "Gm"D2 F "Am"E3 "Bb"D3 :|2 "C"E2 F "Gm"D2 F "Am"E3 "Dm"D2 A ||
+
+
+X:6
+T:Ton double fisel
+G:Kazimodal
+R:Da\~ns fisel
+C:Traditionnel, arrangement http://kazimodal.trad.org
+Q:C3=156
+S:Tonioù Breizh-Izel 1142 (Gro\~nvel)
+Q:C3=156
+P:M5
+M:12/8
+K:G
+P:M
+%%MIDI gchord fzfczzfzzfzc
+%%MIDI chordprog 42
+%%MIDI chordvol 40
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+%%MIDI program 71
+|: "G"G2 B "Em"B2 ({AB}G) A2 B "Bm"d2 d | "C"c2 B "D"(AG)F "G"G3 G3 :|
+|: "G"G2 ({de}d) "Bm"d>(cB) "Am"c2 d "C"e3 | "Am"c>(Bc) "D"A2 c B2 c "G"d3 |\
+	"Em"B3 (BA)G "Am"A2 B "Bm"d2 d | "C"c2 B "D"(AG)F "G"G3 G3 :|
+
+
+X:7
+T:Ton double fisel
+G:Kazimodal
+R:Da\~ns fisel
+C:Traditionnel, arrangement http://kazimodal.trad.org
+Q:C3=156
+S:Tonioù Breizh-Izel 1151 (Pelant)
+Q:C3=156
+P:N5
+M:12/8
+K:Cm
+P:N
+%%MIDI gchord fzfczfczzfzc
+%%MIDI chordprog 0
+%%%MIDI chordvol 40
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 71
+|: "Cm"G2 G "Bb"F2 ({EF}E) D2 ({EF}E) "Ab"C3 |\
+	"Eb"G2 ({GA}G) "Fm"F2 E "Bb"D3 "Gm"D3 :|
+|: "Cm"G3 "Eb"G>FE "Bb"D2 E "Fm"F3 |\
+	"Ab"E2 ({DE}D) C2 D (ED)C "Bb"D3 |\
+	"Eb"G3 ({GA}G)(FE) "Bb"D2 E "Fm"F3 |\
+	"Bb"({GA}G)(FE) "Ab"D2 E C3 "Cm"C3 :|
+
+

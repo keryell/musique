@@ -77,3 +77,5 @@ P:A
 %%MIDI bassvol 127
 |: "Dm"(DF) ED "C"Cz | "F"FF (GA) "G"Gz | "Dm"(DF) ED "C"Cz | "F"FF (GA) "G"Gz :|
 |: "Gm"((3G>AG) FG AD | "Bb"F2 (AG) "C"FD | "Gm"((3G>AG) FG AD | "Bb"({FG}F)F "C"(EF) "Dm"Dz :| 
+%%text 1: basse R\'e/Sol, guitare Dm 3 cordes, bombarde renaissance, fl\^ute
+%%text 1: idem + nappes accord\'eon

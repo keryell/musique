@@ -13,11 +13,12 @@ S:N°585, Tonoù Breiz-Izel, Polig Monjarret
 Q:C3=68
 P:AB7
 M:6/8
-%%MIDI program 109
 %%%MIDI gchord fzzcfzc
-%%MIDI chordprog 105
-%%MIDI bassprog 32
-%%MIDI bassvol 127
+%%MIDI chordprog 19
+%%MIDI bassprog 19
+%%%%MIDI bassvol 127
+%%MIDI program 54
+%%MIDI program 85
 K:C
 P:A
 e \
@@ -34,7 +35,7 @@ R:Chant catholique
 C:Traditionnel
 S:N°584, Tonoù Breiz-Izel, Polig Monjarret
 Q:C3=68
-P:AB7
+P:CD7
 M:6/8
 %%MIDI program 109
 %%%MIDI gchord fzzcfzc
@@ -42,11 +43,11 @@ M:6/8
 %%MIDI bassprog 32
 %%MIDI bassvol 127
 K:C
-P:A
+P:C
 E \
-P:B
+P:D
 |: "Am"A2 A (cA)c | "C"e2 d c3 | "Dm"(de)d "F"c2 "G"B |1 "Am"A3-A2 E :|2 "Am"A3-A2 z | "G"(Bc)d "F"c2 B | "Dm"A3 "Em"G3 |
-"F"m{AB} AAA "Dm"c(Ac) | "Em"B3-B2 E | "Dm"A2 A (cA)c | "Em"e2 d "F"c3 | "Dm"(de)d "F"c2 "G"B | "Am"A3 "F"A2 E ||
+"F"{AB} AAA "Dm"c(Ac) | "Em"B3-B2 E | "Dm"A2 A (cA)c | "Em"e2 d "F"c3 | "Dm"(de)d "F"c2 "G"B | "Am"A3 "F"A2 E ||
 
 X:3
 T:Pet trouz 'zou ar en douar
@@ -54,21 +55,66 @@ R:Chant catholique
 C:Traditionnel
 S:N°546, Tonoù Breiz-Izel, Polig Monjarret
 Q:C3=68
-P:AB7
+P:EF7
 M:12/8
-%%MIDI program 109
-%%MIDI gchord fzcfzcfzcfzc
-%%MIDI chordprog 105
-%%MIDI bassprog 32
+%%MIDI program 19
+%%MIDI gchord f3c3f3c3
+%%MIDI chordprog 19
+%%MIDI bassprog 19
 %%MIDI bassvol 127
 K:C
-P:A
+P:E
 E \
-P:B
+P:F
 |: "Am"E2 A A2 G "F"A3 c3 \
 	|1 "G"B2 A G2 A "Em"E3-E2 E :|2  "G"B2 A G2 A "C"E6 |
 "Am"A3 "Em"G2 E "Dm"F2 "Em"G E2 F | "C"E2 D C2 D "Em"E3-E2 E |\
 	"Am"E2 A A2 G "F"A3 | c3 "G"B2 d c2 B "Am"A3-A2 E ||
+
+
+X:4
+T:Ar baradoz
+R:Chant catholique
+C:Traditionnel
+S:N°609, Tonoù Breiz-Izel, Polig Monjarret
+Q:C3=50
+P:GH7
+M:12/8
+%%MIDI program 19
+%%MIDI gchord f3c3f3c3
+%%MIDI gchord c2fc2fc2fc2f
+%%MIDI gchord c3c3c3c2c
+%%MIDI chordprog 85
+%%MIDI bassprog 85
+%%MIDI bassvol 127
+K:Am
+P:G
+A \
+P:H
+|: "Am" c2 B "Dm"(AB)c "Em"B3-B2 "Am"A :: "F" A2 A "Dm"(ABA) "Em"G3 "Am"A3 | "F"(cB)A "G"G(AB) "Am"A3-A2 A :|
+
+
+
+X:5
+T:Ar baradoz
+R:Chant catholique
+C:Traditionnel
+S:N°609, Tonoù Breiz-Izel, Polig Monjarret
+Q:C3=56
+P:IJ7
+M:12/8
+%%MIDI program 19
+%%MIDI gchord f3c3f3c3
+%%MIDI chordprog 19
+%%MIDI bassprog 19
+%%MIDI bassvol 127
+K:G
+P:I
+A \
+P:J
+| c2 B (AB)c B3-B2 d | c2 B (AB)c B3-B2 c/2B/2
+|: A2 B (AG)F G3 A3 |1 c2 B (AB)c B3-B2 B :|2 c2 B (AG)B A3-A2 A | c2 B (AB)c B3-B2 A | c2 B (AB)c B3-B2 A
+|: A2 A (ABA) G3 A3 | (cB)A G(AB) A3-A2 A :|
 
 
 

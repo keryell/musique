@@ -18,7 +18,7 @@ K:C
 P:A
 Q:C2=90
 M:4/4
-%%MIDI gchord fzccfzccfzccfzcc
+%%MIDI gchord fzccfzccfzccf3z
 %%MIDI chordprog 0
 %%MIDI bassprog 0
 %%MIDI program 0
@@ -41,7 +41,11 @@ Q:C3=160
 %%MIDI bassvol 127
 %%MIDI program 73
 |: "C"GEC "Am"GEC "F"GEC "G"GEC | "Dm"D2 D "Em"G2 G "Am"E3 C3 |\
-	"C"GEC "Em"GEC "F"GEC "G"GEC | "Dm"D2 D "Em"G2 G "C"C6 :| 
+	"C"GEC "Em"GEC "F"GEC "G"GEC | "Dm"D2 D "Em"G2 G "C"C6 :|\
+%%MIDI gchordoff
+	z12 ||
+%%MIDI gchordon
+
 
 X:2
 T:Galop Nantais (mineur)
@@ -55,7 +59,7 @@ K:Dm
 P:D
 Q:C2/1=90
 M:4/4
-%%MIDI gchord fzccfzccfzccfzcc
+%%MIDI gchord fzccfzccfzccf3z
 %%MIDI chordprog 42
 %%MIDI bassprog 43
 %%MIDI program 41
@@ -78,5 +82,8 @@ M:12/8
 %%MIDI bassvol 127
 %%MIDI program 73
 |: "Dm"AFD "C"AFD "Bb"AFD "Am"AFD | "Gm"E2 E "Am"A2 A "F"F3 D3 |\
-	"Dm"AFD "F"AFD "Gm"AFD "Am"AFD | "C"E2 E "Bb"A2 A "Dm"D6 :| 
+	"Dm"AFD "F"AFD "Gm"AFD "Am"AFD | "C"E2 E "Bb"A2 A "Dm"D6 :|\
+%%MIDI gchordoff
+	z12 ||
+%%MIDI gchordon
 %%text 3 et 4: d\'elire sur les 2 derni\`eres mesures du morceau

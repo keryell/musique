@@ -1,0 +1,55 @@
+%%textfont Helvetica 60
+%%centre Galop Nantais
+%%textfont - 20
+%%text Kazimodal
+%%textfont - 14
+%%vskip 1cm
+
+X:1
+T:Galop Nantais
+G:Kazimodal
+R:Galop nantais
+C:Traditionnel, arrangement http://kazimodal.trad.org
+P:(ABC)5
+M:4/4
+K:C
+P:A
+Q:C2=100
+%%MIDI gchord fzccfzccfzccfzcc
+"F"AF "Dm"F/2E/2F/2G/2 "G"FE "C"E2 | "Dm"FD "G"D/2C/2D/2E/2 "Am"CE "Em"G2 |\
+	"F"AF "Dm"F/2E/2F/2G/2 "G"FE "C"E2 |\
+	"Dm"FD  "G"D/2C/2D/2E/2 "F"DC "C"HC2 ||
+P:B
+M:12/8
+Q:C3=120
+%%%MIDI gchord fzcfzcfzcfzc
+%%MIDI gchord fzcfzcfzcfzc
+"C"C |: "Dm"D3-D2 D "Em"E3-E2 E |1 "F"FFF "G"G2 F "Am"E3-"Em"E2 "C"C :|2\
+	"F"FFF "G"G2 F "Am"E6 ||
+P:C
+Q:C3=160
+|: "C"GEC "Am"GEC "F"GEC "G"GEC | "Dm"D2 D "Em"G2 G "Am"E3 C3 |\
+	"C"GEC "Em"GEC "F"GEC "G"GEC | "Dm"D2 D "Em"G2 G "C"C6 :| 
+
+X:2
+T:Galop Nantais (mineur)
+G:Kazimodal
+R:Galop nantais
+C:Traditionnel, arrangement http://kazimodal.trad.org
+P:(DEF)5
+M:4/4
+%%MIDI gchord fzccfzccfzccfzcc
+K:Dm
+P:D
+Q:C2/1=100
+"Gm"BG G/2F/2G/2A/2 "Dm"GF F2 | "Am"GE E/2D/2E/2F/2 "Bb"DF "F"A2 |\
+"Gm"BG G/2F/2G/2A/2 "Dm"GF F2 | "Am"GE "C"E/2D/2E/2F/2 "Gm"ED "Bb"HD2 ||
+P:E
+M:12/8
+Q:C3/1=120
+"Dm"D |: "C"E3-E2 E "Bb"F3-F2 F |1 "Gm"GGG "Am"A2 G "Bb"F3-F2 "Dm"D :|2\
+	"Gm"GGG "Am"A2 G "Bb"F6 ||
+P:F
+Q:C3/1=160
+|: "Dm"AFD "C"AFD "Bb"AFD "Am"AFD | "Gm"E2 E "Am"A2 A "F"F3 D3 |\
+	"Dm"AFD "F"AFD "Gm"AFD "Am"AFD | "C"E2 E "Bb"A2 A "Dm"D6 :| 

@@ -5,6 +5,11 @@
 %%textfont - 14
 %%vskip 1cm
 
+% L'encha\^inement voulu :
+%%abccat P:A(BC)4BDF5H5I5KL5M5N5
+%%text L'encha\^inement voulu : A(BC)4BDF5H5I5KL5M5N5
+%%text $Id$	
+
 
 X:1
 T:Ton simple fisel
@@ -42,7 +47,7 @@ R:Da\~ns fisel
 C:Traditionnel, arrangement http://kazimodal.trad.org
 S:Tonioù Breizh-Izel 1124 (Treogan)
 Q:C3=156
-P:F5
+P:EF5
 M:12/8
 K:D
 P:E
@@ -68,7 +73,7 @@ R:Da\~ns fisel
 C:Traditionnel, arrangement http://kazimodal.trad.org
 S:Tonioù Breizh-Izel 1131 (Mael-Karaez)
 Q:C3=156
-P:H5
+P:GH5
 M:12/8
 K:Dm
 P:G
@@ -121,7 +126,7 @@ C:Traditionnel, arrangement http://kazimodal.trad.org
 Q:C3=156
 S:Tonioù Breizh-Izel 1143 (Treogan)
 Q:C3=156
-P:L5
+P:KL5
 M:12/8
 K:Dm
 P:K
@@ -171,19 +176,18 @@ S:Tonioù Breizh-Izel 1151 (Pelant)
 Q:C3=156
 P:N5
 M:12/8
-K:Cm
+K:Dm
 P:N
-%%MIDI gchord fzfczfczzfzc
+%%%MIDI gchord fzfczfczzfzc
+%%MIDI gchord czcfzcfzzczf
 %%MIDI chordprog 0
-%%%MIDI chordvol 40
+%%MIDI chordvol 100
 %%MIDI bassprog 36
 %%MIDI bassvol 127
 %%MIDI program 71
-|: "Cm"G2 G "Bb"F2 ({EF}E) D2 ({EF}E) "Ab"C3 |\
-	"Eb"G2 ({GA}G) "Fm"F2 E "Bb"D3 "Gm"D3 :|
-|: "Cm"G3 "Eb"G>FE "Bb"D2 E "Fm"F3 |\
-	"Ab"E2 ({DE}D) C2 D (ED)C "Bb"D3 |\
-	"Eb"G3 ({GA}G)(FE) "Bb"D2 E "Fm"F3 |\
-	"Bb"({GA}G)(FE) "Ab"D2 E C3 "Cm"C3 :|
-
-
+|: "Dm"A2 A "C"G2 ({FG}F) E2 ({FG}F) "Bb"D3 |\
+	"F"A2 ({AB}A) "Gm"G2 F "C"E3 "Am"E3 :|
+|: "Dm"A3 "F"A>GF "C"E2 F "Gm"G3 |\
+	"Bb"F2 ({EF}E) D2 E (FE)D "C"E3 |\
+	"F"A3 ({AB}A)(GF) "C"E2 F "Gm"G3 |\
+	"C"({AB}A)(GF) "Bb"E2 F D3 "Dm"D3 :|

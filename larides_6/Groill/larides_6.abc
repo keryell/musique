@@ -20,8 +20,9 @@ S:Tonioù Breizh-Izel 1862D (Lokoal-Mendon)
 K:C
 P:C
 %%%MIDI gchord c2zfc2zff4
-%%MIDI gchord ffcfcz
-%%MIDI bassprog 34
+%%%MIDI gchord fccfcz
+%%MIDI gchord fccfcf
+%%MIDI bassprog 0
 %%MIDI program 0
 %MIDI bassvol 127
 |: "C"C>G ({FE}F>)E "G"D>F | "Am"({EF}E)z "F"E>C "G"Dz |\
@@ -43,7 +44,11 @@ M:3/4
 S:Tonioù Breizh-Izel 1864 (Landevan)
 K:Am
 P:B
-%%MIDI gchord c2zfc2zff4
+%%%MIDI gchord c2zfc2zff4
+%%MIDI gchord fccfcz
+%%MIDI gchord fcczfz
+%%MIDI gchord fccfcf
+%%MIDI chordprog 42
 %%MIDI bassprog 43
 %%MIDI program 71
 %%MIDI bassvol 127
@@ -64,8 +69,9 @@ M:3/4
 S:Tonioù Breizh-Izel 1869 (Pleuigner/Landaol)
 K:Dm
 P:A
-%%MIDI gchord ffcfcz
-%%MIDI chordprog 0
+%%MIDI gchord cffcfz
+%%MIDI gchord fccfcf
+%%MIDI chordprog 105
 %%MIDI bassprog 36
 %%MIDI program 73
 %%MIDI bassvol 127

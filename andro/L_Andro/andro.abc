@@ -1,0 +1,80 @@
+\headline{L'Andro}
+%\bigskip
+%
+X:1
+T:Andro 1
+G:Kazimodal
+R:Andro
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C2=108
+P:A5
+M:4/4
+S:Tonioù Breizh-Izel 1718 (Ardeven)
+K:C
+P:A
+%\large
+%%MIDI program 109
+%%MIDI gchord fcfcfcfc
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+|: "C"G(G/2A/2) "Em"{GA}G>E "Am"AA "G"G/2G/2G |\
+"C"G>A "Em"{GA}GE "Am"{E}A/2A/2A "G"G2 :|
+|: "G"(G/2F/2)(D/2E/2) "Am"(CD/2)E/2 "Dm"FD "C"EC |\
+"Am"{AB}AB/2c/2 "G"B>G "F"AF "C"G2 |
+"Dm"(G/2F/2)(D/2E/2) "Em"G(D/2E/2) "F"(F/2D/2)E "C"C2 |\
+"Am"{AB}AB/2c/2 "G"BG "F"A"G"B "C"c2 :|
+
+\bigskip
+
+
+X:2
+T:Andro 2
+G:Kazimodal
+R:Andro
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C2=112
+P:B5
+M:4/4
+S:Tonioù Breizh-Izel 1721 (Pleskob)
+K:F
+P:B
+%\large
+%%%%MIDI program 109
+%%MIDI gchord fcfcfcfc
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+|: "F"{FG}F/2C/2F/2A/2 "C"{GA}G>E "Bb"D"C"E "F"FF |\
+C(F/2A/2) "Gm"{GA}G>F "Bb"D"C"E "F"F2 :|
+"F"{FG}FG/2A/2 "Gm"G>G "Am"{FG}FG/2A/2 "C"G2 |\
+"F"{FG}FG/2A/2 "Dm"FF "C"(E/2F/2)"Bb"D/2E/2 "Am"C2 |
+"F"{FG}FG/2A/2 "Gm"G>G "Bb"{FG}FG/2A/2 "C"G2 |\
+"F"{FG}FA/2G/2 "Gm"(F/2E/2)"Am"D/2E/2 "Bb"{FG}F(E/2"C"G/2) "F"F2 ||
+
+\bigskip
+
+X:3
+T:Andro 3
+G:Kazimodal
+R:Andro
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C2=112
+P:C5
+M:4/4
+S:Tonioù Breizh-Izel 1721 (Lokmariaker)
+K:Dm
+P:C
+%\large
+%%%%MIDI program 109
+%%MIDI gchord fcfcfcfc
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+|: "Dm"D(F/2G/2) "F"{AB}A>c "C"{Bc}BG "Bb"(G/2A/2)F |\
+|1 "F"{FG}F/2(E/2F) "Gm"(G/2A/2)G/2E/2 "Bb"FD "Am"AF :|2\
+"F"(F/2A/2)G/2E/2 "Gm"{FG}F>D "Am"(E/2G/2)E/2F/2 "Bb"D2 |
+|: "Dm"{DE}DF/2D/2 "Am"E(G/2A/2) "Gm"{GA}GE "Bb"FD |\
+"C"(E/2F/2)G/2E/2 "Am"(A/2G/2)E/2F/2 "Bb"(DE/2)D/2 "C"C2 |
+"Dm"{DE}DF/2D/2 "Am"E(G/2A/2) "Gm"{GA}GE "Bb"FD |\
+"C"(E/2F/2)G/2E/2 "Am"{AB}AG/2E/2 "Bb"(F/2G/2)"C"E/2F/2 "Dm"D2 :|

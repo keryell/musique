@@ -11,7 +11,7 @@ G:Kazimodal
 R:Bourr\'ee 2 temps
 C:Ronan Keryell, arrangement http://kazimodal.trad.org
 Q:C2=145
-P:(B)4
+P:(AAB)3AAC
 M:4/4
 %%MIDI gchord c2ffccf2
 %%MIDI chordprog 105
@@ -22,10 +22,15 @@ M:4/4
 K:EPhr
 P:A
 |: "Em"E>F GA BG EB |1 "Dm"A>G FD E>F "Em"ED :|2 \
-	"F"A>G FD "Em"E>E E2 ||
+	"F"AG FD "Em"E>E E2 ||
 P:B
 K:Dm
-|: "Bb"d>B Fd "C"ec Ge | "Dm"f>e dc dc AF | "Gm"B>A Gd "Am"c>B AG | "Bb"B>A GF "C"G>G- G>G :|
+|: "Bb"d>B Fd "C"ec Ge | "Dm"f>e dc dc AF |\
+	 "Gm"BA Gd "Am"c>B AG | "Bb"B>A GF "C"G>G- G>G :|
+P:C
+K:Dm
+|: "Bb"d>B Fd "C"ec Ge | "Dm"f>e dc dc AF | "Gm"BA Gd "Am"c>B AG |1\
+	 "Bb"B>A GF "C"G>G- G>G :|2 "Bb"B>A GF "C"G2 Z>A ||
 
 X: 2
 T:Bout D
@@ -33,7 +38,7 @@ G:Kazimodal
 R:Bourr\'ee 2 temps
 C:Ronan Keryell, arrangement http://kazimodal.trad.org
 Q:C2=145
-P:CD10
+P:D4
 M:4/4
 %%MIDI gchord c2ffccf2
 %%MIDI chordprog 105
@@ -42,7 +47,7 @@ M:4/4
 %%MIDI bassvol 127
 %%MIDI program 69
 K:Dm
-P:C
+P:I
 A/2
 P:D
 |: "Dm"D>F GD "F"A2-A>F |1 "Gm"G>A Bd "Am"AG EF :|2 \

@@ -84,9 +84,9 @@ P:F5
 M:12/8
 %%MIDI program 109
 %%MIDI chordprog 42
-%%MIDI chordvol 40
+%%MIDI chordvol 20
 %%MIDI bassprog 43
-%%MIDI bassvol 127
+%%MIDI bassvol 40
 K:C
 P:F
 Q:C3=60
@@ -114,8 +114,7 @@ P:G
 %%MIDI gchord fzzczzfzcfzz
 %%MIDI chordprog 105
 %%MIDI chordvol 40
-%%MIDI bassprog 32
-%%MIDI bassvol 127
+%%MIDI bassprog 36
 E3 E3 E2 e | E3 E3 E3 z3 ||\
 P:H
 	"Em"E3-E2 E "D"D3-D2 D | "G"G3-G2 G "A"A3-A2 "Bm"B ||
@@ -162,10 +161,11 @@ P:K4
 M:12/8
 K:Em
 P:K
-%%MIDI program 0
 %%MIDI gchord fzzczzfzcfzz
 %%MIDI chordprog 0
-%%MIDI bassprog 0
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 0
 |: "Em"B2 B E2 E F2 G "D"A3 | B2 d "G"B2 A "C"G3 "Em"E3 :|
 |: "Em"B2 B E2 E F2 G "D"A3 | B2 d "G"B2 A B2 c "D"B2 A |\
 "C"GAG E2 E F2 G "D"A3|B2 d "G"B2 A "C"G3 "Em"E3 :|

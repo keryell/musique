@@ -30,7 +30,8 @@ index: *.abc
 	sort_in
 
 joue: $(MIDI)
-	$(TIMIDITY) -L /usr/local/lib/timidity/instruments -ig *.mid
+#	$(TIMIDITY) -L /usr/local/lib/timidity/instruments -ig *.mid
+	$(TIMIDITY) -ig *.mid
 
 .abc.tex: Makefile
 	abc2mtex -x -o $*.tex $*
@@ -46,7 +47,7 @@ joue: $(MIDI)
 	#cat $**.mid > $@
 
 %.au : %.midi Makefile
-	-$(TIMIDITY) -id -L /usr/local/lib/timidity/instruments -OrMU -s8 -o $@ $**.mid
+	-$(TIMIDITY) -id -OrMU -s8 -o $@ $**.mid
 
 %.ps : %.abc Makefile
 	#abc2ps $* -x -n -p -O = -o

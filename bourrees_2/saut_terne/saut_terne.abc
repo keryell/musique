@@ -1,0 +1,31 @@
+%%textfont Helvetica 60
+%%centre LES Bourr\'ees 2 temps
+%%textfont - 20
+%%text Groilh
+%%textfont - 14
+%%vskip 1cm
+
+X: 1
+T:Bout D
+G:Kazimodal
+R:Bourr\'ee 2 temps
+C:Ronan Keryell, arrangement http://kazimodal.trad.org
+Q:C2=145
+P:AB10
+M:4/4
+%%MIDI gchord c2ffccf2
+%%MIDI chordprog 105
+%%MIDI chordvol 80
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 69
+K:Dm
+P:A
+A/2
+P:B
+|: "Dm"D>F GD "F"A2-A>F |1 "Gm"G>A Bd "Am"AG EF :|2 \
+"Gm"GG- GG z"Am"A A>A ||
+|: "Dm"D>F GD "F"A2-A>F |1 "Gm"G>A Bd "Am"AG EF :|2 \
+"Gm"G>A FG "Am"E4 ||
+|: "F"A>G FA "Bb"B>A Gd | "C"c>B AG "Am"A>G FD |\
+	"F"A G2 F2 "Gm"G G2 |1 "Bb"A>F GD "C"E>E E2 :| "Bb"A>F GD "C"E>E E>A ||

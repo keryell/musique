@@ -1,0 +1,63 @@
+%%textfont Helvetica 60
+%%centre La place d'armes
+%%textfont - 20
+%%text Kazimodal
+%%textfont - 14
+%%vskip 1cm
+
+X: 1
+T:La place d'armes
+G:Kazimodal
+R:Bourr\'ee 3 temps
+C:Traditionnel, arrangement http://kazimodal.trad.org
+S:Trio Violon
+Q:C2=260
+P:AKBL
+M:3/4
+K:Am
+P:A
+|: G2 A2 B2 | c4 d2 | d2 c4 | A6 |\
+	G2 A2 B2 | c4 A2 | B2 c4 | A6 :|
+|: c2 B2 A2 | G4 E2 | F2 G4 |\
+	A4 A2 | c2 B2 A2 | G4 E2 | F2 G4 | A6 :|
+P:K
+|:\
+%%MIDI gchord ffz
+	"Dm"G2 A2 B2 | c4 d2 |\
+%%MIDI gchord ff2
+	 d2 "C"c4 |\
+%%MIDI gchord f
+	"Dm"A6 |\
+%%MIDI gchord ffz
+	"Dm"G2 A2 B2 | c4 A2 |\
+%%MIDI gchord ff2
+	B2 c4 |\
+%%MIDI gchord f
+	"Dm"A6 :|
+|:\
+%%MIDI gchord ffz
+	"F"c2 B2 A2 | "C"G4 E2 | "Bb"F2 G4 |\
+	"Am"A4 A2 | "F"c2 B2 A2 | "C"G4 E2 | "Bb"F2 G4 | "Am"A6 :|
+P:B
+%%MIDI gchord cff
+%%%MIDI gchord c2ffccf2
+%%%MIDI chordprog 105
+%%%MIDI chordvol 80
+%%%MIDI bassprog 36
+%%%MIDI bassvol 127
+%%%MIDI program 69
+|: "Dm"G2 A2 B2 | c4 d2 | d2 c4 | A6 |\
+	"F"G2 A2 B2 | c4 A2 | "G"B2 c4 | "Am"A6 :|
+|: "F"c2 B2 A2 | "C"G4 E2 | "Bb"F2 G4 |\
+	"Am"A4 A2 | "F"c2 B2 A2 | "C"G4 E2 | "Bb"F2 G4 | "Am"A6 :|
+P:L
+|:\
+%%MIDI gchord cff
+ "Dm"G2 A2 B2 | c4 d2 | d2 c4 | A6 |\
+	"F"G2 A2 B2 | c4 A2 | "G"B2 c4 | "Am"A6 :|
+|:\
+%%MIDI gchord cff
+ "F"c2 B2 A2 | "C"G4 E2 | "Bb"F2 G4 |\
+	"Am"A4 A2 | "F"c2 B2 A2 | "C"G4 E2 | "Bb"F2 G4 |\
+%%MIDI gchord fzfzfz
+	"Am"Az Az Az :|

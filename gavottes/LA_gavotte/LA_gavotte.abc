@@ -16,13 +16,10 @@ M:12/8
 S:TS94
 K:C
 P:A
-%%MIDI program 109
-%%%MIDI gchord czzfzzczfczz
 %%MIDI gchord fzzczzfzcfzz
-%%MIDI chordprog 105
-%%MIDI chordvol 40
-%%MIDI bassprog 32
-%%MIDI bassvol 127
+%%MIDI chordprog 41
+%%MIDI bassprog 42
+%%MIDI program 0
 |: "C"c2 d "Em"e2 e e2 d "F"c3|B2 c "G"d2 B c3 "C"c3::\
 	"C"c2 d "D"e2 e e2 d "F"c3|"G"B2 d "Em"c2 B "Am"A3 A3:|
 P:B
@@ -44,8 +41,9 @@ M:12/8
 K:C
 P:C
 %%MIDI program 109
-%%MIDI gchord fzcfzcfzcfzc
+%%MIDI gchord fzzczzfzcfzz
 %%MIDI chordprog 105
+%%MIDI chordvol 40
 %%MIDI bassprog 32
 %%MIDI bassvol 127
 |: "Am"A2 e "C"e2 c "Dm"d2 e "F"f3|"G"eee "Dm"d2 d "F"c3 "Am"c3::\
@@ -66,11 +64,10 @@ S:TS95
 Q:C3=156
 P:E4
 M:12/8
-%%MIDI program 109
-%%MIDI gchord fzcfzcfzcfzc
-%%MIDI chordprog 105
-%%MIDI bassprog 32
-%%MIDI bassvol 127
+%%MIDI program 0
+%%MIDI gchord fzzczzfzcfzz
+%%MIDI chordprog 0
+%%MIDI bassprog 0
 K:Em
 P:E
 Z: Transcription en Si phrygien 
@@ -86,17 +83,18 @@ D:Orgue et Bombarde
 P:F5
 M:12/8
 %%MIDI program 109
-%%MIDI chordprog 105
-%%MIDI bassprog 32
+%%MIDI chordprog 42
+%%MIDI chordvol 40
+%%MIDI bassprog 43
 %%MIDI bassvol 127
 K:C
 P:F
 Q:C3=60
-%%MIDI gchord fzzfzzfzzfzz
+%%MIDI gchord cfff
 |: "Am"ABc "F"HA2 c "G"HB2 G "Am"HA3|ABc "C"Hece "Dm"Hd2 c "Em"HB3 :|
 %%text 1: fl\^ute + guitare 2: fl\^ute + guitare + concertina
 Q:C3=156
-%%MIDI gchord fzcfzcfzcfzc
+%%MIDI gchord fzzczzfzcfzz
 "Em"Bcd "C"e2 c e2 c "F"A3 | AGA "G"B2 e edc "Em"B3 |\
 	Bcd "C"e2 c e2 c "F"A3 | AGA "G"Bdc "F"A2 "G"G "Am"A3 ||
 
@@ -107,16 +105,17 @@ T:Ton double gavotte
 C:Padrig Sicard
 D:Portland
 Q:C3=156
-P:G2H2I4
+P:G2H2I5
 M:12/8
-%%MIDI program 109
-%%MIDI gchord fzcfzcfzcfzc
-%%MIDI chordprog 105
-%%MIDI bassprog 32
-%%MIDI bassvol 127
 K:Em
 %%text Introduction
 P:G
+%%MIDI program 109
+%%MIDI gchord fzzczzfzcfzz
+%%MIDI chordprog 105
+%%MIDI chordvol 40
+%%MIDI bassprog 32
+%%MIDI bassvol 127
 E3 E3 E2 e | E3 E3 E3 z3 ||\
 P:H
 	"Em"E3-E2 E "D"D3-D2 D | "G"G3-G2 G "A"A3-A2 "Bm"B ||
@@ -138,13 +137,12 @@ D:Portland
 Q:C3=156
 P:J4
 M:12/8
-%%MIDI program 109
-%%MIDI gchord fzcfzcfzcfzc
-%%MIDI chordprog 105
-%%MIDI bassprog 32
-%%MIDI bassvol 127
 K:Dm
 P:J
+%%MIDI gchord fzzczzfzcfzz
+%%MIDI chordprog 41
+%%MIDI bassprog 42
+%%MIDI program 21
 |: "Dm"AGA "Gm"B3/2A3/2 G3/2F3/2 "Bb"D3/2E3/2 |\
 FEF "C"G2 E "Am"C3 "Dm"D3 :|
 |: "Dm"AGA "Gm"B3/2A3/2 G3/2F3/2 "Bb"D3/2E3/2 |\
@@ -164,6 +162,10 @@ P:K4
 M:12/8
 K:Em
 P:K
+%%MIDI program 0
+%%MIDI gchord fzzczzfzcfzz
+%%MIDI chordprog 0
+%%MIDI bassprog 0
 |: "Em"B2 B E2 E F2 G "D"A3 | B2 d "G"B2 A "C"G3 "Em"E3 :|
 |: "Em"B2 B E2 E F2 G "D"A3 | B2 d "G"B2 A B2 c "D"B2 A |\
 "C"GAG E2 E F2 G "D"A3|B2 d "G"B2 A "C"G3 "Em"E3 :|

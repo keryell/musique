@@ -1,7 +1,7 @@
 \headline{L'Hanter-Dro}
 %\bigskip
 %
-X:1
+X: 1
 T:Hanter-dro 1
 G:Kazimodal
 R:Hanter-dro
@@ -10,18 +10,23 @@ Q:C2=116
 P:A5
 M:3/4
 S:Tonioù Breizh-Izel 1926 (Pleuigner)
-K:C
+K:G
 P:A
+%MIDI  gchord fcfcfc
+%MIDI  chordprog 105
+%MIDI  bassprog 32
+%MIDI  bassvol 127
 %\large
-|: "C"{CD}CB,/2C/2 "Dm"(DF) "Em"{EF}EC | "F"(DE/2)F/2 "G"GF "Am"{EF}EC |\
-"C"{CD}CB,/2C/2 "Dm"(DF) "Em"{EF}EC | "F"(DE/2)F/2 "G"G{FE}F D2 :|
-|: "C"{EF}ED/2E/2 "Dm"GG "Am"(EC) | "F"{CD}CB,/2C/2 "Dm"(ED/2)C/2 "G"D2 |\
-"C"{EF}ED/2E/2 "Em"GF "Am"(EC) | "F"{CD}CB,/2C/2 "G"(DE) "C"C2 :|
+|: "G"{GA}GF/2G/2 "Am"(Ac) "Bm"{Bc}BG | "C"(AB/2)c/2 "D"dc "Em"{Bc}BG |\
+"G"{GA}GF/2G/2 "Am"(Ac) "Bm"{Bc}BG | "C"(AB/2)c/2 "D"d{cB}c A2 :|
+|: "G"{Bc}BA/2B/2 "Am"dd "Em"(BG) | "C"{GA}GF/2G/2 "Am"(BA/2)G/2 "D"A2 |\
+"G"{Bc}BA/2B/2 "Bm"dc "Em"(BG) | "C"{GA}GF/2G/2 "D"(AB) "G"G2 :|
+
 
 \bigskip
 
 
-X:2
+X: 2
 T:Hanter-dro 2
 G:Kazimodal
 R:Hanter-dro
@@ -30,13 +35,18 @@ Q:C2=116
 P:B5
 M:3/4
 S:Tonioù Breizh-Izel 1925 (Pleskob)
-K:Dm
+K:Gm
 P:B
-"C"(gf/2)e/2 "Dm"df (e/2d/2)"C"c | {de}"Bb"dc/2B/2 "Am"Ad (d/2e/2)"F"f |\
-"G"(gf/2)e/2 "Bb"df (e/2d/2)"C"c | "Am"(dc/2)B/2 Ad "Bb"d2 |
-|: "Dm"(de/2)f/2 "C"ge "Bb"(f/2e/2)d | "Dm"{de}de/2f/2 "F"gf "G"e2 :|
-"C"(gf/2)e/2 "Dm"df (e/2d/2)"C"c | "Bb"dc/2B/2 "Am"Ad (d/2e/2)"F"f |\
-"G"(gf/2)e/2 "Bb"df (e/2d/2)"C"c | "Am"{de}(dc/2)B/2 (Ad) "Bb"d2 ||
+%%MIDI gchord fcfcfc
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+"F"(cB/2)A/2 "Gm"GB (A/2G/2)"F"F | {GA}"Eb"GF/2E/2 "Dm"DG (G/2A/2)"Bb"B |\
+"C"(cB/2)A/2 "Eb"GB (A/2G/2)"F"F | "Dm"(GF/2)E/2 DG "Eb"G2 |
+|: "Gm"(GA/2)B/2 "F"cA "Eb"(B/2A/2)G | "Gm"{GA}GA/2B/2 "Bb"cB "C"A2 :|
+"F"(cB/2)A/2 "Gm"GB (A/2G/2)"F"F | "Eb"GF/2E/2 "Dm"DG (G/2A/2)"Bb"B |\
+"C"(cB/2)A/2 "Eb"GB (A/2G/2)"F"F | "Dm"{GA}(GF/2)E/2 (DG) "Eb"G2 ||
+
 
 \bigskip
 
@@ -44,15 +54,50 @@ P:B
 X:3
 T:Hanter-dro 3
 G:Kazimodal
-R:Hanter-dro
-C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
-Q:C2=116
-P:C5
+R:Hanter-zañs
+C:Traditionnel, arrangement en dorien Ronan Keryell http://kazimodal.trad.org
+Q:C2=100
+P:C2
 M:3/4
-S:Tonioù Breizh-Izel 1927 (Karnag)
-K:G
+S:Tonioù Breizh-Izel 1910 (Plañwour/An Oriant)
+%K:EDor Bug...
+K:C
 P:C
-{Bc}"G"BA/2B/2 "Bm"dc {Bc}"Em"BA | {GA}"C"GF/2G/2 "Am"(Ac) "Bm"B>A |\
-{Bc}"G"BA/2B/2 "Bm"dc {Bc}"Em"BA | {GA}"C"GF/2G/2 "Am"(Ac) "Bm"B2 |
-|:{Bc}"G"BA/2B/2 "D"dc {Bc}"Em"BA | "C"(G/2F/2)G/2A/2 (Bc/2B/2) "D"A2 |\
-{Bc}"G"BA/2B/2 "D"dc {Bc}"Em"BG |1 "Am"(AB/2)A/2 "C"G"D"F "Em"EG/2A/2 :|2 {GA}"C"GB/2A/2 "D"GF "Em"E2 ||
+%%MIDI gchord fcfcfc
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+|: EG/2F/2 EG {FG}F z | \
+	(A/2G/2)(A/2B/2) {GA}GA/2F/2 E z | \
+	EG/2F/2 EG {FG}F z | \
+	(A/2G/2)B/2A/2 {GA}G(F/2G/2) E z :|
+|: B(B/2c/2) AB {GA}GE | \
+	A(A/2B/2) FA (G/2F/2)(G/2A/2) | \
+	B(B/2c/2) AB {GA}GE | \
+	A(A/2B/2) {GA}GF E z :|
+
+
+X:4
+T:Hanter-dro 4
+G:Kazimodal
+R:Hanter-zañs
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C2=100
+P:D4
+M:3/4
+S:Tonioù Breizh-Izel 1910 (Plañwour/An Oriant)
+K:Dm
+P:D
+%%MIDI gchord fcfcfc
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+|: "Dm"DF/2E/2 D"F"F {EF}"C"E2 | \
+	"Gm"(G/2F/2)(G/2A/2) {FG}"Am"FG/2E/2 "Bb"FD |
+"Dm"DF/2E/2 D"F"F {EF}"C"E2 | \
+	"Gm"(G/2F/2)A/2G/2 {FG}"Bb"F"C"(E/2F/2) "Dm"D2 :|
+|: "F"A(A/2B/2) "Gm"GA {FG}"Bb"FD | \
+	"Gm"G(G/2A/2) "C"EG "Bb"(F/2E/2)(F/2G/2) |
+"F"A(A/2B/2) "Gm"GA {FG}"Bb"FD |1 \
+	"C"G(G/2A/2) {FG}"Gm"F"Am"E "Bb"D2 :|2 \
+	"C"G(G/2A/2) {FG}"Gm"F"Am"E "Dm9"D2 ||

@@ -53,11 +53,13 @@ P:B
 P:L
 |:\
 %%MIDI gchord cff
- "Dm"G2 A2 B2 | c4 d2 | d2 c4 | A6 |\
-	"F"G2 A2 B2 | c4 A2 | "G"B2 c4 | "Am"A6 :|
+ "Dm"G2 A2 B2 | c4 d2 | d2 c4 | A2 z4 |\
+	"F"G2 A2 B2 | c4 A2 | "G"B2 c4 | "Am"A2 z4 :|
 |:\
 %%MIDI gchord cff
  "F"c2 B2 A2 | "C"G4 E2 | "Bb"F2 G4 |\
-	"Am"A4 A2 | "F"c2 B2 A2 | "C"G4 E2 | "Bb"F2 G4 |\
+	"Am"A4 A2 | "F"c2 B2 A2 | "C"G4 E2 |\
+%%MIDI gchord cfz
+	"Bb"F2 G2 z2 |\
 %%MIDI gchord fzfzfz
 	"Am"Az Az Az :|

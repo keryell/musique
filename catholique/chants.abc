@@ -1,0 +1,77 @@
+%%%textfont Helvetica 60
+%%%centre LA gavotte
+%%%textfont - 20
+%%%text Kazimodal
+%%%textfont - 14
+%%%vskip 1cm
+%
+X:1
+T:Rouanez an Iliz
+R:Chant catholique
+C:Traditionnel
+S:N°585, Tonoù Breiz-Izel, Polig Monjarret
+Q:C3=68
+P:AB7
+M:6/8
+%%MIDI program 109
+%%%MIDI gchord fzzcfzc
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+K:C
+P:A
+e \
+P:B
+|: "Am"(ed)c "G"d2 e | "Am"e3-e2 e |1 "F"a2 a "G"(ga)g "Em"e3-e2 e \
+	:|2 "F"a2 a "G"(ga)g "Em"e3-e2 f |
+"Dm"(de)f "G"g2 a | "C"e3 "G"d3 | "Em"e(Bc) "Dm"A2 d | "G"B3-B2 c \
+	|: "Am"A3 "G"B(cd) | "C"e3-"Em"e2 f | "Dm"(ed)B "Em"c2 B \
+	|1 "F"A3-A2 c :|2 "F"A3-A2 e ||
+
+X:2
+T:Me a laka va fizia\~ns
+R:Chant catholique
+C:Traditionnel
+S:N°584, Tonoù Breiz-Izel, Polig Monjarret
+Q:C3=68
+P:AB7
+M:6/8
+%%MIDI program 109
+%%%MIDI gchord fzzcfzc
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+K:C
+P:A
+E \
+P:B
+|: "Am"A2 A (cA)c | "C"e2 d c3 | "Dm"(de)d "F"c2 "G"B |1 "Am"A3-A2 E :|2 "Am"A3-A2 z | "G"(Bc)d "F"c2 B | "Dm"A3 "Em"G3 |
+"F"m{AB} AAA "Dm"c(Ac) | "Em"B3-B2 E | "Dm"A2 A (cA)c | "Em"e2 d "F"c3 | "Dm"(de)d "F"c2 "G"B | "Am"A3 "F"A2 E ||
+
+X:3
+T:Pet trouz 'zou ar en douar
+R:Chant catholique
+C:Traditionnel
+S:N°546, Tonoù Breiz-Izel, Polig Monjarret
+Q:C3=68
+P:AB7
+M:12/8
+%%MIDI program 109
+%%MIDI gchord fzcfzcfzcfzc
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+K:C
+P:A
+E \
+P:B
+|: "Am"E2 A A2 G "F"A3 c3 \
+	|1 "G"B2 A G2 A "Em"E3-E2 E :|2  "G"B2 A G2 A "C"E6 |
+"Am"A3 "Em"G2 E "Dm"F2 "Em"G E2 F | "C"E2 D C2 D "Em"E3-E2 E |\
+	"Am"E2 A A2 G "F"A3 | c3 "G"B2 d c2 B "Am"A3-A2 E ||
+
+
+
+
+
+

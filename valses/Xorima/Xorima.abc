@@ -1,0 +1,29 @@
+\headline{\centerline{LE plin}}
+%\bigskip
+%
+X:1
+T:Valse galicienne
+G:Kazimodal
+R:Valse
+C:Xorima
+Q:C=120
+P:IABCABCDEFAB
+M:12/8
+S:Xorima ?
+K:Am
+P:I
+"F"F,[FAc][FAc] "G"G,[GBd][GBd] "F"F,[FAc][FAc] "G"G,[GBd][GBd] |:\
+"Am"A,[Ace][Ace] "G"G,"Am"[Ace][Ace] "F"F,[FAc][FAc] "G"G,[GBd][GBd] :|
+%\large
+P:A
+"Dm"f2 "G"e dcd efe "Bb"d2 c | "Dm"f2 e "G"dcd efe "Bb"d3 ||
+P:B
+|: "Am"c2 d "C"efe "G"ded "F"c2 B | "Dm"A2 B "F"cdc "G"BcB "Am"A3 :|
+P:C
+|: "Am"A2 B "C"cBc "G"ded "Am"cBA | "F"GAB "C"cde "Dm"fed "Em"e3 | "Am"A2 B "C"cBc "G"ded "Am"cBA | "F"GAB "G"cBA "Em"BAG "Am"A3 :|
+P:D
+"Am"Ace "F"gfe "G"def "Em"e2 c | "Am"Ace "F"gfe "G"def "Em"e3 ||
+P:E
+|: "Am"efe "C"efe "Dm"efe "Em"d2 B | "G"Bcd "C"efg "Dm"fed "Em"e3 | "Am"efe "C"efe "Dm"efe "Em"d2 B | "G"Bcd "C"efe "D"dcB "F"A3 :| 
+P:F
+|: "Am"AcA "G"GBd "Dm"fed "F"c2 B | "Am"AcA "G"GBd "Dm"fed "Em"e2 e | "G"AcA "C"GBd "Dm"fed "Am"c2 B | "F"Ace gfe "G"dcB "Am"A3 :|

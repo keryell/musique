@@ -13,19 +13,19 @@ C:Traditionnel, arrangement http://kazimodal.trad.org
 S:Tonio\`u Breizh-Izel 1363 (Logeginer)
 M:4/4
 L:1/8
-Q:C2=112
+Q:C2/1=112
 P:A4
-K:Cm
+K:G
 P:A
 |:\
 M:4/4
-"Eb"EF "Cm"({GA}G>E) (G"Fm"A) FG |\
+"G"GA "Em"({Bc}B>G) (B"Am"c) AB |\
 M:5/4
-	"Gm"BB "Ab"A2 G2 "Bb"F4 ::\
+	"Bm"dd "C"c2 B2 "D"A4 ::\
 M:4/4
-"Eb"EG "Gm"B>B AG "Fm"(FG/2)A/2 |\
+"G"GB "Bm"d>d cB "Am"(AB/2)c/2 |\
 M:5/4
-	"Gm"BA "Ab"G2 "Bb"F2 "Eb"E4 :|
+	"Bm"dc "C"B2 "D"A2 "G"G4 :|
 
 
 X: 2
@@ -36,23 +36,24 @@ C:Traditionnel, arrangement http://kazimodal.trad.org
 S:Tonio\`u Breizh-Izel 1383 (Lanouarne)
 M:4/4
 L:1/8
-Q:C2=112
+Q:C2/1=112
 P:B4
-K:Cm
+K:D
 P:B
-"Gm"Bd/2c/2 BG "Fm"AF "Gm"BA/2B/2 |\
+"F#m"Ac/2B/2 AF "Em"GE "F#m"AG/2A/2 |\
 M:5/4
-	"Ab"cc "Bb"B2 "Fm"A2 "Gm"G4 |\
+	"G"BB "A"A2 "Em"G2 "F#m"F4 |\
 M:4/4
-	({BA}B)c B>G "Fm"AF "Gm"(GA/2)B/2 |\
+	({AG}A)B A>F "Em"GE "F#m"(FG/2)A/2 |\
 M:5/4
-	"Ab"cB "Bb"A2 F2 "Eb"E4 ||
+	"G"BA "A"G2 E2 "D"D4 ||
 M:4/4
-|: "Eb"({GA}G)F/2G/2 "Cm"EB AG "Fm"({FG}F)>E |1\
+|: "D"({FG}F)E/2F/2 "Bm"DA GF "Em"({EF}E)>D |1\
 M:5/4
-	({FG}F)G "Ab"A2 "Bb"F2 "Eb"G4 :|2\
+	({EF}E)F "G"G2 "A"E2 "D"F4 :|2\
 M:5/4
-	(FA) "Bb"G2 "Ab"F2 "Eb"E4 ||
+	(EG) "A"F2 "G"E2 "D"D4 ||
+
 
 
 X: 3

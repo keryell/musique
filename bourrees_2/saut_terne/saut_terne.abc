@@ -1,7 +1,7 @@
 %%textfont Helvetica 60
 %%centre LES Bourr\'ees 2 temps
 %%textfont - 20
-%%text Groilh
+%%text Kazimodal
 %%textfont - 14
 %%vskip 1cm
 
@@ -11,7 +11,7 @@ G:Kazimodal
 R:Bourr\'ee 2 temps
 C:Ronan Keryell, arrangement http://kazimodal.trad.org
 Q:C2=145
-P:(AAB)3AAC
+P:A4
 M:4/4
 %%MIDI gchord c2ffccf2
 %%MIDI chordprog 105
@@ -21,24 +21,19 @@ M:4/4
 %%MIDI program 69
 K:EPhr
 P:A
-|: "Em"E>F GA BG EB |1 "Dm"A>G FD E>F "Em"ED :|2 \
-	"F"AG FD "Em"E>E E2 ||
-P:B
+|: "Em"E>F GA BG EB | "Dm"A>G FD E>F "Em"ED |\
+	"Em"E>F GA BG EB | "F"AG FD "Em"E>E E2 :|
 K:Dm
 |: "Bb"d>B Fd "C"ec Ge | "Dm"f>e dc dc AF |\
 	 "Gm"BA Gd "Am"c>B AG | "Bb"B>A GF "C"G>G- G>G :|
-P:C
-K:Dm
-|: "Bb"d>B Fd "C"ec Ge | "Dm"f>e dc dc AF | "Gm"BA Gd "Am"c>B AG |1\
-	 "Bb"B>A GF "C"G>G- G>G :|2 "Bb"B>A GF "C"G2 Z>A ||
 
 X: 2
-T:Bout D
+T:Kazialest
 G:Kazimodal
 R:Bourr\'ee 2 temps
 C:Ronan Keryell, arrangement http://kazimodal.trad.org
 Q:C2=145
-P:D4
+P:B4
 M:4/4
 %%MIDI gchord c2ffccf2
 %%MIDI chordprog 105
@@ -46,13 +41,34 @@ M:4/4
 %%MIDI bassprog 36
 %%MIDI bassvol 127
 %%MIDI program 69
-K:Dm
+K:Am ^g
+P:B
+|: "Am"A2 cA "C"e3 c | "Dm"d>e cd "E"e>d cB |\
+	"Am"A2 cA "C"e3 c | "Dm"d>e cd "E"B4 :|
+|: "Dm"d>e fa "E"g f2 e | "Dm"d e2 f "E"a b2 g |\ 
+	"Dm"d>e fa "E"g f2 e | "Dm"de fe "E"d>c B2 :| 
+
+X: 3
+T:Bout D
+G:Kazimodal
+R:Bourr\'ee 2 temps
+C:Ronan Keryell, arrangement http://kazimodal.trad.org
+Q:C2=145
+P:C4
+M:4/4
+%%MIDI gchord c2ffccf2
+%%MIDI chordprog 105
+%%MIDI chordvol 80
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+%%MIDI program 73
+K:Em
 P:I
-A/2
-P:D
-|: "Dm"D>F GD "F"A2-A>F |1 "Gm"G>A Bd "Am"AG EF :|2 \
-"Gm"GG- GG z"Am"A A>A ||
-|: "Dm"D>F GD "F"A2-A>F |1 "Gm"G>A Bd "Am"AG EF :|2 \
-"Gm"G>A FG "Am"E4 ||
-|: "F"A>G FA "Bb"B>A Gd | "C"c>B AG "Am"A>G FD |\
-	"F"A G2 F2 "Gm"G G2 |1 "Bb"A>F GD "C"E>E E2 :| "Bb"A>F GD "C"E>E E>A ||
+B/2
+P:C
+|: "Em"E>G AE "G"B2-B>G |1 "Am"A>B ce "Bm"BA FG :|2 \
+	"Am"AA- AA z"Bm"B B>B ||
+|: "Em"E>G AE "G"B2-B>G |1 "Am"A>B ce "Bm"BA FG :|2 \
+	"Am"A>B GA "Bm"F4 ||
+|: "G"B>A GB "C"c>B Ae | "D"d>c BA "Bm"B>A GE |\
+	"G"B A2 G2 "Am"A A2 |1 "C"B>G AE "D"F>F F2 :|2 "C"B>G AE "D"F>F F>B ||

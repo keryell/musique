@@ -64,12 +64,12 @@ X:3
 T:Hanter-dro 3
 G:Kazimodal
 R:Hanter-zañs
-C:Traditionnel, arrangement en dorien http://kazimodal.trad.org
+C:Traditionnel, arrangement en phrygien http://kazimodal.trad.org
 Q:C2=95
 P:D2
 M:3/4
 S:Tonioù Breizh-Izel 1910 (Plañwour/An Oriant)
-%K:EDor Bug...
+K:EPhr
 K:C
 P:D
 %%MIDI gchord fccffz

@@ -21,7 +21,7 @@ M:4/4
 %%MIDI program 69
 K:EPhr
 P:A
-|: "Em"E>F GA BG EB | "Dm"A>G FD E>F "Em"ED |\
+|: "Em"E>F GA BG EB | "Dm"A>G FD E>F ED |\
 	"Em"E>F GA BG EB | "F"AG FD "Em"E>E E2 :|
 K:Dm
 |: "Bb"d>B Fd "C"ec Ge | "Dm"f>e dc dc AF |\
@@ -49,7 +49,7 @@ P:B
 	"Dm"d>e fa "E"g f2 e | "Dm"de fe "E"d>c B2 :| 
 
 X: 3
-T:Bout D
+T:Bout d'E
 G:Kazimodal
 R:Bourr\'ee 2 temps
 C:Ronan Keryell, arrangement http://kazimodal.trad.org

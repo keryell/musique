@@ -1,0 +1,87 @@
+%%textfont Helvetica 60
+%%centre LES Da\~ns Leon
+%%textfont - 20
+%%text Kazimodal
+%%textfont - 14
+%%vskip 1cm
+
+X: 1
+T:Da\~ns leon
+G:Kazimodal
+R:Da\~ns leon
+C:Traditionnel, arrangement http://kazimodal.trad.org
+S:Tonio\`u Breizh-Izel 1363 (Logeginer)
+M:4/4
+L:1/8
+Q:C2=112
+P:A4
+K:Cm
+P:A
+|:\
+M:4/4
+"Eb"EF "Cm"({GA}G>E) (G"Fm"A) FG |\
+M:5/4
+	"Gm"BB "Ab"A2 G2 "Bb"F4 ::\
+M:4/4
+"Eb"EG "Gm"B>B AG "Fm"(FG/2)A/2 |\
+M:5/4
+	"Gm"BA "Ab"G2 "Bb"F2 "Eb"E4 :|
+
+
+X: 2
+T:Da\~ns leon
+G:Kazimodal
+R:Da\~ns leon
+C:Traditionnel, arrangement http://kazimodal.trad.org
+S:Tonio\`u Breizh-Izel 1383 (Lanouarne)
+M:4/4
+L:1/8
+Q:C2=112
+P:B4
+K:Cm
+P:B
+"Gm"Bd/2c/2 BG "Fm"AF "Gm"BA/2B/2 |\
+M:5/4
+	"Ab"cc "Bb"B2 "Fm"A2 "Gm"G4 |\
+M:4/4
+	({BA}B)c B>G "Fm"AF "Gm"(GA/2)B/2 |\
+M:5/4
+	"Ab"cB "Bb"A2 F2 "Eb"E4 ||
+M:4/4
+|: "Eb"({GA}G)F/2G/2 "Cm"EB AG "Fm"({FG}F)>E |1\
+M:5/4
+	({FG}F)G "Ab"A2 "Bb"F2 "Eb"G4 :|2\
+M:5/4
+	(FA) "Bb"G2 "Ab"F2 "Eb"E4 ||
+
+
+X: 3
+T:Da\~ns leon
+G:Kazimodal
+R:Da\~ns leon
+C:Traditionnel, arrangement http://kazimodal.trad.org
+S:Tonio\`u Breizh-Izel 1388 (Pleiber-Krist)
+M:4/4
+L:1/8
+Q:C2=112
+P:C4
+K:Dm
+P:C
+|:\
+"Dm"Ad "C"(c>d) cB "Bb"({AB}A)G |\
+M:5/4
+	Ad "Gm"({cB}c)>d cB "Am"({AB}A4) :|\
+M:4/4
+"Dm"FG "F"A>G AB "C"AG |\
+M:5/4
+	"Gm"EF G>A "Am"FE "Bb"D4 |
+M:4/4
+	"Dm"DE "F"F2 "Gm"G2 "Am"A>G |\
+M:5/4
+	({AB}A)d "Bb"d2 "C"c2 "Dm"d4 |\
+M:4/4
+	"Dm"({FE}D)E F2 "C"(GF/2G/2) "F"A>A |\
+M:5/4
+	({AB}A)d "Gm"d2 "Am"(ed/2)c/2 "Bb"d4 ||
+
+

@@ -1,0 +1,76 @@
+%%textfont Helvetica 60
+%%centre LE Kost Ar C'Hoad
+%%textfont - 20
+%%text Kazimodal
+%%textfont - 14
+
+
+X:1
+T:?
+G:Kazimodal
+R:Kost ar c'hoad
+C:Xorima, arrangement http://kazimodal.trad.org
+P:(ABB)2
+M:4/4
+K:G
+P:A
+Q:C2=150
+%%MIDI gchord fzczfcfz
+%%MIDI program 0
+%%MIDI chordprog 0
+%%MIDI bassprog 0
+|: "G"G>A BG dB "Em"G2 | G>B "C"AG FG "D"A2 |\
+	 "G" G>A BG dB "Em"G2 | G>B "C"AG "D"A>F "G"G2 :|
+P:B
+%%MIDI gchord fzczfcfz
+Q:C2=150
+K:Dm
+|: "Dm"d>e fd "C"ec "Bb"d2 | d>e fd "C"e2 "Dm"d2 :|
+|: "Dm"A>c d>e "F"d>c "G"d2 | "Am"A>c "Bb"d>e "C"d>c "Dm"A2 :|
+%%text Appel : partie B
+
+X:2
+T:?
+G:Kazimodal
+R:Kost ar c'hoad
+C:Xorima, arrangement http://kazimodal.trad.org
+P:C3
+M:12/8
+K:Dm
+P:C
+Q:C3=150
+%%MIDI program 109
+%%MIDI chordprog 105
+%%MIDI bassprog 34
+%%MIDI bassvol 127
+%%MIDI gchord fzfczcfzcfzz
+|: "Dm"f2 e d2 c "Am"d2 e f2 e | "Gm"f2 e d2 c "Am"d2 e e3 |\
+	"Dm"f2 e d2 c "Am"d2 e f2 e | "Gm"f2 e d2 c "C"d2 e "Dm"d3 :|
+|: "Dm"d3 e2 d c2 A "Em"d3 | d2 c d2 e "F"f2 f e3 |\
+	"G"d3 e2 d "Am"c2 A "Bb"d3 | d2 c "C"d2 e "G"d3 "Dm"d3  :|
+
+X:3
+T:Kost ar c'hoad
+G:Kazimodal
+R:Kost ar c'hoad
+C:Traditionnel, arrangement http://kazimodal.trad.org
+Q:C2=150
+P:(DE)3FE
+S: Tonio\`u Breizh-Izel No 1400 (Mael-Karaez), Polig Monjarret 
+M:4/4
+K:Am
+P:D
+%%MIDI gchord fzczcffz
+%%MIDI program 73
+%%MIDI chordprog 74
+%%MIDI chordvol 40
+%%MIDI bassprog 36
+%%MIDI bassvol 127
+| "F"c2 ({Bc}"G"B)>A B>c "Am"A2 | (3(A>B)c "Dm"d>c "F"(A>c) "G"B>B |\
+	"F"c2 "G"B>A B>c "Am"A2 | (AB/2)c/2 "Dm"d>c "F"(Ac) "G"B2 |
+P:E
+|: "Am"A2 e>e "Em"B>c d2 | "F"(c/2B/2c) A2 c2 "Em"B>A |\
+	"C"GG E2 "D"^F>G A>G | "F"A>c "G"(3(B>c)B "D"A2 "Am"A2 :|
+%%text Fin sur D tenu puis Am
+P:F
+|: "Am"A2 a2 z4 | "C"c2 "D"d2 z4 :|

@@ -8,7 +8,7 @@
 % L'encha\^inement voulu :
 %%abccat P:A(BC)4BDF5H5I5KL5M5N5
 %%text L'encha\^inement voulu : A(BC)4BDF5H5I5KL5M5N5
-%%text $Id$	
+%%text $Id: LE_dans_fisel.abc,v 1.2 2002/03/03 20:59:39 keryell Exp keryell $	
 
 
 X:1
@@ -27,7 +27,7 @@ P:A
 %%MIDI chordprog 41
 %%MIDI bassprog 42
 %%MIDI program 0
-"Em"G \
+"Em"G \\
 P:B
 |: "Am"A2 ({de}d) c2 ({de}d) "G"B2 c "F"A3 | c2 d "C"(ed)c "Dm"d3 "Em"e3 :|
 P:C
@@ -36,7 +36,7 @@ P:C
 P:D
 |: "Am"A>Bc "Dm"d2 B c2 A "Em"G2 c |1 "F"B2 d ({Bc}B2) c "G"A3 "Am"A3 :|2\
 	"F"B2 d ({Bc}B2) c "G"A3 "Am"A2 \
-K:D
+K:G
 D ||
 
 
@@ -64,6 +64,9 @@ P:F
 	"G"E2 F E2 D "A"E3 "D"F3 :|
 |: "D"F2 G "F#m"A2 ({FG}F) "Bm"D2 ({EF}E) "G"D2 C/2D/2 |1\
 	"Em"E2 F "A"G2 E "G"D3 "D"D3 :|2 "Em"E2 F "A"G2 E "G"D3 "D"D2 D ||
+
+
+
 
 
 X:3

@@ -1,0 +1,92 @@
+%%textfont Helvetica 60
+%%centre LE cercle
+%%textfont - 20
+%%text Kazimodal
+%%textfont - 14
+%%vskip 1cm
+%
+X:1
+T:Cercle circassien
+G:Kazimodal
+R:Cercle circassien
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C3=140
+P:A4
+M:6/8
+S:M\'ethode de Yann Dour, t. 1
+%%%MIDI program 109
+%%%%MIDI gchord fzcfzcfzcfzc
+%%MIDI gchord fzzczzfzzczz
+%%%MIDI chordprog 105
+%%%%MIDI bassprog 32
+%%%MIDI bassvol 127
+K:Am
+P:A
+|: "Am"E2 A "C"A2 G | "Am"E2 E "G"DB,D | "F"E2 A A2 B | "Dm"cAc "Em"BGB |
+	"Am"E2 A "C"A2 G | "Am"E2 E "G"DB,D |\
+	 "F"EAB "Dm"cdc | "Em"BcB "Am"A3 :|
+|: "C"e2 e efe | "D"dcB A2 B | "F"cAA ABc | "G"dBB "Em"Bcd |
+	"C"e2 e efe | "D"dcB A2 B | "F"cdc "G"BcB | "Am"A2 A A3 :|
+
+X:2
+T:Cercle circassien
+G:Kazimodal
+R:Cercle circassien
+C:?, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C3=140
+P:IB4
+M:6/8
+S:?
+%%MIDI program 109
+%%MIDI gchord fzzczzfzzczz
+%%MIDI chordprog 105
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+K:Am
+P:I
+"Am"A2 B \
+P:B
+|: c2 c "C"cde | "G"dBG GAB | "F"c2 A ABc | "Em"BGE EAB |
+	"Am"c2 c "C"cde | "G"dBG GAB | "F"cBA "Em"BcB |1 "Am"A2 A A2 B :|2\
+	"Am"A2 A A"Em"e"D"^f |
+|: "C"g2 g g^fe | "G"dBG "Em"G3 | "F"a2 a aba | "Em"g2 e e2 "G"f |
+	"C"gce gfe | "G"dBG "Em"GAB | "F"cBA "G"BAG |1\
+	 "Am"A2 A A"Em"e"D"^f :|2 "Am"A2 A "Am"A2 B ||
+
+%%newpage
+
+X:3
+T:Tarentelle
+G:Kazimodal
+R:Tarentelle
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C3=140
+P:C4
+M:6/8
+%%MIDI gchord fzzczzfzzczz
+K:Am
+P:C
+|: "Am"EAB "C"cBc | "G"dcB "F"cBc | ABc "G"BGB | "Em"dcB "Am"cBc |
+	EAB "C"cBc | "G"dcB "F"cBc | ABc "G"BGB | dcB "Am"A3 :|
+|: "F"a2 a "Am"e2 e | "F"a2 a "Am"e2 e | ede "Dm"f2 f | fgf "Am"e3 |
+	"C"efe "G"d2 d | "Dm"ded "F"c2 c | ABc "G"BGB | "Em"dcB "Am"A3 :|
+
+X:4
+T:Cercle circassien
+G:Kazimodal
+R:Cercle circassien
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C3=140
+P:D4
+M:6/8
+%%MIDI gchord fzzczzfzzczz
+K:Am
+P:D
+|: "Am"Ace "B"^d2 e | "Am"Ace "B"^d2 e | "Am"aee aee | "F"edc "Em"BcB |
+	"Am"Ace "E/F"^d2 e | "Am"Ace "E/F"^d2 e |1\
+	 "Am"aee "F"fed | "Em"cBG "Am"A3 :|2\
+	 "Am"aee "F"fed | "G"cBG "Am"A2 e ||
+|: "Am"aee c'ba | "G"bee d'c'b | "Dm"aee c'ba | "Em"bee "F"fee |
+	"Am"aee c'ba | "Em"bee d'c'b |1\
+	"F"a2 e "Dm"fed | "F"c"G"B"Em"G "F"A2 e :|2\
+	"F"a2 e "Dm"fed | "F"c"G"B"Em"G "F"A3 ||

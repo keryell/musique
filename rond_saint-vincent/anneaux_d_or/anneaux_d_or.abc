@@ -1,19 +1,18 @@
 %%textfont Helvetica 60
-%%centre Les Anneaux d'Or
+%%centre Les Ronds de Saint Vincent
 %%textfont - 20
-%%text Groill !!!
+%%text Kazimodal
 %%textfont - 14
 %%vskip 1cm
 
 X:1
 T:Les Anneaux d'Or
-G:Groill
+G:Kazimodal
 R:Rond de Saint-Vincent
-C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+C:Traditionnel, arrangement http://kazimodal.trad.org
 Q:C2=90
 P:AB5
 M:4/4
-%S:Tonioù Breizh-Izel 1718 (Ardeven)
 K:Am
 P:A
 %MIDI program 109
@@ -40,13 +39,12 @@ w: rons tous les deux faire nos a-mou-ret - te. Je n'ai plus
 
 X:2
 T:Les Anneaux d'Or
-G:Groill
+G:Kazimodal
 R:Rond de Saint-Vincent
-C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+C:Traditionnel, arrangement http://kazimodal.trad.org
 Q:C2=90
 P:CD5
 M:4/4
-%S:Tonioù Breizh-Izel 1718 (Ardeven)
 K:Am
 P:C
 %MIDI program 109
@@ -77,3 +75,35 @@ V:2
 	|1 de d/2e/2f/2d/2 c/2d/2e d/2A/2A/2A/2	:|2 de d/2e/2f/2d/2 c/2d/2e dd/2e/2 ||
 |: fg/2f/2 ef/2e/2 d/2c/2B Ad/2e/2
 	|1 fg/2f/2 ee/2d/2 c/2d/2e/2c/2 dd/2e/2	:|2 fg/2f/2 ee/2d/2 c/2d/2e/2c/2 d/2A/2A/2A/2 ||
+
+X:3
+T:Carmen
+G:Kazimodal
+R:Rond de Saint-Vincent
+C:Bizet, arrangement http://kazimodal.trad.org
+Q:C2=90
+P:AB5
+M:4/4
+K:Em
+P:D
+
+X:4
+T:1000 \^Anes dans le pr\'es et alla danser
+G:Kazimodal
+R:Rond de Saint-Vincent
+C:Ronan Keryell, arrangement http://kazimodal.trad.org
+Q:C2=90
+P:D4
+M:4/4
+K:Em
+P:D
+%MIDI program 109
+%%%MIDI gchord ffcfffcfffcfffcf
+%%MIDI gchord ffczffcfffcffzcf
+%MIDI chordprog 105
+%MIDI bassprog 32
+%MIDI bassvol 127
+ED/2E/2 GE/2E/2 |
+K:Am
+|: "Am"AB/2c/2 "G"BA/2B/2 "F"ce "Am"AB/2c/2 | "Dm"dd eg ef/2d/2 "Em"e2 :|
+%%text Break Em/G/Am/Bm Em/G/Am/Em

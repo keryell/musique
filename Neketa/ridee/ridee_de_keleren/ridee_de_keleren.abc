@@ -1,0 +1,25 @@
+     %!HARMONY ABC @
+     %Harmony/Melody File to ABC Vers 2.7 April 1998-March 2001
+     %Written by Guillion Bros. on a Chris Walshaw format
+     %Please e-mail us your comments and bugs reports ! (abc@myriad-online.com)
+     %Vendredi 15 avril 2005 20:42:55
+
+
+X:1     %Music
+T:RIDEES DE KELEREN     %Tune name
+C:Composer by joel HUBY (NEKETA)     %Tune composer
+I:RIDEES 6T     %Tune infos
+Q:1/4=181     %Tempo
+V:1     %
+     %!STAVE 0 'Piano' @
+     %!INSTR 'Piano Treble' 0 0 @
+|:
+M:4/4     %Meter
+L:1/8     %
+K:C
+DF ^F2 AB cB |cG FA DF ^F2 |AB (3:2:1c(3:2:1d(3:2:1c Bc A2 ::cd c2 Bc A2 |
+AB cB ce (3:2:1d(3:2:1c(3:2:1B |ce (3:2:1d(3:2:1e(3:2:1d cA B2 ::AA ed Bc (3:2:1A(3:2:1A(3:2:1A |ce (3:2:1d(3:2:1e(3:2:1d Bc AA |
+ce dc A2 A2 ::cd e2 e2 dc |(3:2:1e(3:2:1d(3:2:1c A^G A2 cd |e2 dB (3:2:1c(3:2:1d(3:2:1c A2 ::
+GG B2 G2 FE |DF GG GG B2 |G2 FE DF G2 ::EE GG BG F2 |
+cB EE EE GG |BG (3:2:1F(3:2:1E(3:2:1D CD E2 :|
+     %End of file

@@ -1,73 +1,74 @@
-     %!HARMONY ABC @
-     %Harmony/Melody File to ABC Vers 2.7 April 1998-March 2001
-     %Written by Guillion Bros. on a Chris Walshaw format
-     %Please e-mail us your comments and bugs reports ! (abc@myriad-online.com)
-     %Vendredi 15 avril 2005 20:43:19
+%%textfont Helvetica 60
+%%centre Rid\'ees d'octobre 2003
+%%textfont - 20
+%%text Jo\"el. HUBY (Neketa)
+%%textfont - 14
+%%vskip 1cm
+
+X:1
+T:Rides d'octobre 2003
+C:Traditionnel breton et J. HUBY (NEKETA)
+I:Rides 6 T
+Q:1/4=164
+P:A10
+M:3/4
+L:1/8
+K:G
+P:A
+%%%MIDI gchord c2zfc2zff4
+%%%MIDI gchord fccfcz
+%%MIDI gchord fccfcf
+%%MIDI bassprog 0
+%%MIDI program 0
+%MIDI bassvol 127
+|: "G"GA B2 "C"cB |"D"Ac BA "G"GD |GA "Em"B2 "Am"cB |"Bm"A/B/c "C"B"D"A "G"G2 :|
+|: "G"Bc "Bm"d2 ed |B2 "C"cB "D"Ac |"G"Bc "Bm"d2 ed |"Am"c/d/c "D"BA "G"G2 :|
 
 
-X:1     %Music
-T:Rides d'octobre 2003      %Tune name
-C:Traditionnel breton et J. HUBY (NEKETA)     %Tune composer
-I:Rides 6 T     %Tune infos
-Q:1/4=164     %Tempo
-V:1     %
-     %!STAVE 0 'Melody' @
-     %!INSTR 'Piano' 0 0 @
-|:
-M:3/4     %Meter
-L:1/8     %
-K:C
-GA B2 cB |Ac BA GD |GA B2 cB |A/B/c BA G2 ::
-Bc d2 ed |B2 cB Ac |Bc d2 ed |c/d/c BA G2 ::
-EG A2 cd |c/d/e dc BG |EG A2 cd |(3:2:1c(3:2:1d(3:2:1e dc B2 ::
-Bc d2 BG |E2 AB ce |dc B2 cd |c2 BA G2 ::
-DC DE (3:2:1F(3:2:1G(3:2:1F |EF GF E2 |DC DE (3:2:1F(3:2:1G(3:2:1F |EF GF E2 ::
-F2 D2 CD |EG FE DE |F2 (3:2:1D(3:2:1D(3:2:1D CD |EG FE D2 ::
-AG AB c2 |Bc dc B2 |AG AB c2 |Bc dc B2 ::
-c2 A2 GA |Bd cB AB |c2 A2 GA |Bd cB A2 |]
-V:2     %
-     %!STAVE 0 'Chords 1' @
-     %!INSTR 'Guitar' 3 2600 @
-|:
-M:3/4     %Meter
-L:1/8     %
-K:C
-G2 B,2 C,2 |E2 A2 F,2 |G,2 D2 C2 |C2 A,2 E2 ::
-B2 D2 E,2 |G,2 C2 C2 |B,2 F2 E2 |D2 B,2 E2 ::
-A2 C2 D,2 |G,2 C2 E,2 |A,2 E2 D2 |E,2 C,2 G,2 ::
-B2 D2 G,2 |E2 A2 E,2 |B,2 F2 B2 |E,2 C,2 E2 ::
-C2 E,2 C,2 |B,2 E2 G,2 |C,2 G,2 C2 |G,2 E,2 B,2 ::
-D2 F,2 D,2 |B,2 E2 G,2 |D,2 A,2 D2 |G,2 E,2 B,2 ::
-A2 C2 C,2 |F2 B2 E,2 |A,2 E2 C2 |D2 B,2 G,2 ::
-A2 C2 A,2 |F2 B2 D2 |A,2 E2 A2 |D2 B,2 F2 |]
-V:3     %
-     %!STAVE 0 'Main Bass' @
-     %!INSTR 'Bass' 1 3200 @
-|:
-M:3/4     %Meter
-L:1/8     %
-K:C
-G,2 z2 C,2 |z2 A,2 z2 |G,2 z2 C,2 |z2 A,2 z2 ::
-B,2 z2 E,2 |z2 C,2 z2 |B,2 z2 E,2 |z2 B,2 z2 ::
-A,2 z2 D,2 |z2 C,2 z2 |A,2 z2 D,2 |z2 C,2 z2 ::
-B,2 z2 G,2 |z2 A,2 z2 |B,2 z2 B,2 |z2 C,2 z2 ::
-C,2 z2 C,2 |z2 E,2 z2 |C,2 z2 C,2 |z2 E,2 z2 ::
-D,2 z2 D,2 |z2 E,2 z2 |D,2 z2 D,2 |z2 E,2 z2 ::
-A,2 z2 C,2 |z2 B,2 z2 |A,2 z2 C,2 |z2 B,2 z2 ::
-A,2 z2 A,2 |z2 B,2 z2 |A,2 z2 A,2 |z2 B,2 |]
-V:4     %
-     %!STAVE 0 'Guitar' @
-     %!INSTR 'Guitar' 3 2600 @
-|:
-M:3/4     %Meter
-L:1/8     %
-K:C
-z2 [B2G2D2] z2 |[A2E2C2] z2 [F2D2A,2] |z2 [G2D2B,2] z2 |[c2A2E2] z2 [A2E2C2] ::
-z2 [d2B2F2] z2 |[C2G,2E,2] z2 [c2A2E2] |z2 [B2F2D2] z2 |[d2B2F2] z2 [A2E2C2] ::
-z2 [c2A2E2] z2 |[C2G,2E,2] z2 [E2C2G,2] |z2 [A2E2C2] z2 |[E2C2G,2] z2 [C2G,2E,2] ::
-z2 [d2B2F2] z2 |[A2E2C2] z2 [E2C2G,2] |z2 [B2F2D2] z2 |[E2C2G,2] z2 [A2E2C2] ::
-z2 [E2C2G,2] z2 |[E2B,2G,2] z2 [G2E2B,2] |z2 [C2G,2E,2] z2 |[G2E2B,2] z2 [E2B,2G,2] ::
-z2 [F2D2A,2] z2 |[E2B,2G,2] z2 [G2E2B,2] |z2 [D2A,2F,2] z2 |[G2E2B,2] z2 [E2B,2G,2] ::
-z2 [c2A2E2] z2 |[B2F2D2] z2 [E2C2G,2] |z2 [A2E2C2] z2 |[d2B2F2] z2 [C2G,2E,2] ::
-z2 [c2A2E2] z2 |[B2F2D2] z2 [d2B2F2] |z2 [A2E2C2] z2 |[d2B2F2] z2 [B2F2D2] |]
-     %End of file
+X:2
+T:Rides d'octobre 2003
+C:Traditionnel breton et J. HUBY (NEKETA)
+I:Rides 6 T
+Q:1/4=164
+P:B10
+M:3/4
+L:1/8
+K:Am
+P:B
+%%MIDI gchord fffcfc
+%%MIDI bassprog 37
+%%MIDI chordprog 43
+%%MIDI program 67
+%%MIDI bassvol 127
+|: "Em"EG "Am"A2 cd |"F"c/d/e dc "G"BG |"Em"EG "Am"A2 cd |"F"(3:2:1c(3:2:1d(3:2:1e dc "G"B2 :|
+K:G
+|: "G"Bc "Bm"d2 BG |"Em"E2 "Am"AB "C"ce |dc "D"B2 cd |"C"c2 "D"BA "G"G2 :|
+
+X:3
+T:Rides d'octobre 2003
+C:Traditionnel breton et J. HUBY (NEKETA)
+I:Rides 6 T
+Q:1/4=164
+P:C4
+M:3/4
+L:1/8
+K:Dm
+P:C
+%%MIDI bassvol 0
+%%MIDI chordfvol 0
+|: DC DE (3:2:1F(3:2:1G(3:2:1F |EF GF E2 |DC DE (3:2:1F(3:2:1G(3:2:1F |EF GF E2 :|
+|: F2 D2 CD |EG FE DE |F2 (3:2:1D(3:2:1D(3:2:1D CD |EG FE D2 :|
+
+
+X:4
+T:Rides d'octobre 2003
+C:Traditionnel breton et J. HUBY (NEKETA)
+I:Rides 6 T
+Q:1/4=164
+P:D4
+M:3/4
+L:1/8
+K:Am
+P:D
+|: AG AB c2 |Bc dc B2 |AG AB c2 |Bc dc B2 :|
+|: c2 A2 GA |Bd cB AB |c2 A2 GA |Bd cB A2 :|

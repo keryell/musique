@@ -1,0 +1,41 @@
+X:1     %Music
+T:AN DRO HANTER DRO     %Tune name
+C:tarditionnel breton     %Tune composer
+I:Skol al louarn     %Tune infos
+Q:1/4=91     %Tempo
+V:1     %
+     %!STAVE 0 'Melody' @
+     %!INSTR 'Piano' 0 0 @
+|:
+M:3/4     %Meter
+L:1/8     %
+K:C
+df/e/ fg aa |gf/e/ gf d2 |df/e/ fg aa |gf/e/ gf d2 ::
+M:4/4     %Meter
+L:1/8     %
+d/e/f/g/ aa g/a/g/f/ ed/e/ |gf/e/ de fe/d/ e2 |d/e/f/g/ aa g/a/g/f/ ed/e/ |gf ed fe d2 ::
+M:3/4     %Meter
+L:1/8     %
+Ac/B/ cd ee |dc/B/ dc A2 |Ac/B/ cd ee |dc/B/ dc A2 ::
+M:4/4     %Meter
+L:1/8     %
+A/B/c/d/ ee d/e/d/c/ BA/B/ |dc/B/ AB cB/A/ B2 |A/B/c/d/ ee d/e/d/c/ BA/B/ |dc BA cB A2 ::
+M:3/4     %Meter
+L:1/8     %
+K:G
+BB/B/ AB GE |BA/B/ dc B2 ::
+M:4/4     %Meter
+L:1/8     %
+Bc/B/ AB/A/ GF/E/ F2 |Bc/B/ A3/2F/ GA E2 ::
+M:3/4     %Meter
+L:1/8     %
+ee/e/ de cA |ed/e/ g=f e2 ::
+M:4/4     %Meter
+L:1/8     %
+e=f/e/ de/d/ cB/A/ B2 |e=f/e/ d3/2B/ cd A2 :|
+     %End of file
+     %!HARMONY ABC @
+     %Harmony/Melody File to ABC Vers 2.7 April 1998-March 2001
+     %Written by Guillion Bros. on a Chris Walshaw format
+     %Please e-mail us your comments and bugs reports ! (abc@myriad-online.com)
+     %Mercredi 12 octobre 2005 13:29:43

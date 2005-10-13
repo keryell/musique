@@ -1,23 +1,12 @@
-X:1     %Music
-T:BAL DE JUGON     %Tune name
-C:traditionnel breton     %Tune composer
-I:Skol al louarn     %Tune infos
-Q:1/4=206     %Tempo
-V:1     %
-     %!STAVE 0 'Melody' @
-     %!INSTR 'Piano' 0 0 @
-|:
-M:2/2     %Meter
-L:1/8     %
+X:1
+T:BAL DE JUGON
+C:traditionnel breton
+I:Skol al louarn
+Q:1/4=206
+M:2/2
+L:1/8
 K:G
-B4 B3 A |A2 G2 G4 |G2 B2 B2 d2 |d2 c2 c4 |
-c4 c3 d |c2 B2 A4 |A2 G2 F2 G2 |B2 A2 G4 ::
-G2 A2 B4 |B3 B d2 d2 |G2 A2 B4 |B3 B d2 d2 |
-G2 A2 B4 |1G4 d2 d2 |c2 B2 A4 :|2G4 A2 A2 |
-G2 F2 G4 :|
-     %End of file
-     %!HARMONY ABC @
-     %Harmony/Melody File to ABC Vers 2.7 April 1998-March 2001
-     %Written by Guillion Bros. on a Chris Walshaw format
-     %Please e-mail us your comments and bugs reports ! (abc@myriad-online.com)
-     %Mercredi 12 octobre 2005 13:31:09
+|: B4 B3 A | A2 G2 G4 | G2 B2 B2 d2 | d2 c2 c4 |
+c4 c3 d | c2 B2 A4 | A2 G2 F2 G2 | B2 A2 G4 :|
+|: G2 A2 B4 | B3 B d2 d2 | G2 A2 B4 | B3 B d2 d2 |
+G2 A2 B4 |1 G4 d2 d2 | c2 B2 A4 :|2 G4 A2 A2 | G2 F2 G4 :|

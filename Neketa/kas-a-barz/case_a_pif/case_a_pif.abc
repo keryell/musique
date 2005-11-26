@@ -8,58 +8,27 @@ M:4/4     %Meter
 L:1/8     %
 K:C
 P:A
-%%MIDI program 109
 %%MIDI gchord fcffcfcz
-%%MIDI chordprog 105
-%%MIDI chordvol 60
-%%MIDI bassprog 32
-%%MIDI bassvol 127
+%%MIDI chordprog 42
+%%MIDI bassprog 43
+%%MIDI program 74
 |: "Em"ED/E/ G3/2E/ "F"FE "Dm"(5:4:5D/E/F/A/F/ | "Em"ED/E/ GE "Dm"FD "Em"E2 :|
 |: "Am"AB/c/"Dm" df/e/ (5:4:5d/e/d/c/B/ "F"c2 | AB/c/ "G"BB d/c/B/A/ "Em"B/c/B/A/ |
  "Am"AB/c/"Dm" df/e/ (5:4:5d/e/d/c/B/ "F"c2 | "Dm"d/e/d/c/ "Em"B/c/B/G/ "G"B/c/d/B/ "Am"A2 :|
 
 X:2
 Q:1/4=90     %Tempo
-P:B10
+P:B4
 M:4/4     %Meter
 L:1/8     %
 K:C
 P:B
+%%MIDI program 109
 %%MIDI gchord fcffcfcz
-%%MIDI chordprog 42
-%%MIDI bassprog 43
-%%MIDI program 74
-|: "F"FA/B/ c3/2B/ AA "G"e//d//c/B/A/ | "F"FA/B/ c3/2B/ "G"AB "Am"E2 :|
-|: "F"AB/c/ A3/2B/ "G"f//e//d/c/B/ "C"c3/2B/ | cd/e/ ge g/e/d/c/ "G"e/c/B/G/ |
- "F"AB/c/ A3/2B/ "G"f//e//d/c/B/ "C"c3/2B/ | c/B/A/G/ "F"A/B/c/A/ "Am"E/A/E/G/ "Dm"A2 :|
-
-
-X:3
-Q:1/4=90     %Tempo
-P:C10
-M:4/4     %Meter
-L:1/8     %
-K:C
-P:C
-|: E,2 z2 E,2 z2 |D,2 z2 D,2 z2 ::E,2 z2 C,2 z2 |1|3D,2 z2 E,2 z2 :|2|4
-A,2 z2 A,2 z2 ::A,2 z2 A,2 z2 |F,2 z2 F,2 z2 ::G,2 z2 G,2 z2 |1|3
-F,2 z2 F,2 :|2|4
-
-X:4
-|:
-M:4/4     %Meter
-L:1/8     %
-K:C
-z2 [^G2E2B,2] z2 [E2B,2G,2] |z2 [^F2D2A,2] z2 [D2A,2F,2] ::z2 [G2E2B,2] z2 [C2G,2E,2] |1|3z2 [^F2D2A,2] z2 [E2B,2^G,2] :|2|4
-z2 [c2A2E2] z2 [A2E2C2] ::z2 [c2A2E2] z2 [A2E2C2] |z2 [A2F2C2] z2 [F2C2A,2] ::z2 [B2G2D2] z2 [G2D2B,2] |1|3
-z2 [A2F2C2] z2 [F2C2A,2] :|2|4z2 [E2C2G,2] z2 [F2C2A,2] :|
-
-X:5
-|:
-M:4/4     %Meter
-L:1/8     %
-K:C
-z8 |z8 ::z8 |1|3z8 :|2|4
-z8 ::z8 |z8 ::z8 |1|3
-z8 :|2|4C,, C,, C,, C,, F,, F,, F,, F,, :|
-     %End of file
+%%MIDI chordprog 105
+%%MIDI chordvol 60
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+|: "F"FA/B/ c3/2B/ "Dm"AA "G"e//d//c/B/A/ | "F"FA/B/ "Dm"c3/2B/ "Em"AB "Am"E2 :|
+|: "F"AB/c/ "Dm"A3/2B/ "G"f//e//d/c/B/ "C"c3/2B/ | "Am"cd/e/ "Em"ge g/e/d/c/ "C7+"e/c/B/G/ |
+ "F"AB/c/ "Dm"A3/2B/ "G"f//e//d/c/B/ "C"c3/2B/ | "F"c/B/A/G/ "Dm"A/B/c/A/ "Em"E/A/E/G/ "Am"A2 :|

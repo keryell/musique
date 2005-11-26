@@ -1,25 +1,22 @@
-     %!HARMONY ABC @
-     %Harmony/Melody File to ABC Vers 2.7 April 1998-March 2001
-     %Written by Guillion Bros. on a Chris Walshaw format
-     %Please e-mail us your comments and bugs reports ! (abc@myriad-online.com)
-     %Vendredi 15 avril 2005 20:25:26
-
-
 X:1     %Music
 T:LA CASE A PIF     %Tune name
 C:Compos par J. HUBY (NEKETA)     %Tune composer
 I:KAS HA BARZ     %Tune infos
 Q:1/4=90     %Tempo
-V:1     %
-     %!STAVE 0 'Melody' @
-     %!INSTR 'Piano' 0 0 @
-|:
+P:A10
 M:4/4     %Meter
 L:1/8     %
 K:C
-ED/E/ G3/2E/ FE (3:2:1D/(3:2:1E/(3:2:1F/ A/F/ |ED/E/ GE FD E2 ::AB/c/ df/e/ (3:2:1d/(3:2:1e/(3:2:1d/ c/B/ c2 |1|3AB/c/ BB d/c/B/A/ B/c/B/A/ :|2|4
-d/e/d/c/ B/c/B/G/ B/c/d/B/ A2 ::FA/B/ c3/2B/ AA e//d//c/B/A/ |FA/B/ c3/2B/ AB E2 ::AB/c/ A3/2B/ f//e//d/c/B/ c3/2B/ |1|3
+P:A
+|: "Em"ED/E/ G3/2E/ FE "Dm"(5:4:5D/E/F/A/F/ | "Em"ED/E/ GE "Dm"FD "Em"E2 :|
+|: "Am"AB/c/ df/e/ (5:4:5d/e/d/c/B/ c2 |1 "F"AB/c/ BB "G"d/c/B/A/ B/c/B/A/ :|2 "F"d/e/d/c/ B/c/B/G/ "G"B/c/d/B/ "Am"A2 ||
+
+
+|: FA/B/ c3/2B/ AA e//d//c/B/A/ |FA/B/ c3/2B/ AB E2 :|
+|: AB/c/ A3/2B/ f//e//d/c/B/ c3/2B/ |1|3
 cd/e/ ge g/e/d/c/ e/c/B/G/ :|2|4c/B/A/G/ A/B/c/A/ E/A/E/G/ A2 :|
+
+
 V:2     %
      %!STAVE 0 'Main Bass' @
      %!INSTR 'Bass' 1 3200 @

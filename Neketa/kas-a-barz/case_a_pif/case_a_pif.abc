@@ -3,33 +3,49 @@ T:LA CASE A PIF     %Tune name
 C:Compos par J. HUBY (NEKETA)     %Tune composer
 I:KAS HA BARZ     %Tune infos
 Q:1/4=90     %Tempo
-P:A10
+P:A4
 M:4/4     %Meter
 L:1/8     %
 K:C
 P:A
-|: "Em"ED/E/ G3/2E/ FE "Dm"(5:4:5D/E/F/A/F/ | "Em"ED/E/ GE "Dm"FD "Em"E2 :|
-|: "Am"AB/c/ df/e/ (5:4:5d/e/d/c/B/ c2 |1 "F"AB/c/ BB "G"d/c/B/A/ B/c/B/A/ :|2 "F"d/e/d/c/ B/c/B/G/ "G"B/c/d/B/ "Am"A2 ||
+%%MIDI program 109
+%%MIDI gchord fcffcfcz
+%%MIDI chordprog 105
+%%MIDI chordvol 60
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+|: "Em"ED/E/ G3/2E/ "F"FE "Dm"(5:4:5D/E/F/A/F/ | "Em"ED/E/ GE "Dm"FD "Em"E2 :|
+|: "Am"AB/c/"Dm" df/e/ (5:4:5d/e/d/c/B/ "F"c2 | AB/c/ "G"BB d/c/B/A/ "Em"B/c/B/A/ |
+ "Am"AB/c/"Dm" df/e/ (5:4:5d/e/d/c/B/ "F"c2 | "Dm"d/e/d/c/ "Em"B/c/B/G/ "G"B/c/d/B/ "Am"A2 :|
 
-
-|: FA/B/ c3/2B/ AA e//d//c/B/A/ |FA/B/ c3/2B/ AB E2 :|
-|: AB/c/ A3/2B/ f//e//d/c/B/ c3/2B/ |1|3
-cd/e/ ge g/e/d/c/ e/c/B/G/ :|2|4c/B/A/G/ A/B/c/A/ E/A/E/G/ A2 :|
-
-
-V:2     %
-     %!STAVE 0 'Main Bass' @
-     %!INSTR 'Bass' 1 3200 @
-|:
+X:2
+Q:1/4=90     %Tempo
+P:B10
 M:4/4     %Meter
 L:1/8     %
 K:C
-E,2 z2 E,2 z2 |D,2 z2 D,2 z2 ::E,2 z2 C,2 z2 |1|3D,2 z2 E,2 z2 :|2|4
+P:B
+%%MIDI gchord fcffcfcz
+%%MIDI chordprog 42
+%%MIDI bassprog 43
+%%MIDI program 74
+|: "F"FA/B/ c3/2B/ AA "G"e//d//c/B/A/ | "F"FA/B/ c3/2B/ "G"AB "Am"E2 :|
+|: "F"AB/c/ A3/2B/ "G"f//e//d/c/B/ "C"c3/2B/ | cd/e/ ge g/e/d/c/ "G"e/c/B/G/ |
+ "F"AB/c/ A3/2B/ "G"f//e//d/c/B/ "C"c3/2B/ | c/B/A/G/ "F"A/B/c/A/ "Am"E/A/E/G/ "Dm"A2 :|
+
+
+X:3
+Q:1/4=90     %Tempo
+P:C10
+M:4/4     %Meter
+L:1/8     %
+K:C
+P:C
+|: E,2 z2 E,2 z2 |D,2 z2 D,2 z2 ::E,2 z2 C,2 z2 |1|3D,2 z2 E,2 z2 :|2|4
 A,2 z2 A,2 z2 ::A,2 z2 A,2 z2 |F,2 z2 F,2 z2 ::G,2 z2 G,2 z2 |1|3
 F,2 z2 F,2 :|2|4
-V:3     %
-     %!STAVE 0 'Guitar' @
-     %!INSTR 'Guitar' 3 2600 @
+
+X:4
 |:
 M:4/4     %Meter
 L:1/8     %
@@ -37,9 +53,8 @@ K:C
 z2 [^G2E2B,2] z2 [E2B,2G,2] |z2 [^F2D2A,2] z2 [D2A,2F,2] ::z2 [G2E2B,2] z2 [C2G,2E,2] |1|3z2 [^F2D2A,2] z2 [E2B,2^G,2] :|2|4
 z2 [c2A2E2] z2 [A2E2C2] ::z2 [c2A2E2] z2 [A2E2C2] |z2 [A2F2C2] z2 [F2C2A,2] ::z2 [B2G2D2] z2 [G2D2B,2] |1|3
 z2 [A2F2C2] z2 [F2C2A,2] :|2|4z2 [E2C2G,2] z2 [F2C2A,2] :|
-V:4     %
-     %!STAVE 0 'Bass' @
-     %!INSTR 'Bass' 1 3200 @
+
+X:5
 |:
 M:4/4     %Meter
 L:1/8     %

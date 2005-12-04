@@ -1,0 +1,22 @@
+X:1     %Music
+T:LARIDE     %Tune name
+C:SKOL AL LOUARN     %Tune composer
+I:     %Tune infos
+Q:1/4=175     %Tempo
+V:1     %
+     %!STAVE 0 'Melody' @
+     %!INSTR 'Piano' 0 0 @
+M:4/4     %Meter
+L:1/8     %
+K:G
+z4 z2 z d |:dB cd e2 dd/d/ |1dB cd e2 dd :|2dB cd e2 d2 ::
+d2 de dc B2 |BB/B/ Bd cB A2 |d2 de dc B2 |BG AB A2 G2 ||:|
+K:C
+GG c2 e2 c2 |d3/2c/ Bc de dd |GG c2 e2 c2 |d3/2c/ Bc d/c/B c2 |:
+c3/2d/ ef ec e2 |dc Bc de dc |c3/2d/ ef ec e2 |dc Bc dB c2 :|
+     %End of file
+     %!HARMONY ABC @
+     %Harmony/Melody File to ABC Vers 2.7 April 1998-March 2001
+     %Written by Guillion Bros. on a Chris Walshaw format
+     %Please e-mail us your comments and bugs reports ! (abc@myriad-online.com)
+     %Jeudi 13 octobre 2005 21:25:28

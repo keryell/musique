@@ -3,25 +3,17 @@ T:RIDEE 6 T     %Tune name
 C:traditionnel breton     %Tune composer
 I:Skol al louarn     %Tune infos
 Q:1/4=165     %Tempo
-V:1     %
-     %!STAVE 0 'Melody' @
-     %!INSTR 'Piano' 0 0 @
-|:
 M:3/4     %Meter
 L:1/8     %
 K:G
-de d2 Bd |cB AG A2 |de d2 Bd |cB AG A2 ::
-GA B2 c2 |B2 GB A2 |GA B2 d2 |1cB A2 B2 :|2
-cB A2 G2 ::
+P:A
+|: de d2 Bd |cB AG A2 |de d2 Bd |cB AG A2 :|
+|: GA B2 c2 |B2 GB A2 |GA B2 d2 |1cB A2 B2 :|2 cB A2 G2 :|
 M:4/4     %Meter
 L:1/8     %
-B2 AG AB GB |d2 cB A2 G2 ::d2 ed ef g2 |
-B2 AG Ac BG |dB ed ef gd |B2 AG AB G2 ::GB d2 c2 BA |
-GB d2 c2 B2 ::d2 cB A2 GA |B2 AB (3:2:1c(3:2:1B(3:2:1A B2 |d2 cB A2 GA |
-B2 AB (3:2:1c(3:2:1B(3:2:1A G2 :|
-     %End of file
-     %!HARMONY ABC @
-     %Harmony/Melody File to ABC Vers 2.7 April 1998-March 2001
-     %Written by Guillion Bros. on a Chris Walshaw format
-     %Please e-mail us your comments and bugs reports ! (abc@myriad-online.com)
-     %Mercredi 12 octobre 2005 13:33:45
+P:B
+|: B2 AG AB GB | d2 cB A2 G2 :|
+|: d2 ed ef g2 | B2 AG Ac BG | dB ed ef gd | B2 AG AB G2 :|
+P:C
+|: GB d2 c2 BA | GB d2 c2 B2 :|
+|: d2 cB A2 GA | B2 AB (3:2:3cBA B2 | d2 cB A2 GA | B2 AB (3:2:3cBA G2 :|

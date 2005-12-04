@@ -3,26 +3,23 @@ T:LARIDES     %Tune name
 C:SKOL AL LOUARN     %Tune composer
 I:     %Tune infos
 Q:1/4=151     %Tempo
-V:1     %
-     %!STAVE 0 'Melody' @
-     %!INSTR 'Piano' 0 0 @
-|:
 M:4/4     %Meter
 L:1/8     %
 K:G
-Ac Ac BA B2 |Ac Ac B2 B2 ::A2 Bc de e2 |1|3ed/c/ Bd cB cA :|2|4
-ed/c/ Bd cB A2 ::
+P:A
+|: Ac Ac BA B2 | Ac Ac B2 B2 :|
+|: A2 Bc de e2 |1|3 ed/c/ Bd cB cA :|2|4 ed/c/ Bd cB A2 :|
+P:B
 K:C
-Ae ed ef e2 |de dc/B/ cd ee ::A2 cc ee d2 |1|3
-de dc/B/ cd ee :|2|4de dc/B/ cB A2 ::e2 cd cB cc |e2 cd cB c2 ::
-e2 ed ef e2 |1|3dc Bc de dc :|2|4dc Bc dB c2 :|GG c2 e2 c2 |
-d3/2c/ Bc de dd |GG c2 e2 c2 |d3/2c/ Bc dB c2 |:c3/2d/ ef ec e2 |
-dc Bc de dc |c3/2d/ ef ec e2 |dc Bc dB c2 ::ge fg a2 gg |
-ge fg a2 g2 ::g2 ga gf e2 |ee eg fe d2 |g2 ga gf e2 |1
-ec de d2 c2 :|2ec de d2 cg :|
-     %End of file
-     %!HARMONY ABC @
-     %Harmony/Melody File to ABC Vers 2.7 April 1998-March 2001
-     %Written by Guillion Bros. on a Chris Walshaw format
-     %Please e-mail us your comments and bugs reports ! (abc@myriad-online.com)
-     %Mercredi 12 octobre 2005 13:17:05
+|: Ae ed ef e2 | de dc/B/ cd ee :|
+|: A2 cc ee d2 |1|3
+de dc/B/ cd ee :|2|4 de dc/B/ cB A2 :|
+P:C
+|: e2 cd cB cc | e2 cd cB c2 :|
+|: e2 ed ef e2 |1|3 dc Bc de dc :|2|4 dc Bc dB c2 :| 
+P:D
+|: GG c2 e2 c2 | d3/2c/ Bc de dd | GG c2 e2 c2 | d3/2c/ Bc dB c2 |
+|: c3/2d/ ef ec e2 | dc Bc de dc | c3/2d/ ef ec e2 | dc Bc dB c2 :|
+P:E
+|:ge fg a2 gg | ge fg a2 g2 :|
+|: g2 ga gf e2 | ee eg fe d2 | g2 ga gf e2 |1 ec de d2 c2 :|2 ec de d2 cg :|

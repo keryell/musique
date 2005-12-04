@@ -1,0 +1,30 @@
+X:1     %Music
+T:AN DRO     %Tune name
+C:traditionnel breton     %Tune composer
+I:Skol al louarn     %Tune infos
+Q:1/4=90     %Tempo
+V:1     %
+     %!STAVE 0 'Melody' @
+     %!INSTR 'Piano' 0 0 @
+|:
+M:4/4     %Meter
+L:1/8     %
+K:G
+GB/A/ Gd dB/c/ d/c/B/A/ |GB/A/ Gd dB/c/ d2 ::de/f/ g3/2d/ cB AG/A/ |:BB/G/ AG/A/ BB/G/ AG/A/ |
+dd/c/ BG/A/ BA G2 ::GB/A/ Gd d/d/e/c/ d3/2B/ |B/c/A/B/ Gd d/d/e/c/ d2 :|de/f/ gd/d/ cB/B/ A3/2G/ |:
+BB/G/ AA/G/ A/c/B/G/ AA/G/ |1d/e/d/c/ BB A/B/c/A/ G3/2A/ :|2d/e/d/c/ BB A/B/c/A/ G2 ::GA d3/2d/ cd c/B/A/B/ |
+GA d3/2d/ cB A2 ::
+M:2/4     %Meter
+L:1/8     %
+GA/B/ c3/2c/ |dc/B/ Ad |AB/c/ d3/2d/ |
+cc BA |cB/A/ G2 ::
+M:4/4     %Meter
+L:1/8     %
+BB/A/ GD GA B/c/d |B/c/B/A/ GD GA B2 ::
+B/A/B/c/ dd/c/ BG A3/2c/ |B/A/B/c/ dd/c/ BA G2 :|
+     %End of file
+     %!HARMONY ABC @
+     %Harmony/Melody File to ABC Vers 2.7 April 1998-March 2001
+     %Written by Guillion Bros. on a Chris Walshaw format
+     %Please e-mail us your comments and bugs reports ! (abc@myriad-online.com)
+     %Mercredi 12 octobre 2005 13:31:43

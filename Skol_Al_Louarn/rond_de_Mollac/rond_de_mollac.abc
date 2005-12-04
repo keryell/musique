@@ -1,22 +1,10 @@
-     %End of file
-     %!HARMONY ABC @
-     %Harmony/Melody File to ABC Vers 2.7 April 1998-March 2001
-     %Written by Guillion Bros. on a Chris Walshaw format
-     %Please e-mail us your comments and bugs reports ! (abc@myriad-online.com)
-     %Mercredi 12 octobre 2005 13:33:45
-
-
-X:1     %Music
-T:ROND DE MOLAC     %Tune name
-C:SKOL AL LOUARN     %Tune composer
-I::     %Tune infos
-Q:1/4=91     %Tempo
-V:1     %
-     %!STAVE 0 'Melody' @
-     %!INSTR 'Piano' 0 0 @
-M:4/4     %Meter
-L:1/8     %
+X:1
+T:ROND DE MOLAC
+C:SKOL AL LOUARN
+Q:1/4=91
+M:4/4
+L:1/8
 K:G
-GG B3/2A/ G/F/G/A/ B2 |d/c/d/e/ dc/B/ AG/A/ BG |GG B3/2A/ G/F/G/A/ B2 |d/c/d/e/ dc/B/ Ad G2 |:
-d/c/d/e/ dc/B/ AG/A/ BG |d/c/d/e/ dc/B/ Ad G2 :|
-     %End of file
+GG B3/2A/ G/F/G/A/ B2 | d/c/d/e/ dc/B/ AG/A/ BG |
+GG B3/2A/ G/F/G/A/ B2 | d/c/d/e/ dc/B/ Ad G2 ||
+|: d/c/d/e/ dc/B/ AG/A/ BG | d/c/d/e/ dc/B/ Ad G2 :|

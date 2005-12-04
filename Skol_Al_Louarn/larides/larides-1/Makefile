@@ -1,3 +1,3 @@
-ABC=bal_de_jugon.abc
+ABC=larides.abc
 
-include ../../Makefile
+include ../../../Makefile

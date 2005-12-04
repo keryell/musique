@@ -3,18 +3,11 @@ T:POLKAS PIQUEES     %Tune name
 C:SKOL AL LOUARN     %Tune composer
 I:     %Tune infos
 Q:1/4=120     %Tempo
-V:1     %
-     %!STAVE 0 'Melody' @
-     %!INSTR 'Piano' 0 0 @
-|:
 M:4/4     %Meter
 L:1/8     %
 K:G
-Gd dc/B/ AG/A/ BB |Gd dc/B/ AB G2 ::B2 dA/B/ cB/A/ BG |B2 dA/B/ cB/A/ G2 ::
-GA B3/2A/ Bc BA |FG A3/2G/ AB G2 ::B2 dA/B/ cB/A/ BG |B2 dA/B/ cB/A/ G2 :|
-     %End of file
-     %!HARMONY ABC @
-     %Harmony/Melody File to ABC Vers 2.7 April 1998-March 2001
-     %Written by Guillion Bros. on a Chris Walshaw format
-     %Please e-mail us your comments and bugs reports ! (abc@myriad-online.com)
-     %Jeudi 13 octobre 2005 21:26:24
+P:A
+|: Gd dc/B/ AG/A/ BB | Gd dc/B/ AB G2 :|
+|: B2 dA/B/ cB/A/ BG | B2 dA/B/ cB/A/ G2 :|
+|: GA B3/2A/ Bc BA | FG A3/2G/ AB G2 :|
+|: B2 dA/B/ cB/A/ BG | B2 dA/B/ cB/A/ G2 :|k

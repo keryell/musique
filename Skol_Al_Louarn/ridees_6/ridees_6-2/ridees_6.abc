@@ -3,15 +3,11 @@ T:RIDEE 6T     %Tune name
 C:SKOL AL LOUARN     %Tune composer
 I:     %Tune infos
 Q:1/4=176     %Tempo
-V:1     %
-     %!STAVE 0 'Melody' @
-     %!INSTR 'Piano' 0 0 @
-|:
 M:3/4     %Meter
 L:1/8     %
 K:C
-GA Bc dB |d2 cB A2 |GA Bc dB |d2 cB A2 ::
-d2 dc B2 |AB cA BG |d2 dc B2 |Ac BA G2 ::
-[ec][fd] [g2e2] [e2c2] |ed cB Ac |cd e2 c2 |ed cB A2 ::
-AA cc de |d2 BB cA |AA cc de |(3:2:1d(3:2:1e(3:2:1d cB A2 :|
-     %End of file
+P:A
+|: GA Bc dB | d2 cB A2 | GA Bc dB | d2 cB A2 :|
+|: d2 dc B2 | AB cA BG | d2 dc B2 | Ac BA G2 :|
+|: [ec][fd] [g2e2] [e2c2] | ed cB Ac | cd e2 c2 | ed cB A2 :|
+|: AA cc de | d2 BB cA | AA cc de | (3ded cB A2 :|

@@ -1,0 +1,47 @@
+%%textfont Helvetica 60
+%%centre Kaz \`a Pif
+%%textfont - 20
+%%text Kaz A-Barh
+%%text Kazimodal
+%%textfont - 14
+%%vskip 1cm
+%
+X:1
+T:Kaz a barh 1
+G:Kazimodal
+R:Kaz a barh
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C2=112
+P:A4
+M:4/4
+S:Tonioù Breizh-Izel 1794 (Karnag)
+K:Am
+P:A
+%\large
+%%MIDI chordprog 42
+%%MIDI bassprog 43
+%%MIDI program 41
+%%MIDI gchord fcffcfcz
+|: "Am"(Ac/2)B/2 A>c "C"ce "Em"BB |1 "F"A/2(c/2B/2c/2) A>c (ce) "G"B2 :|2 "F"A/2(c/2B/2)d/2 ({cd}"Dm"c)>A "F"A"G"G "Am"A2 ||
+|: "Am"A(A/2c/2) "C"e>f ({ef}e)c "Dm"d2 |1 ({de}d)B/2c/2 "G"d>e B/2(d/2c/2)e/2 "F"A(c/2B/2) :|2 "Dm"dd/2d/2 d>e "F"c2 A2 ||
+
+X:2
+T:Kaz a barh 1
+G:Kazimodal
+R:Kaz a barh
+C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
+Q:C2=112
+P:B4
+M:4/4
+S:Tonioù Breizh-Izel 1804 (Karnag)
+K:Am
+P:B
+%\large
+%%%%MIDI program 109
+%%MIDI gchord fcffcfcz
+%%MIDI chordprog 105
+%%MIDI chordvol 60
+%%MIDI bassprog 32
+%%MIDI bassvol 127
+|: ({AB}"Am"A)c/2d/2 "C"e3/2({de}>d/2) "F"cA "G"c/2B/2A |1 "C"({ef}e)(d/2e/2) "F"c>A "Dm"cd "Em"e2 :|2 "Em"({ef}e)d/2e/2 "F"c>A c/2A/2"G"(B/2G/2) "Am"A2 ||
+|: ({ef}"C"ef/2)e/2 "G"({de}d)>B "Dm"(de/2)d/2 c/2B/2"Em"A | (cd/2)B/2 "F"{d}c>A (c/2A/2)"G"B/2G/2 "Am"A2 | ({ef}"C"ef/2)e/2 "G"({de}d)>B "Dm"(de/2)d/2 c/2B/2"Em"c | "Dm"(Ac/2)A/2 "Em"Bd/2B/2 "F"(c/2d/2)"G"B/2c/2 "Am"A2 ||

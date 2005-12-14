@@ -40,9 +40,10 @@ P:B
 %%MIDI chordprog 43
 %%MIDI program 67
 %%MIDI bassvol 127
-|: "Em"EG "Am"A2 cd | "F"c/d/e dc "G"BG |" Em"EG "Am"A2 cd | "F"(3:2:1c(3:2:1d(3:2:1e dc "G"B2 :|
+|: "Em"EG "Am"A2 cd | "F"c/d/e dc "G"BG |" Em"EG "Am"A2 cd | "F"(3:2:3cde dc "G"B2 :|
 K:G
 |: "G"Bc "D"d2 "Em"BG | E2 "Am"AB "C"ce | dc "D"B2 cd | "C"c2 BA "G"G2 :|
+
 
 X:3
 T:Rid\'es d'octobre 2003
@@ -57,8 +58,8 @@ P:C
 %%MIDI gchord ffccfc
 %%%MIDI bassvol 0
 %%%MIDI chordfvol 0
-|: "Dm"DC DE (3:2:1F(3:2:1G(3:2:1F |"C"EF GF E2 |"Bb"DC DE (3:2:1F(3:2:1G(3:2:1F |"C"EF GF E2 :|
-|: "F"F2 D2 "C"CD |"Am"EG FE "G"DE |"Bb"F2 (3:2:1D(3:2:1D(3:2:1D CD |"C"EG FE "Dm"D2 :|
+|: "Dm"DC DE (3:2:3FGF |"C"EF GF E2 |"Bb"DC DE (3:2:3FGF |"C"EF GF E2 :|
+|: "F"F2 D2 "C"CD |"Am"EG FE "G"DE |"Bb"F2 (3:2:3DDD CD |"C"EG FE "Dm"D2 :|
 
 
 X:4

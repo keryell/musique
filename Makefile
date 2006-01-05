@@ -10,8 +10,10 @@ RELATIVE_DIR = `pwd | sed 's,.*/\([^/]*/[^/]*\),\1,'`
 TARGET_DIR = $(PARTITION_DIR)/$(RELATIVE_DIR)
 
 MIDI = $(ABC:.abc=1.mid)
-PS = $(ABC:.abc=.ps) $(ABC:.abc=+2.ps)
-PDF = $(ABC:.abc=.pdf) $(ABC:.abc=+2.pdf)
+PS = $(ABC:.abc=.ps)
+PST = $(ABC:.abc=+2.ps)
+PDF = $(ABC:.abc=.pdf)
+PDFT = $(ABC:.abc=+2.pdf)
 HTML = $(ABC:.abc=.html)
 AUFILE = $(ABC:.abc=.au)
 AU = $(ALLMIDI_DIR)/$(AUFILE)
@@ -26,7 +28,7 @@ TIMIDITY=timidity
 
 .SUFFIXES:  .ps .dvi .tex .abc .midi .mid .pdf
 
-TARGETS = $(PS) $(PDF) $(MIDI) $(AU) $(HTML) $(ALLMIDI_DIR)/$(ALLMIDI)
+TARGETS = $(PS) $(PDF) $(PST) $(PDFT) $(MIDI) $(AU) $(HTML) $(ALLMIDI_DIR)/$(ALLMIDI)
 
 world: $(TARGETS)
 
@@ -48,10 +50,10 @@ index: *.abc
 
 play: $(MIDI)
 #	$(TIMIDITY) -L /usr/local/lib/timidity/instruments -ig *.mid
-	$(TIMIDITY) -ig *.mid
+	$(TIMIDITY) -iat -Os *.mid
 
 playall: $(ALLMIDI_DIR)/$(ALLMIDI)
-	$(TIMIDITY) -ig $(ALLMIDI_DIR)/$(ALLMIDI)
+	$(TIMIDITY) -iat -Os $(ALLMIDI_DIR)/$(ALLMIDI)
 
 %1.mid : %.abc Makefile
 	-abc2midi $<

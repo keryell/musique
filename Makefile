@@ -14,6 +14,8 @@ PS = $(ABC:.abc=.ps)
 PST = $(ABC:.abc=+2.ps)
 PDF = $(ABC:.abc=.pdf)
 PDFT = $(ABC:.abc=+2.pdf)
+PSF = $(ABC:.abc=-F.ps)
+PDFF = $(ABC:.abc=-F.pdf)
 HTML = $(ABC:.abc=.html)
 AUFILE = $(ABC:.abc=.au)
 AU = $(ALLMIDI_DIR)/$(AUFILE)
@@ -28,7 +30,7 @@ TIMIDITY=timidity
 
 .SUFFIXES:  .ps .dvi .tex .abc .midi .mid .pdf
 
-TARGETS = $(PS) $(PDF) $(PST) $(PDFT) $(MIDI) $(AU) $(HTML) $(ALLMIDI_DIR)/$(ALLMIDI)
+TARGETS = $(PS) $(PDF) $(PST) $(PDFT) $(MIDI) $(AU) $(HTML) $(ALLMIDI_DIR)/$(ALLMIDI) $(PSF) $(PDFF)
 
 world: $(TARGETS)
 
@@ -83,6 +85,12 @@ $(ALLMIDI_DIR)/$(ABC): $(ABC) $(ALLMIDI_DIR)
 T	= 2
 %-$(T).abc: %.abc; $(AB2AB) $< -t -$(T) > $@
 %+$(T).abc: %.abc; $(AB2AB) $< -t  $(T) > $@
+
+
+### Typeset in bass (F) key :
+%-F.abc : %.abc
+	sed 's/^K:\(.*\)$$/K:\1 clef=bass octave=-2/' $< > $@
+
 
 %.html : %.abc
 	echo '<TD><FONT COLOR="#000000"><A HREF="'$(RELATIVE_DIR)/$(ABC)'">ABC</A></FONT></TD>' > $@

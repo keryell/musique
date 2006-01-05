@@ -8,6 +8,8 @@ LISTE_MORCEAUX_CDR=$(LISTE_MORCEAUX_MID:.mid=.cdr)
 PARTITION_DIR = $(HOME)/public_html/trad/partitions
 RELATIVE_DIR = `pwd | sed 's,.*/\([^/]*/[^/]*\),\1,'`
 TARGET_DIR = $(PARTITION_DIR)/$(RELATIVE_DIR)
+FESTIV_DIR = $(PARTITION_DIR)/festiv/$(RELATIVE_DIR)
+
 
 MIDI = $(ABC:.abc=1.mid)
 PS = $(ABC:.abc=.ps)
@@ -45,6 +47,10 @@ install :
 	mkdir -p $(TARGET_DIR)
 	cp $(ABC) $(ALLMIDI_DIR)/$(ALLMIDI) $(AU) $(HTML) $(PS) $(PDF) $(TARGET_DIR)
 	tar cf - *.mid | gzip -9 -c > $(TARGET_DIR)/$(ALLMIDI).tar.gz
+
+festiv_install :
+	mkdir -p $(FESTIV_DIR)
+	cp $(PDF) $(PDFF) $(ALLMIDI_DIR)/$(ALLMIDI) $(FESTIV_DIR)
 
 index: *.abc
 	abc2mtex -i *.abc

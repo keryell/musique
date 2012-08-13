@@ -57,6 +57,8 @@ M:4/4
 S:Tonioù Breizh-Izel 1213 (Duod)
 K:Em
 P:C
+% The 2 repetitions on the next 2 lines are a workaround to avoid the tune
+%  X:4 to mess up with its M:12/8
 Q:C2=160
 M:4/4
 %%MIDI gchord fzczcfcz

@@ -76,6 +76,7 @@ playall: $(ALLMIDI_DIR)/$(ALLMIDI)
 
 %.ps : %.abc Makefile
 	#abc2ps $* -x -n -p -O = -o
+	#abcm2ps -i -x $* -O =
 	yaps $< -s $(YAPS_SCALE) || abcmidi-yaps $< -s $(YAPS_SCALE)
 
 %.pdf : %.ps

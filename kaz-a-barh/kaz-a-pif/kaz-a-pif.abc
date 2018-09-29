@@ -40,11 +40,15 @@ P:B
 %%%%MIDI program 109
 %%MIDI gchord fcffcfcz
 %%MIDI chordprog 105
-%%MIDI chordvol 0
+%%MIDI chordvol 60
 %%MIDI bassprog 32
-%%MIDI bassvol 0
-|: GB/c/ d>B c/B/c/e/ dB |1 c/B/A/B/ GB/d/ c/c/B/A/ BA :|2 c/B/A/B/ G>B A/G/F/A/ G2 ||
-|: G/G/B/c/ dd/B/ ee/c/ dd/B/ |1 c/B/A/B/ GB/c/ d/c/B/c/ A2 :|2 c/B/A/B/ Gd e/d/e/f/ g2||
+%%MIDI bassvol 127
+|: "G"GB/c/ "Bm"d>B "C"c/B/c/e/ "G"dB |1 \
+  "C"c/B/A/B/ "G"GB/d/ "Am"c/c/B/A/ "D"BA :|2 \
+  "C"c/B/A/B/ "G"G>B "D"A/G/F/A/ "G"G2 ||
+|: "G"G/G/B/c/ "Bm"dd/B/ "C"ee/c/ "G"dd/B/ |1 \
+  "C"c/B/A/B/ "G"GB/c/ "D"d/c/B/c/ A2 :|2 \
+  "C"c/B/A/B/ "G"Gd "D"e/d/e/f/ "G"g2||
 
 X:3
 T:Kaz a barh 3

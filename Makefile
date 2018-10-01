@@ -6,7 +6,7 @@ LISTE_MORCEAUX_CDR=$(LISTE_MORCEAUX_MID:.mid=.cdr)
 
 
 PARTITION_DIR = $(HOME)/public_html/trad/partitions
-RELATIVE_DIR = `pwd | sed 's,.*/\([^/]*/[^/]*\),\1,'`
+RELATIVE_DIR := $(shell pwd | sed 's,.*/\([^/]*/[^/]*\),\1,')
 TARGET_DIR = $(PARTITION_DIR)/$(RELATIVE_DIR)
 FESTIV_DIR = $(PARTITION_DIR)/festiv/$(RELATIVE_DIR)
 
@@ -100,7 +100,8 @@ T	= 2
 
 
 %.html : %.abc
-	echo '<TD><FONT COLOR="#000000"><A HREF="'$(RELATIVE_DIR)/$(ABC)'">ABC</A></FONT></TD>' > $@
+	echo '<TD NOWRAP id="'$(RELATIVE_DIR)/$(ABC:.abc=)'"><FONT COLOR="#000000">'"$(HTML_TITLE)"'</FONT></TD>' > $@
+	echo '<TD><FONT COLOR="#000000"><A HREF="'$(RELATIVE_DIR)/$(ABC)'">ABC</A></FONT></TD>' >> $@
 	echo '<TD><FONT COLOR="#000000"><A HREF="'$(RELATIVE_DIR)/$(ALLMIDI)'">MIDI</A></FONT></TD>' >> $@
 	echo '<TD><FONT COLOR="#000000"><A HREF="'$(RELATIVE_DIR)/$(PDF)'">PDF</A></FONT></TD>' >> $@
 	echo '<TD><FONT COLOR="#000000"><A HREF="'$(RELATIVE_DIR)/$(PS)'">PS</A></FONT></TD>' >> $@

@@ -31,22 +31,10 @@ G:Kazimodal
 R:Hanter-dro
 C:Traditionnel, arrangement http://kazimodal.trad.org
 Q:1/4=95
-P:I5B3
+P:B3
 M:3/4
 S:Tonioù Breizh-Izel 1925 (Pleskob)
 K:Gm
-P:I
-%%MIDI gchord fccffz
-%%MIDI chordprog 42
-%%MIDI bassprog 43
-%%MIDI program 74
-"Gm"(cB/2)A/2 GB (A/2G/2)F | {GA}"Bb"GF/2E/2 DG (G/2A/2)B |\
-"C"(cB/2)A/2 GB (A/2G/2)F | "Dm"(GF/2)E/2 DG "Eb"G2 ||
-%%text 1: tin whistle
-%%text 2: tin whistle + fl\^ute
-%%text 3: tin whistle + fl\^ute + concertina Gm
-%%text 4: tin whistle + fl\^ute + concertina + montée guitare
-%%text 5: tin whistle + fl\^ute + concertina + guitare + montée basse
 P:B
 %%MIDI gchord fcfcfc
 %%MIDI chordprog 25
@@ -55,9 +43,9 @@ P:B
 %%MIDI program 68
 "F"(cB/2)A/2 "Gm"GB (A/2G/2)"F"F | {GA}"Eb"GF/2E/2 "Dm"DG (G/2A/2)"Bb"B |\
 "C"(cB/2)A/2 "Eb"GB (A/2G/2)"F"F | "Dm"(GF/2)E/2 DG "Eb"G2 |
-|: "Gm"(GA/2)B/2 "F"cA "Eb"(B/2A/2)G | "Gm"{GA}GA/2B/2 "Bb"cB "C"A2 :|
 "F"(cB/2)A/2 "Gm"GB (A/2G/2)"F"F | "Eb"GF/2E/2 "Dm"DG (G/2A/2)"Bb"B |\
-"C"(cB/2)A/2 "Eb"GB (A/2G/2)"F"F | "Dm"{GA}(GF/2)E/2 (DG) "Eb"G2 ||
+"C"(cB/2)A/2 "Eb"GB (A/2G/2)"F"F | "Dm"{GA}(GF/2)E/2 (DG) "Eb"G2 |
+|: "Gm"(GA/2)B/2 "F"cA "Eb"(B/2A/2)G | "Gm"{GA}GA/2B/2 "Bb"cB "C"A2 :|
 
 
 X:3
@@ -93,7 +81,7 @@ G:Kazimodal
 R:Hanter-zañs
 C:Traditionnel, arrangement http://kazimodal.trad.org
 Q:1/4=95
-P:E4
+P:E3
 M:3/4
 S:Tonioù Breizh-Izel 1910 (Plañwour/An Oriant)
 K:Dm

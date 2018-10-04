@@ -100,7 +100,8 @@ T	= 2
 
 
 %.html : %.abc
-	echo '<TD NOWRAP id="'$(RELATIVE_DIR)/$(ABC:.abc=)'"><FONT COLOR="#000000">'"$(HTML_TITLE)"'</FONT></TD>' > $@
+	# Use the directory name as an HTML anchor
+	echo '<TD NOWRAP id="'$(RELATIVE_DIR)'"><FONT COLOR="#000000">'"$(HTML_TITLE)"'</FONT></TD>' > $@
 	echo '<TD><FONT COLOR="#000000"><A HREF="'$(RELATIVE_DIR)/$(ABC)'">ABC</A></FONT></TD>' >> $@
 	echo '<TD><FONT COLOR="#000000"><A HREF="'$(RELATIVE_DIR)/$(ALLMIDI)'">MIDI</A></FONT></TD>' >> $@
 	echo '<TD><FONT COLOR="#000000"><A HREF="'$(RELATIVE_DIR)/$(PDF)'">PDF</A></FONT></TD>' >> $@

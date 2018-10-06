@@ -1,4 +1,4 @@
-%%textfont Helvetica 60
+%%textfont Helvetica 40
 %%centre Les Ronds de Saint Vincent
 %%textfont - 20
 %%text Kazimodal
@@ -10,20 +10,21 @@ T:Les Anneaux d'Or
 G:Kazimodal
 R:Rond de Saint-Vincent
 C:Traditionnel, arrangement http://kazimodal.trad.org
-Q:C2=90
-P:AB5
+Q:1/4=90
+P:AB3
 M:4/4
 K:Am
 P:A
 %MIDI program 109
 %%%MIDI gchord ffcfffcfffcfffcf
-%%MIDI gchord ffczffcfffcffzcf
+%MIDI gchord ffczffcfffcffzcf
 %MIDI chordprog 105
 %MIDI bassprog 32
 %MIDI bassvol 127
 E/2E/2E/2 |
 w: Je n'ai plus
 P:B
+%%MIDI gchord ffczffcfffcffzcf
 |: "Am"AB "G"A/2B/2c/2A/2 "F"G/2A/2B "Em"A/2G/2^F/2E/2
 w: que 10 ans \`a rou-ler ma jeu-nes-se, ain-si l'en
 	|1 "Am"AB "G"A/2B/2c/2A/2 "F"G/2A/2B "Em"A/2E/2E/2E/2
@@ -38,50 +39,11 @@ w: rons tous les deux faire nos a-mou-ret - te. Nous i-
 w: rons tous les deux faire nos a-mou-ret - te. Je n'ai plus
 
 X:2
-T:Les Anneaux d'Or
-G:Kazimodal
-R:Rond de Saint-Vincent
-C:Traditionnel, arrangement http://kazimodal.trad.org
-Q:C2=90
-P:D
-M:4/4
-K:Am
-P:C
-%MIDI program 109
-%MIDI bassprog 32
-%%MIDI bassvol 127
-V:1
-%%MIDI gchord z
-"Em"E/2E/2E/2 |
-V:2
-A/2A/2A/2 |
-%%text Basse continue en La
-P:D
-V:1
-%%MIDI gchord f2f2fffffff2ffcf
-|: AB A/2B/2c/2A/2 G/2A/2B A/2G/2^F/2E/2 
-%%MIDI gchord f2f2fffffff2ffcf
-	|1 AB A/2B/2c/2A/2 G/2A/2B A/2E/2E/2E/2 :|2\
-%%MIDI gchord f2f2fffffff2f2cf
-	AB A/2B/2c/2A/2 G/2A/2B AA/2B/2 ||
-%%MIDI gchord f2fff2fffff2f2ff
-|: cd/2c/2 Bc/2B/2 A/2G/2^F EA/2B/2
-%%MIDI gchord f2fff2fffffff2ff
-	|1 cd/2c/2 BB/2A/2 G/2A/2B/2G/2 AA/2B/2	:|2\
-%%MIDI gchord f2fff2ffffffffff
-	 cd/2c/2 BB/2A/2 G/2A/2B/2G/2 A/2E/2E/2E/2 ||
-V:2
-|: de d/2e/2f/2d/2 c/2d/2e d/2c/2B/2A/2
-	|1 de d/2e/2f/2d/2 c/2d/2e d/2A/2A/2A/2	:|2 de d/2e/2f/2d/2 c/2d/2e dd/2e/2 ||
-|: fg/2f/2 ef/2e/2 d/2c/2B Ad/2e/2
-	|1 fg/2f/2 ee/2d/2 c/2d/2e/2c/2 dd/2e/2	:|2 fg/2f/2 ee/2d/2 c/2d/2e/2c/2 d/2A/2A/2A/2 ||
-
-X:3
 T:Carmen (Havanaise)
 G:Kazimodal
 R:Rond de Saint-Vincent
 C:Georges Bizet, arrangement http://kazimodal.trad.org
-Q:C2=90
+Q:1/4=90
 P:E2
 M:4/4
 K:Dm
@@ -98,14 +60,13 @@ K:D
 |: "D"DE F>A FE "Bm"D>E | FG "F#m"A/2A/2A/2A/2 BA "Em"G>B |\
 	EF "C"G>B GF "Em"E>F | GA "G"B/2B/2B/2B/2 cB "A"A>A :|
 
-
-X:4
+X:3
 T:1000 \^Anes dans le pr\'e et alla danser
 G:Kazimodal
 R:Rond de Saint-Vincent
 C:Ronan Keryell, arrangement http://kazimodal.trad.org
-Q:C2=90
-P:F4
+Q:1/4=90
+P:F3
 M:4/4
 K:Em
 P:F

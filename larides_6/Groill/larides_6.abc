@@ -1,7 +1,5 @@
 %%textfont Helvetica 60
-%%centre Larid\'e 6 temps
-%%textfont - 20
-%%text Groill !!!
+%%centre Groill !!!
 %%textfont - 14
 %%vskip 1cm
 
@@ -13,15 +11,15 @@ R:Larid\'e 6 temps
 C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
 %% Doublé la première partie
 %% Q:C2=100--108
-Q:C2=160
-P:C5
+Q:1/4=160
+P:A4
 M:3/4
 S:Tonioù Breizh-Izel 1862D (Lokoal-Mendon)
 K:C
-P:C
+P:A
 %%%MIDI gchord c2zfc2zff4
 %%%MIDI gchord fccfcz
-%%MIDI gchord fccfcf
+%%MIDI gchord f2c2fz
 %%MIDI bassprog 0
 %%MIDI program 0
 %MIDI bassvol 127
@@ -38,16 +36,16 @@ G:Groill
 R:Larid\'e 6 temps
 C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
 %% Q:C2=100--108
-Q:C2=160
-P:B5
+Q:1/4=160
+P:B4
 M:3/4
 S:Tonioù Breizh-Izel 1864 (Landevan)
 K:Am
 P:B
 %%%MIDI gchord c2zfc2zff4
 %%MIDI gchord fccfcz
-%%MIDI gchord fcczfz
 %%MIDI gchord fccfcf
+%%MIDI gchord fcczfz
 %%MIDI chordprog 42
 %%MIDI bassprog 43
 %%MIDI program 71
@@ -63,13 +61,13 @@ R:Larid\'e 6 temps
 C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
 %% Doublé
 %% Q:C2=100--108
-Q:C2=160
-P:A5
+Q:1/4=160
+P:C4
 M:3/4
 S:Tonioù Breizh-Izel 1869 (Pleuigner/Landaol)
 K:Dm
-P:A
-%%MIDI gchord cffcfz
+P:C
+%%%MIDI gchord cffcfz
 %%MIDI gchord fccfcf
 %%MIDI chordprog 105
 %%MIDI bassprog 36

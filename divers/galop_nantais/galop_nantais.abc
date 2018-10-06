@@ -11,12 +11,11 @@ G:Kazimodal
 R:Galop nantais
 C:Traditionnel, arrangement http://kazimodal.trad.org
 L:1/8
-Q:C2=90
 P:(ABC)4
 M:4/4
 K:C
 P:A
-Q:C2=90
+Q:1/4=90
 M:4/4
 %%MIDI gchord fzccfzccfzccf3z
 %%MIDI chordprog 0
@@ -26,7 +25,7 @@ M:4/4
 	"F"AF "Dm"F/2E/2F/2G/2 "G"FE "C"E2 |\
 	"Dm"FD  "G"D/2C/2D/2E/2 "F"DC "C"HC2 ||
 P:B
-Q:C3=100
+Q:3/8=100
 M:12/8
 %%MIDI gchord f2cf2cf2cc3
 %%%MIDI gchord ffff
@@ -35,7 +34,7 @@ M:12/8
 	"F"FFF "G"G2 F "Am"E6 ||
 P:C
 M:12/8
-Q:C3=160
+Q:3/8=160
 %%MIDI gchord fzcfzcfzcfzc
 %%MIDI bassprog 36
 %%MIDI bassvol 127
@@ -52,12 +51,12 @@ T:Galop Nantais (mineur)
 G:Kazimodal
 R:Galop nantais
 C:Traditionnel, arrangement http://kazimodal.trad.org
-Q:C2/1=90
+L:1/8
 P:(DEF)4
 M:4/4
 K:Dm
 P:D
-Q:C2/1=90
+Q:1/4=90
 M:4/4
 %%MIDI gchord fzccfzccfzccf3z
 %%MIDI chordprog 42
@@ -67,13 +66,13 @@ M:4/4
 "Gm"BG G/2F/2G/2A/2 "Dm"GF F2 | "Am"GE "C"E/2D/2E/2F/2 "Gm"ED "Bb"HD2 ||
 P:E
 M:12/8
-Q:C3/1=120
+Q:3/8=100
 %%MIDI gchord c2fc2fc2fc3
 %%MIDI program 73
 "Dm"D |: "C"E3-E2 E "Bb"F3-F2 F |1 "Gm"GGG "Am"A2 G "Bb"F3-F2 "Dm"D :|2\
 	"Gm"GGG "Am"A2 G "Bb"F6 ||
 P:F
-Q:C3/1=160
+Q:3/8=160
 M:12/8
 %%MIDI gchord fzcfzcfzcfzc
 %%%MIDI gchord ccccffff
@@ -87,3 +86,4 @@ M:12/8
 	z12 ||
 %%MIDI gchordon
 %%text 3 et 4: d\'elire sur les 2 derni\`eres mesures du morceau
+%%text 3 et 4: be crazy on 2 last beams during 3rd and 4th repeat of the tune

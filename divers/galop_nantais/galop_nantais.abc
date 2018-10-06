@@ -1,5 +1,5 @@
 %%textfont Helvetica 60
-%%centre Galop Nantais
+%%centre Au galop !
 %%textfont - 20
 %%text Kazimodal
 %%textfont - 14
@@ -85,5 +85,5 @@ M:12/8
 %%MIDI gchordoff
 	z12 ||
 %%MIDI gchordon
-%%text derniÃ¨re fois: d\'elire sur les 2 derni\`eres mesures du morceau
-%%text last time: be crazy on 2 last beams during 3rd and 4th repeat of the tune
+%%text dernière fois: d\'elire sur les 2 derni\`eres mesures du morceau
+%%text last time: be crazy on 2 last beams of the tune

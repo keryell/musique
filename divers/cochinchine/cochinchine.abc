@@ -1,0 +1,25 @@
+%%textfont Helvetica 60
+%%centre La Cochinchine
+%%textfont - 14
+%%vskip 1cm
+
+X:1
+T:Cochinchine
+G:Kazimodal
+R:Cochinchine https://fr.wikipedia.org/wiki/Cochinchine_(danse)
+O:France
+C:Traditionnel, arrangement http://kazimodal.trad.org
+L:1/16
+P:A8
+K:C
+P:A
+M:4/4
+Q:1/4=84
+%%%MIDI gchord fzccfzccfzccf3z
+%%%MIDI gchord fzccfzczczffc3z
+%%MIDI gchord fzcfczffczfcf3z
+%%MIDI chordprog 0
+%%MIDI bassprog 0
+%%MIDI program 0
+"C"g2gg "Am"eceg "Em"eceg "F"gf"G"dB | "C"g2gg "Am"eceg "F"gf"G"dB "C"c4 :|
+|: "C"e2ec "F"A4 "Dm"f2fd "G"B4 | "C"g2gg "F"eceg "G"gfdB "C"c4 :|

@@ -12,8 +12,8 @@ G:Kazimodal
 O:France, Alsace
 C:Traditionnel (Lark camp 2015/04/02 v10 #37)
 Z: Ronan Keryell, arrangement http://kazimodal.trad.org
-Q:1/4=220
-P:A4
+Q:1/4=200
+P:(AB)2A
 M:2+3/4
 L:1/4
 K:C
@@ -22,28 +22,47 @@ P:A
 %%MIDI gchord ffccc
 %%MIDI chordprog 0
 %%MIDI bassprog 0
-"C"c "G"B d "F"c e | e "G"d/e/ f "C"e2 | c "G"B d "F"c e | g "G"f d "C"c2 :|
-"C"g "G"f d "C"e c | g "G"f d "C"e2 | c "G"B d "F"c e |1 g "G"f d g2 :|2\
+|: "C"c "G"B d "F"c e | e "G"d/e/ f "C"e2 | c "G"B d "F"c e | g "G"f d "C"c2 :|
+P:B
+|: "C"g "G"f d "C"e c | g "G"f d "C"e2 | c "G"B d "F"c e |1 g "G"f d g2 :|2\
    g "G"f d "C"c2 ||
 %%text Cromorne alto
 
 X:2
+T:Transition between the 2 tunes to play instead of last B
+R:Valse \`a 5 temps
+\Z: Ronan Keryell, arrangement http://kazimodal.trad.org
+Q:1/4=200
+P:C1
+M:2+3/4
+L:1/4
+K:C
+P:C
+%%MIDI gchord ccfff
+%%MIDI gchord ffccc
+%%MIDI chordprog 0
+%%MIDI bassprog 0
+|: "C"g "G"f d "C"e c | g "G"f d "C"e2 | c "G"B d "F"c e |1 g "G"f d g2 :|2\
+   g "G"f d "C"c ||
+%%text Cromorne alto
+
+X:3
 G:Kazimodal
 R:Valse \`a 5 temps
 T:Valse du d\'epart
 C:Thierry Laplaud
 O:France, Alsace
 Z: Ronan Keryell, arrangement http://kazimodal.trad.org
-Q:1/4=220
-P:B4
-%%MIDI gchord ffccc
+Q:1/4=200
+P:D3
 %%MIDI gchord ccfff
+%%MIDI gchord ffccc
 %%MIDI chordprog 0
 %%MIDI bassprog 0
 M:2+3/4
 L:1/4
 K:Am
-P:B
+P:D
 |: "Am"E | A B "C"c2 c | "Dm"d B "F"c2 e | "G"d c "Em"B2 E | c B "Am"A2 :|
 |: "F"a | g f "C"e2 "Am"A | c d "Em"e2 d/c/ | "Dm"B/c/ d e "F"c e |\
    "G"d g "C"e2 "F"a |

@@ -1,0 +1,50 @@
+%%textfont Helvetica 40
+%%centre Suite de scottishes
+%%textfont - 14
+%%vskip 1cm
+
+X:1
+T:Scottish \`a Virmoux
+R:Scottish
+O:France
+C:Traditionnel
+G:Kazimodal
+Z:Ronan Keryell, arrangement http://kazimodal.trad.org
+Q:1/4=90
+P:A3
+M:4/4
+L:1/16
+K:D
+P:A
+%%MIDI gchord ccfff
+%%MIDI gchord fzcffzfc
+%%MIDI gchord fzcfczfcfzffczfc
+%%MIDI chordprog 0
+%%MIDI bassprog 0
+|: "D"FAGF "F#m"A3F "G"GFGA B2A2 | "D"Ad"Bm"AF "Em"G2FE "G"FAFD "A"E4 |
+"D"FAGF "F#m"A3F "G"GFGA B2A2 | "D"Ad"Bm"AF "G"G2FE "A"DAFA "D"D4 :|
+|: "D"d2A2 "Bm"d3c "G"BABc dedB | "D"A2D2 "A"A2GF "Em"EFGA "G"BA"A"Bc |
+"D"d2A2 "Bm"d3c "G"BABc dedB | "D"A2D2 "G"A2GF "A"EFGA "D"D4 :|
+%%text Hautbois du Couserans
+
+X:2
+T:Scottish \`a Catinaux
+R:Scottish
+O:France
+C:Traditionnel
+G:Kazimodal
+Z:Ronan Keryell, arrangement http://kazimodal.trad.org
+Q:1/4=90
+P:B4
+M:4/4
+L:1/16
+K:C
+P:B
+%%MIDI gchord fzcfczfcfzffczfc
+%%MIDI chordprog 0
+%%MIDI bassprog 0
+|: "C"efed "Am"cGce "Em"gfef "Dm"d4 |1 "G"GABc d2de "F"fedf "C"e2c2 :|2\
+    "G"GABc d2de "F"fedB "C"c4 |
+|: "C"e2g2 "Am"A2Bc "Dm"dcBA "G"G4 |1 "Em"GABc "G"d2de "F"fedf "C"e2c2 :|2\
+   "Em"GABc "G"d2de "F"fedB "C"c4 ||
+%%text Cromorne alto

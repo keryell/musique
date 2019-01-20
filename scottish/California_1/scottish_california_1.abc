@@ -11,7 +11,7 @@ C:Traditionnel
 G:Kazimodal
 Z:Ronan Keryell, arrangement http://kazimodal.trad.org
 Q:1/4=90
-P:A3
+P:A4
 M:4/4
 L:1/16
 K:D
@@ -22,10 +22,10 @@ P:A
 %%MIDI chordprog 0
 %%MIDI bassprog 0
 %%%MIDI gchordoff
-|: "D"FAGF "F#m"A3F "G"GFGA B2A2 | "D"Ad"Bm"AF "Em"G2FE "G"FAFD "A"E4 |
-"D"FAGF "F#m"A3F "G"GFGA B2A2 | "D"Ad"Bm"AF "G"G2FE "A"DAFA "D"D4 :|
-|: "D"d2A2 "Bm"d3c "G"BABc dedB | "D"A2D2 "A"A2GF "Em"EFGA "G"BA"A"Bc |
-"D"d2A2 "Bm"d3c "G"BABc dedB | "D"A2D2 "G"A2GF "A"EFGA "D"D4 :|
+| "D"FAGF "F#m"A3F "G"GFGA B2A2 | "D"Ad"Bm"AF "Em"G2FE "G"FAFD "A"E4 |
+"D"FAGF "F#m"A3F "G"GFGA B2A2 | "D"Ad"Bm"AF "G"G2FE "A"DAFA "D"D4 ||
+"D"d2A2 "Bm"d3c "G"BABc dedB | "D"A2D2 "A"A2GF "Em"EFGA "G"BA"A"Bc |
+"D"d2A2 "Bm"d3c "G"BABc dedB | "D"A2D2 "G"A2GF "A"EFGA "D"D4 ||
 %%text Hautbois du Couserans
 
 X:2
@@ -36,7 +36,7 @@ C:Traditionnel, changed into minor
 G:Kazimodal
 Z:Ronan Keryell, arrangement http://kazimodal.trad.org
 Q:1/4=90
-P:B3
+P:B4
 M:4/4
 L:1/16
 K:Dm
@@ -47,10 +47,10 @@ P:B
 %%MIDI chordprog 0
 %%MIDI bassprog 0
 %%%MIDI gchordoff
-|: "Dm"FAGF "F"A3F "Gm"GFGA B2A2 | "Bb"AdAF "C"G2FE "Bb"FAFD "Am"E4 |
-"Dm"FAGF "F"A3F "Gm"GFGA B2A2 | "Bb"AdAF "Gm"G2FE "Am"DAFA "Dm"D4 :|
-|: "Dm"d2A2 "Bb"d3c "Gm"BABc "C"dedB | "Dm"A2D2 "Bb"A2GF "C"EFGA "Gm"BABc |
-"Dm"d2A2 "Bb"d3c "Gm"BABc "C"dedB | "Dm"A2D2 "Bb"A2GF "Am"EFGA "Dm"D4 :|
+| "Dm"FAGF "F"A3F "Gm"GFGA B2A2 | "Bb"AdAF "C"G2FE "Bb"FAFD "Am"E4 |
+"Dm"FAGF "F"A3F "Gm"GFGA B2A2 | "Bb"AdAF "Gm"G2FE "Am"DAFA "Dm"D4 ||
+"Dm"d2A2 "Bb"d3c "Gm"BABc "C"dedB | "Dm"A2D2 "Bb"A2GF "C"EFGA "Gm"BABc |
+"Dm"d2A2 "Bb"d3c "Gm"BABc "C"dedB | "Dm"A2D2 "Bb"A2GF "Am"EFGA "Dm"D4 ||
 %%text Hautbois du Couserans
 
 X:3

@@ -1,0 +1,82 @@
+%%textfont Helvetica 30
+%%centre Les moutons perdus et retrouv\'es
+%%textfont - 20
+%%text Larid\'e 8 temps
+%%textfont - 14
+%%text https://books.google.com/books?id=Q1YuAAAAMAAJ
+%%text https://www.partitionsdechansons.com/pdf/10502/Traditionnel-Les-moutons-perdus.html
+%%vskip 1cm
+
+%Source: Chansons populaires de la France, Thomas Frederick Crane, janvier 1891
+%https://books.google.com/books?id=Q1YuAAAAMAAJ
+%https://books.google.com/books?id=Q1YuAAAAMAAJ&pg=PA144&lpg=PA144&dq=%22les+moutons+perdus%22+chanson&source=bl&ots=-zEYVajy87&sig=ACfU3U1BmUjuTW8j9nymdLqZUQ4Igt5OgQ&hl=en&sa=X&ved=2ahUKEwjk7-XF2_rfAhVDNH0KHRMrBRUQ6AEwCXoECAAQAQ#v=onepage&q=%22les%20moutons%20perdus%22%20chanson&f=false
+
+%https://www.partitionsdechansons.com/pdf/10502/Traditionnel-Les-moutons-perdus.html
+
+X:1
+T:Les moutons perdus et retrouv\'es
+R:Larid\'e 8 temps
+G:Traditionnel, pays de Rennes
+C:Chansons populaires de la France, Thomas Frederick Crane, janvier 1891
+Q:1/4=140
+P:A4
+M:4/4
+K:Em
+P:A
+%MIDI gchord cfcf
+%MIDI program 109
+%MIDI gchord fcffcfcz
+%MIDI chordprog 42
+%MIDI chordvol 127
+%MIDI bassprog 34
+%MIDI bassvol 127
+|: "Em"E>E | "Bm"B4 F2  B>B | "D"A>G F4 "Em"E>E | "Bm"B4 F2 B>B | "D" A>G F6 |
+F3 G "Bm"AB "D"GF | "Em"E2 "Bm"B6 | "D"F3 G "Bm"AB "D"GF | "Em"E6 :|
+
+
+X:2
+T:Les moutons perdus et retrouv\'es
+R:Larid\'e 8 temps
+G:Traditionnel, pays de Rennes
+C:Chansons populaires de la France, Thomas Frederick Crane, janvier 1891
+Z:Remove anacrusis, split long note to fit a larid\'e 8 temps, change chords
+Q:1/4=140
+P:B4
+M:4/4
+K:Em
+P:B
+%%MIDI gchord cfcf
+%%MIDI gchord c2zfc4f4c4
+%MIDI program 109
+%MIDI gchord fcffcfcz
+%MIDI chordprog 42
+%MIDI chordvol 127
+%MIDI bassprog 34
+%MIDI bassvol 127
+|: "Em"E>E "G"B4 "D"F2 | "C"B>B "D"A>G "Bm"F4 |\
+"Em"E>E "G"B4 "D"F2 | "C"B>B "D"A>G "Bm"F4 |
+F2 "D"F3 G "Am"AB | "Em"GF "C"E2 "Bm"B4 | B2 "D"F3 G "Am"AB | "C"GF "Em"E6 :|
+
+
+X:3
+T:Les moutons perdus et retrouv\'es
+R:Larid\'e 8 temps
+G:Traditionnel, pays de Rennes
+C:Chansons populaires de la France, Thomas Frederick Crane, janvier 1891
+Z:Dm, Remove anacrusis, split long note to fit a larid\'e 8 temps, change chords
+Q:1/4=140
+P:C4
+M:4/4
+K:Dm
+P:C
+%%MIDI gchord cfcf
+%%MIDI gchord c2f2c4f4c4
+%MIDI program 109
+%MIDI gchord fcffcfcz
+%MIDI chordprog 42
+%MIDI chordvol 127
+%MIDI bassprog 34
+%MIDI bassvol 127
+|: "Dm"D>D "F"A4 "C"E2 | "Bb"A>A "C"G>F "Am"E4 |\
+"Dm"D>D "F"A4 "C"E2 | "Bb"A>A "C"G>F "Am"E4 |
+E2 "C"E3 F "Gm"GA | "Dm"FE "Bb"D2 "Am"A4 | A2 "C"E3 F "Gm"GA | "Bb"FE "Dm"D6 :|

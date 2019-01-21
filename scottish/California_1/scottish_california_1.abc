@@ -4,7 +4,7 @@
 %%vskip 1cm
 
 X:1
-T:Scottish \`a Virmoux
+T:Scottish \`a Catinaux
 R:Scottish
 O:France
 C:Traditionnel
@@ -14,8 +14,31 @@ Q:1/4=90
 P:A4
 M:4/4
 L:1/16
-K:D
+K:C
 P:A
+%%MIDI gchord fzcfczfcfzffczfc
+%%MIDI chordprog 0
+%%MIDI bassprog 0
+|: "C"efed "Am"cGce "Em"gfef "Dm"d4 |1 "G"GABc d2de "F"fedf "C"e2c2 :|2\
+    "G"GABc d2de "F"fedB "C"c4 |
+|: "C"e2g2 "Am"A2Bc "Dm"dcBA "G"G4 |1 "Em"GABc "G"d2de "F"fedf "C"e2c2 :|2\
+   "Em"GABc "G"d2de "F"fedB "C"c4 ||
+%%text Cromorne alto
+
+
+X:2
+T:Scottish \`a Virmoux
+R:Scottish
+O:France
+C:Traditionnel, with repeat bars removed
+G:Kazimodal
+Z:Ronan Keryell, arrangement http://kazimodal.trad.org
+Q:1/4=90
+P:B4
+M:4/4
+L:1/16
+K:D
+P:B
 %%MIDI gchord ccfff
 %%MIDI gchord fzcffzfc
 %%MIDI gchord fzcfczfcfzffczfc
@@ -28,19 +51,20 @@ P:A
 "D"d2A2 "Bm"d3c "G"BABc dedB | "D"A2D2 "G"A2GF "A"EFGA "D"D4 ||
 %%text Hautbois du Couserans
 
-X:2
-T:Scottish \`a Virmoux
+
+X:3
+T:Scottish \`a Virmoux (en mineur)
 R:Scottish
 O:France
-C:Traditionnel, changed into minor
+C:Traditionnel, changed into minor, with repeat bars removed
 G:Kazimodal
 Z:Ronan Keryell, arrangement http://kazimodal.trad.org
 Q:1/4=90
-P:B4
+P:C4
 M:4/4
 L:1/16
 K:Dm
-P:B
+P:C
 %%MIDI gchord ccfff
 %%MIDI gchord fzcffzfc
 %%MIDI gchord fzcfczfcfzffczfc
@@ -53,24 +77,3 @@ P:B
 "Dm"d2A2 "Bb"d3c "Gm"BABc "C"dedB | "Dm"A2D2 "Bb"A2GF "Am"EFGA "Dm"D4 ||
 %%text Hautbois du Couserans
 
-X:3
-T:Scottish \`a Catinaux
-R:Scottish
-O:France
-C:Traditionnel
-G:Kazimodal
-Z:Ronan Keryell, arrangement http://kazimodal.trad.org
-Q:1/4=90
-P:C4
-M:4/4
-L:1/16
-K:C
-P:C
-%%MIDI gchord fzcfczfcfzffczfc
-%%MIDI chordprog 0
-%%MIDI bassprog 0
-|: "C"efed "Am"cGce "Em"gfef "Dm"d4 |1 "G"GABc d2de "F"fedf "C"e2c2 :|2\
-    "G"GABc d2de "F"fedB "C"c4 |
-|: "C"e2g2 "Am"A2Bc "Dm"dcBA "G"G4 |1 "Em"GABc "G"d2de "F"fedf "C"e2c2 :|2\
-   "Em"GABc "G"d2de "F"fedB "C"c4 ||
-%%text Cromorne alto

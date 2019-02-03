@@ -1,0 +1,32 @@
+%%textfont Helvetica 30
+%%centre L'inconnu de Limoise
+%%textfont - 20
+%%text Mazurka de Jean Fran\ccois "Maxou" Heintzen
+%%textfont - 14
+%%%vskip 1cm
+http://www.natunelist.net/linconnu-de-limoise-the-unknown-piper/
+
+
+X:1
+T:L'inconnu de Limoise
+G:Jean Fran\ccois "Maxou" Heintzen
+R:Mazurka
+C:arrangement http://kazimodal.trad.org
+Q:3/8=140
+P:AB5
+M:9/8
+K:C
+P:A
+%%%MIDI gchord c3fc2z2f3f
+%%MIDI gchord fzc2cz
+%%MIDI chordprog 41
+%%%MIDI chordvol 127
+%%MIDI bassprog 43
+%%MIDI bassvol 127
+%%MIDI program 73
+ G || \
+P:B
+ c2d e3-e2 c | f2d e3-e2e | f2g f3-f2e | d2c G3-G2G |
+c2d e3-e2c | f2d e3-e2e | f2g f3-f2e | d2c d3-d2e |
+|: f2g a3-c'2b | a2b g3-g2f | e2d c2B c2d | e2c G6 |
+c2B A3-A2 B | c2d c3 B3 | A3 B3-B2 c |1 d2e d3-d2 e :|2 d2e c3-c2 G ||

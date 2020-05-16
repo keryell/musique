@@ -7,7 +7,9 @@ Q:3/8=68
 P:AB7
 M:6/8
 %%%MIDI gchord fzzcfzc
+%%MIDI gchord cc
 %%MIDI chordprog 19
+%%MIDI chordvol 40
 %%MIDI bassprog 19
 %%%%MIDI bassvol 127
 %%MIDI program 54
@@ -32,7 +34,9 @@ P:CD7
 M:6/8
 %%MIDI program 109
 %%%MIDI gchord fzzcfzc
-%%MIDI chordprog 105
+%%MIDI gchord cc
+%%MIDI chordprog 60
+%%MIDI chordvol 40
 %%MIDI bassprog 32
 %%MIDI bassvol 127
 K:C
@@ -52,7 +56,9 @@ P:EF7
 M:12/8
 %%MIDI program 19
 %%MIDI gchord f3c3f3c3
+%%MIDI gchord cccc
 %%MIDI chordprog 19
+%%MIDI chordvol 40
 %%MIDI bassprog 19
 %%MIDI bassvol 127
 K:C
@@ -78,6 +84,7 @@ M:12/8
 %%MIDI gchord c2fc2fc2fc2f
 %%MIDI gchord c3c3c3c2c
 %%MIDI chordprog 85
+%%MIDI chordvol 40
 %%MIDI bassprog 85
 %%MIDI bassvol 127
 K:Am
@@ -97,7 +104,8 @@ Q:3/8=56
 P:IJ7
 M:12/8
 %%MIDI program 19
-%%MIDI gchord f3c3f3c3
+%%MIDI gchord cc
+%%%MIDI gchord f3c3f3c3
 %%MIDI chordprog 19
 %%MIDI bassprog 19
 %%MIDI bassvol 127

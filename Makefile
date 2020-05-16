@@ -25,8 +25,8 @@ ALLMIDI = $(ABC:.abc=.mid)
 ALLMIDI_DIR = all
 ALLMIDI_TAR_GZ = $(ABC:.abc=.mid.tar.gz)
 
-# Scale by 0.9
-YAPS_OPTIONS=-s 0.9
+# Scale by 0.9, number pages, print the X: tune numbers
+YAPS_OPTIONS=-s 0.9 -N -x
 
 AB2AB	= abc2abc
 #TIMIDITY=timidity -c gravis.cfg

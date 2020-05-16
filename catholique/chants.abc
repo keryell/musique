@@ -1,10 +1,3 @@
-%%%textfont Helvetica 60
-%%%centre LA gavotte
-%%%textfont - 20
-%%%text Kazimodal
-%%%textfont - 14
-%%%vskip 1cm
-%
 X:1
 T:Rouanez an Iliz
 R:Chant catholique
@@ -96,7 +89,7 @@ P:H
 
 
 X:5
-T:Ar baradoz
+T:Ar baradoz (version Tonoù Breiz-Izel, Polig Monjarret)
 R:Chant catholique
 C:Traditionnel
 S:N°609, Tonoù Breiz-Izel, Polig Monjarret

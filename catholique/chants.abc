@@ -23,11 +23,11 @@ K:C
 P:A
 e \
 P:B
-|: "Am"(ed)c "G"d2 e | "Am"e3-e2 e |1 "F"a2 a "G"(ga)g "Em"e3-e2 e \
-	:|2 "F"a2 a "G"(ga)g "Em"e3-e2 f |
+|: "Am"(ed)c "G"d2 e | "Am"e3-e2 e | "F"a2 a "G"(ga)g |1 "Em"e3-e2 e \
+	:|2 "Em"e3-e2 f |
 "Dm"(de)f "G"g2 a | "C"e3 "G"d3 | "Em"e(Bc) "Dm"A2 d | "G"B3-B2 c \
 	|: "Am"A3 "G"B(cd) | "C"e3-"Em"e2 f | "Dm"(ed)B "Em"c2 B \
-	|1 "F"A3-A2 c :|2 "F"A3-A2 e ||
+	|1 "F"A3-A2 c :|2 "F"A3-"Am"A2 e ||
 
 X:2
 T:Me a laka va fizia\~ns

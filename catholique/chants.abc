@@ -10,7 +10,7 @@ T:Rouanez an Iliz
 R:Chant catholique
 C:Traditionnel
 S:N°585, Tonoù Breiz-Izel, Polig Monjarret
-Q:C3=68
+Q:3/8=68
 P:AB7
 M:6/8
 %%%MIDI gchord fzzcfzc
@@ -34,7 +34,7 @@ T:Me a laka va fizia\~ns
 R:Chant catholique
 C:Traditionnel
 S:N°584, Tonoù Breiz-Izel, Polig Monjarret
-Q:C3=68
+Q:3/8=68
 P:CD7
 M:6/8
 %%MIDI program 109
@@ -54,7 +54,7 @@ T:Pet trouz 'zou ar en douar
 R:Chant catholique
 C:Traditionnel
 S:N°546, Tonoù Breiz-Izel, Polig Monjarret
-Q:C3=68
+Q:3/8=68
 P:EF7
 M:12/8
 %%MIDI program 19
@@ -77,7 +77,7 @@ T:Ar baradoz
 R:Chant catholique
 C:Traditionnel
 S:N°609, Tonoù Breiz-Izel, Polig Monjarret
-Q:C3=50
+Q:3/8=50
 P:GH7
 M:12/8
 %%MIDI program 19
@@ -100,7 +100,7 @@ T:Ar baradoz
 R:Chant catholique
 C:Traditionnel
 S:N°609, Tonoù Breiz-Izel, Polig Monjarret
-Q:C3=56
+Q:3/8=56
 P:IJ7
 M:12/8
 %%MIDI program 19

@@ -24,7 +24,9 @@ AU = $(ALLMIDI_DIR)/$(AUFILE)
 ALLMIDI = $(ABC:.abc=.mid)
 ALLMIDI_DIR = all
 ALLMIDI_TAR_GZ = $(ABC:.abc=.mid.tar.gz)
-YAPS_SCALE=0.9
+
+# Scale by 0.9
+YAPS_OPTIONS=-s 0.9
 
 AB2AB	= abc2abc
 #TIMIDITY=timidity -c gravis.cfg
@@ -77,7 +79,7 @@ playall: $(ALLMIDI_DIR)/$(ALLMIDI)
 %.ps : %.abc Makefile
 	#abc2ps $* -x -n -p -O = -o
 	#abcm2ps -i -x $* -O =
-	yaps $< -s $(YAPS_SCALE) || abcmidi-yaps $< -s $(YAPS_SCALE)
+	yaps $< $(YAPS_OPTIONS) || abcmidi-yaps $< $(YAPS_OPTIONS)
 
 %.pdf : %.ps
 	ps2pdf $<

@@ -1,0 +1,32 @@
+%%textfont Helvetica 40
+%%centre Ad\`ele Blanc-Sec
+%%textfont - 14
+%%vskip 1cm
+
+X:1
+T:Ad\`ele Blanc-Sec
+R:Scottish
+O:France
+C:Fr\'ed\'eric Paris
+G:Kazimodal
+Z:http://kazimodal.trad.org
+Q:1/4=90
+P:AB6
+M:4/4
+L:1/16
+K:Dm
+P:A
+%%MIDI gchord cfczcfcf
+%%MIDI chordprog 0
+%%MIDI chordvol 50
+%%MIDI bassprog 0
+"Dm"DE \
+P:B
+%%MIDI gchord cfczcfcf
+|: "F"FEFA "Gm"GFGB "Am"A2E2 E2FG | "Bb"A3c "C"BABc "Am"A6 "Dm"DE |
+FE"F"FA "C"GFGB "Bb"A2E2 "Gm"E2FG |1 "Am"A2GF "Bb"EF"C"GA "Dm"D6 DE :|2 \
+"Am"A2GF "Bb"EF"C"GA "Dm"D2"C"EF GABc ||
+%%MIDI gchord cfczcffc
+|: "Bb"d2cB ABcd "C"GABc "F"A4 | "Gm"B2AG "Am"E3B "Bb"AG"C"EG "Dm"F2D2 |
+"Bb"d2cB ABcd "C"GABc "F"A4 |1 "Gm"B2AG "Am"E3B "Bb"AG"C"EF "Dm"D4 :|2 \
+"Gm"B2AG "Am"E3B "Bb"AG"C"EF "Dm"D2DE ||

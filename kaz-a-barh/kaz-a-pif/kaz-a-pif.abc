@@ -11,7 +11,8 @@ T:Kaz a barh 1
 G:Kazimodal
 R:Kaz a barh
 C:Traditionnel Vannetais, arrangement Ronan Keryell http://kazimodal.trad.org
-Q:1/4=112
+% Originellement 112
+Q:1/4=108
 P:A4
 M:4/4
 S:Tonioù Breizh-Izel 1794 (Karnag), livre vert p. 483
@@ -30,7 +31,8 @@ T:Kaz a barh 2
 G:Kazimodal
 R:Kaz a barh
 C:Traditionnel Vannetais, arrangement Ronan Keryell http://kazimodal.trad.org
-Q:1/4=112
+% Originellement 112
+Q:1/4=108
 P:B4
 M:4/4
 S:Tonioù Breizh-Izel 1797 (Karnag), livre vert p. ?
@@ -55,7 +57,8 @@ T:Kaz a barh 3
 G:Kazimodal
 R:Kaz a barh
 C:Traditionnel Vannetais, arrangement Ronan Keryell http://kazimodal.trad.org
-Q:1/4=112
+% Originellement 112
+Q:1/4=108
 P:C4
 M:4/4
 S:Tonioù Breizh-Izel 1804 (Karnag), livre vert p. 485

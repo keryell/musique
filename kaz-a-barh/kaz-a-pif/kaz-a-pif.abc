@@ -18,11 +18,14 @@ M:4/4
 S:Tonioù Breizh-Izel 1794 (Karnag), livre vert p. 483
 K:Dm
 P:A
-%\large
+%%MIDI ratio 3 1
 %%MIDI chordprog 42
 %%MIDI bassprog 43
 %%MIDI program 41
-%%MIDI gchord fcffcfcz
+%%MIDI gchord fcfzcfcz
+%%%MIDI beatstring fpmpfpmp
+% Velocity: accent (127) on first note, strong (100) on third (2*k beat)
+%%MIDI beat 127 100 70 2
 |: "Dm"(DF/2)E/2 D>F "F"FA "Am"EE |1 "Bb"D/2(F/2E/2F/2) D>F (FA) "C"E2 :|2 "Bb"D/2(F/2E/2)G/2 ({FG}"Gm"F)>D "Bb"D"C"C "Dm"D2 ||
 |: "Dm"D(D/2F/2) "F"A>B ({AB}A)F "Gm"G2 |1 ({GA}G)E/2F/2 "C"G>A E/2(G/2F/2)A/2 "Bb"D(F/2E/2) :|2 "Gm"GG/2G/2 G>A "Bb"F2 D2 ||
 
@@ -38,9 +41,11 @@ M:4/4
 S:Tonioù Breizh-Izel 1797 (Karnag), livre vert p. ?
 K:G
 P:B
-%\large
+%%MIDI ratio 3 1
 %%%%MIDI program 109
-%%MIDI gchord fcffcfcz
+%%MIDI gchord fcfzcfcz
+% Velocity: accent (127) on first note, strong (100) on third (2*k beat)
+%%MIDI beat 127 100 70 2
 %%MIDI chordprog 105
 %%MIDI chordvol 60
 %%MIDI bassprog 32
@@ -65,8 +70,11 @@ S:Tonioù Breizh-Izel 1804 (Karnag), livre vert p. 485
 K:Dm
 P:C
 %\large
+%%MIDI ratio 3 1
 %%%%MIDI program 109
-%%MIDI gchord fcffcfcz
+%%MIDI gchord fcfzcfcz
+% Velocity: accent (127) on first note, strong (100) on third (2*k beat)
+%%MIDI beat 127 100 70 2
 %%MIDI chordprog 105
 %%MIDI chordvol 60
 %%MIDI bassprog 32

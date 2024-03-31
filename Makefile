@@ -40,8 +40,6 @@ AB2AB	= abc2abc
 #TIMIDITY=timidity -c gravis.cfg
 TIMIDITY=timidity
 
-.SUFFIXES:  .ps .dvi .tex .abc .midi .mid .pdf
-
 TARGETS = $(PS) $(PDF) $(PST) $(PDFT) $(MIDI) $(AU) $(HTML) $(ALLMIDI_DIR)/$(ALLMIDI) $(PSF) $(PDFF)
 
 world: $(TARGETS)
@@ -124,10 +122,10 @@ T	= 2
 	echo '<TD><FONT COLOR="#000000"><A HREF="'$(RELATIVE_DIR)/$(ALLMIDI_TAR_GZ)'">mid.tar.gz</A></FONT></TD>' >> $@
 	echo '</TR>' >> $@
 
-.abc.tex: Makefile
+%.abc: %.tex Makefile
 	abc2mtex -x -o $*.tex $*
 
-.abc.dvi: Makefile
+%.abc: %.dvi Makefile
 	abc2mtex -x -o $*.tex $*
 	tex $*
 	#musixflx $*

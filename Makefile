@@ -1,3 +1,9 @@
+# The standard and extensions used here:
+# https://en.wikipedia.org/wiki/ABC_notation
+# https://abcnotation.com/wiki/abc:standard:v2.2
+# https://abc.sourceforge.net/standard/abc2midi.txt
+
+
 LISTE_MORCEAUX=larides_8/LE_laride_8/LE_laride_8.abc plin/LE_plin/LE_plin.abc bourrees_2/saut_terne/saut_terne.abc larides_6/Groill/larides_6.abc scottish/Groilh/groilh.abc hanter-dro/L_HanterDro/hanter-dro.abc rond_saint-vincent/anneaux_d_or/anneaux_d_or.abc mazurka/Escholiers/Escholiers.abc andro/L_Andro/andro.abc kost_ar_c_hoad/LE_kost_ar_c_hoad/kost.abc dans_leon/LA_dans_leon/LA_dans_leon.abc cercles_circassiens/LE_cercle/LE_cercle.abc gavottes/LA_gavotte/LA_gavotte.abc valses/Floating_from_Skerry/Floating_from_Skerry.abc divers/galop_nantais/galop_nantais.abc
 
 LISTE_MORCEAUX_MID=$(shell echo $(LISTE_MORCEAUX) | sed 's,\([^/]*\.\)abc,all/\1mid,g')
@@ -49,12 +55,14 @@ clean:
 #install : $(TARGETS)
 install :
 	mkdir -p $(TARGET_DIR)
-	cp $(ABC) $(ALLMIDI_DIR)/$(ALLMIDI) $(AU) $(HTML) $(PS) $(PDF) $(TARGET_DIR)
+	cp -a $(ABC) $(ALLMIDI_DIR)/$(ALLMIDI) $(AU) $(HTML) $(PS) $(PDF) $(TARGET_DIR)
 	tar cf - *.mid | gzip -9 -c > $(TARGET_DIR)/$(ALLMIDI).tar.gz
+	echo
+	echo See also git and Makefile in $(TARGET_DIR) !
 
 festiv_install :
 	mkdir -p $(FESTIV_DIR)
-	cp $(PDF) $(PDFF) $(ALLMIDI_DIR)/$(ALLMIDI) $(FESTIV_DIR)
+	cp -a $(PDF) $(PDFF) $(ALLMIDI_DIR)/$(ALLMIDI) $(FESTIV_DIR)
 
 index: *.abc
 	abc2mtex -i *.abc

@@ -66,12 +66,23 @@ index: *.abc
 	abc2mtex -i *.abc
 	sort_in
 
+# Play each part individually with ALSA backend
 play: $(MIDI)
 #	$(TIMIDITY) -L /usr/local/lib/timidity/instruments -ig *.mid
 	$(TIMIDITY) -iat -Os *.mid
 
+# Play each part individually with JACK backend
+jplay: $(MIDI)
+#	$(TIMIDITY) -L /usr/local/lib/timidity/instruments -ig *.mid
+	$(TIMIDITY) -iat -OjS *.mid
+
+# Play the full tune with ALSA backend
 playall: $(ALLMIDI_DIR)/$(ALLMIDI)
 	$(TIMIDITY) -iat -Os $(ALLMIDI_DIR)/$(ALLMIDI)
+
+# Play the full tune with JACK backend
+jplayall: $(ALLMIDI_DIR)/$(ALLMIDI)
+	$(TIMIDITY) -iat -OjS $(ALLMIDI_DIR)/$(ALLMIDI)
 
 %1.mid : %.abc Makefile
 	-abc2midi $<

@@ -19,13 +19,18 @@ S:Tonioù Breizh-Izel 1794 (Karnag), livre vert p. 483
 K:Dm
 P:A
 %%MIDI ratio 3 1
-%%MIDI chordprog 42
-%%MIDI bassprog 43
 %%MIDI program 41
-%%MIDI gchord fcfzcfcz
-%%%MIDI beatstring fpmpfpmp
-% Velocity: accent (127) on first note, strong (100) on third (2*k beat)
-%%MIDI beat 127 100 70 2
+%%MIDI chordprog 42
+%%MIDI chordvol 127
+%%MIDI bassprog 43
+%%MIDI bassvol 60
+%%%MIDI gchord fcfzcfcz
+%%% ghi are played with chord program while GHI are with bass
+%%MIDI gchord fghibGHI
+%%%% Set the velocity for f,m & p in beatstring
+%%MIDI beat 127 80 60 1
+%%% Match an-dro dance steps
+%%MIDI beatstring fmmpfpmp
 |: "Dm"(DF/2)E/2 D>F "F"FA "Am"EE |1 "Bb"D/2(F/2E/2F/2) D>F (FA) "C"E2 :|2 "Bb"D/2(F/2E/2)G/2 ({FG}"Gm"F)>D "Bb"D"C"C "Dm"D2 ||
 |: "Dm"D(D/2F/2) "F"A>B ({AB}A)F "Gm"G2 |1 ({GA}G)E/2F/2 "C"G>A E/2(G/2F/2)A/2 "Bb"D(F/2E/2) :|2 "Gm"GG/2G/2 G>A "Bb"F2 D2 ||
 
@@ -42,14 +47,18 @@ S:Tonioù Breizh-Izel 1797 (Karnag), livre vert p. ?
 K:G
 P:B
 %%MIDI ratio 3 1
-%%%%MIDI program 109
-%%MIDI gchord fcfzcfcz
-% Velocity: accent (127) on first note, strong (100) on third (2*k beat)
-%%MIDI beat 127 100 70 2
+%%%MIDI program 109
+%%MIDI program 41
 %%MIDI chordprog 105
 %%MIDI chordvol 60
 %%MIDI bassprog 32
 %%MIDI bassvol 127
+%%MIDI gchord fcfzcfcz
+%%MIDI gchord bghicIHG
+%%% Set the velocity for f,m & p in beatstring
+%%MIDI beat 127 80 60 1
+%%% Match an-dro dance steps
+%%MIDI beatstring fmmpfpmp
 |: "G"GB/c/ "Bm"d>B "C"c/B/c/e/ "G"dB |1 \
   "C"c/B/A/B/ "G"GB/d/ "Am"c/c/B/A/ "D"BA :|2 \
   "C"c/B/A/B/ "G"G>B "D"A/G/F/A/ "G"G2 ||
@@ -71,14 +80,18 @@ K:Dm
 P:C
 %\large
 %%MIDI ratio 3 1
-%%%%MIDI program 109
+%%MIDI program 41
+%%MIDI chordprog 42
+%%MIDI chordvol 127
+%%MIDI bassprog 43
+%%MIDI bassvol 60
 %%MIDI gchord fcfzcfcz
-% Velocity: accent (127) on first note, strong (100) on third (2*k beat)
-%%MIDI beat 127 100 70 2
-%%MIDI chordprog 105
-%%MIDI chordvol 60
-%%MIDI bassprog 32
-%%MIDI bassvol 127
+%%MIDI gchord bghicHIz
+%%MIDI gchord fghibGHI
+%%% Set the velocity for f,m & p in beatstring
+%%MIDI beat 127 80 60 1
+%%% Match an-dro dance steps
+%%MIDI beatstring fmmpfpmp
 |: ({DE}"Dm"D)F/2G/2 "F"A3/2({GA}>G/2) "Bb"FD "C"F/2E/2D |1 "F"({AB}A)(G/2A/2) "Bb"F>D "Gm"FG "Am"A2 :|2 "Am"({AB}A)G/2A/2 "Bb"F>D F/2D/2"C"(E/2C/2) "Dm"D2 ||
  ({AB}"F"AB/2)A/2 "C"({GA}G)>E "Gm"(GA/2)G/2 F/2E/2"Am"D | (FG/2)E/2 "Bb"{G}F>D (F/2D/2)"C"E/2C/2 "Dm"D2 |
  ({AB}"F"AB/2)A/2 "C"({GA}G)>E "Gm"(GA/2)G/2 F/2E/2"Am"F | "Gm"(DF/2)D/2 "Am"EG/2E/2 "Bb"(F/2G/2)"C"E/2F/2 "Dm"D2 ||

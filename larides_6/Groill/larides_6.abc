@@ -13,21 +13,28 @@ C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
 %% Q:C2=100--108
 Q:1/4=160
 P:A4
-M:3/4
+M:6/4
 S:Tonioù Breizh-Izel 1862D (Lokoal-Mendon)
 K:C
 P:A
+M:6/4
+%%MIDI ratio 3 1
+%%% Set the velocity for f,m & p in beatstring
+%%MIDI beat 127 80 60 1
+%%% Match laridé 6 temps dance steps
+%%MIDI beatstring fmfpfp
 %%%MIDI gchord c2zfc2zff4
 %%%MIDI gchord fccfcz
-%%MIDI gchord f2c2fz
+%%MIDI gchord f2c2f2f2c2fz
+%%%MIDI gchord bhcifGihgizz
 %%MIDI bassprog 0
 %%MIDI program 0
 %MIDI bassvol 127
-|: "C"C>G ({FE}F>)E "G"D>F | "Am"({EF}E)z "F"E>C "G"Dz |\
-	"C"C>G ({FE}F>)E "G"D>F | "Am"({EF}E)z "F"E>C "G"Dz :|
-|: "Dm"D>D "F"Fz "Gm"({EF}E>)D | D>C "Am"Cz "Bb"F>D |\
-	((3F>E)D "C"Ez "Dm"({DE}D>)C |1 "Bb"D>F "C"E(E/2F/2) "Gm"Dz :|2\
-	 "Bb"D>F "C"E(E/2F/2) "D"Dz ||
+|: "C"C>G ({FE}F>)E "G"D>F   "Am"({EF}E)z "F"E>C "G"Dz |\
+	"C"C>G ({FE}F>)E "G"D>F    "Am"({EF}E)z "F"E>C "G"Dz :|
+|: "Dm"D>D "F"Fz "Gm"({EF}E>)D   D>C "Am"Cz "Bb"F>D |1\
+	((3F>E)D "C"Ez "Dm"({DE}D>)C   "Bb"D>F "C"E(E/2F/2) "Gm"Dz :|2\
+	((3F>E)D "C"Ez "Dm"({DE}D>)C   "Bb"D>F "C"E(E/2F/2) "Dm"Dz ||
 
 
 X:2
@@ -38,20 +45,27 @@ C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
 %% Q:C2=100--108
 Q:1/4=160
 P:B4
-M:3/4
+M:6/4
 S:Tonioù Breizh-Izel 1864 (Landevan)
 K:Am
 P:B
+M:6/4
+%%MIDI ratio 3 1
+%%% Set the velocity for f,m & p in beatstring
+%%MIDI beat 127 80 60 1
+%%% Match laridé 6 temps dance steps
+%%MIDI beatstring fmfpfp
 %%%MIDI gchord c2zfc2zff4
-%%MIDI gchord fccfcz
-%%MIDI gchord fccfcf
-%%MIDI gchord fcczfz
+%%%%%MIDI gchord fccfcz
+%%%%%MIDI gchord fccfcf
+%%%MIDI gchord fcczfz
+%%MIDI gchord fcc2f2fcfzcz
 %%MIDI chordprog 42
 %%MIDI bassprog 43
 %%MIDI program 71
 %%MIDI bassvol 127
-|: "Am"A>e ({ef}e2) "G"d2 | (B>c) "F"A2 z e | "G"({ef}e)>d "Em"B>c "Am"A z |1 "G"B>c "F"A>c "Em"B2 :|2 "G"B>d "F"c/2B/2c A z ||
-|: "Am"A(A/2B/2) "C"c2 A>c | "G"(B>c) AA "Dm"e z | ({de}d)>c "Em"B>A "F"c2 |1 "G"B>A "Em"B2 B z :|2 "G"(B>c) "Am"A z A2 ||
+|: "Am"A>e ({ef}e2) "G"d2   (B>c) "F"A2 z e |1 "G"({ef}e)>d "Em"B>c "Am"A z  "G"B>c "F"A>c "Em"B2 :|2 "G"({ef}e)>d "Em"B>c "Am"A z   "G"B>d "F"c/2B/2c A z ||
+|: "Am"A(A/2B/2) "C"c2 A>c   "G"(B>c) AA "Dm"e z |1 ({de}d)>c "Em"B>A "F"c2   "G"B>A "Em"B2 B z :|2 ({de}d)>c "Em"B>A "F"c2   "G"(B>c) "Am"A z A2 ||
 
 
 X:3
@@ -63,12 +77,19 @@ C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
 %% Q:C2=100--108
 Q:1/4=160
 P:C4
-M:3/4
+M:6/4
 S:Tonioù Breizh-Izel 1869 (Pleuigner/Landaol)
 K:Dm
 P:C
+M:6/4
+%%MIDI ratio 3 1
+%%% Set the velocity for f,m & p in beatstring
+%%MIDI beat 127 80 60 1
+%%% Match laridé 6 temps dance steps
+%%MIDI beatstring fmfpfp
 %%%MIDI gchord cffcfz
-%%MIDI gchord fccfcf
+%%%%MIDI gchord fccfcf
+%%MIDI gchord fcIffcGHfIcz
 %%MIDI chordprog 105
 % Reed Organ
 %%MIDI chordprog 20
@@ -77,7 +98,7 @@ P:C
 %%MIDI bassvol 127
 % Clarinet
 %%MIDI program 73
-|: "Dm"(DF) ED "C"Cz | "F"FF (GA) "G"Gz | "Dm"(DF) ED "C"Cz | "F"FF (GA) "G"Gz :|
-|: "Gm"((3G>AG) FG AD | "Bb"F2 (AG) "C"FD | "Gm"((3G>AG) FG AD | "Bb"({FG}F)F "C"(EF) "Dm"Dz :|
+|: "Dm"(DF) ED "C"Cz   "F"FF (GA) "G"Gz | "Dm"(DF) ED "C"Cz   "F"FF (GA) "G"Gz :|
+|: "Gm"((3G>AG) FG AD   "Bb"F2 (AG) "C"FD | "Gm"((3G>AG) FG AD   "Bb"({FG}F)F "C"(EF) "Dm"Dz :|
 %%text 1: basse R\'e/Sol, guitare Dm 3 cordes, bombarde renaissance, fl\^ute
 %%text 2: idem + nappes accord\'eon

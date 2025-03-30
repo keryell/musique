@@ -51,6 +51,7 @@ clean:
 
 # No longer recompile stuff since the tools may not be on the WWW server.
 #install : $(TARGETS)
+# This rule is to be run in a specific tune directory, not at the top directory.
 install :
 	mkdir -p $(TARGET_DIR)
 	cp -a $(ABC) $(ALLMIDI_DIR)/$(ALLMIDI) $(AU) $(HTML) $(PS) $(PDF) $(TARGET_DIR)

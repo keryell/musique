@@ -27,9 +27,10 @@ M:6/4
 %%%MIDI gchord fccfcz
 %%MIDI gchord f2c2f2f2c2fz
 %%%MIDI gchord bhcifGihgizz
-%%MIDI bassprog 0
 %%MIDI program 0
-%MIDI bassvol 127
+%%MIDI chordprog 0
+%%MIDI bassprog 0
+%%%MIDI bassvol 127
 |: "C"C>G ({FE}F>)E "G"D>F   "Am"({EF}E)z "F"E>C "G"Dz |\
 	"C"C>G ({FE}F>)E "G"D>F    "Am"({EF}E)z "F"E>C "G"Dz :|
 |: "Dm"D>D "F"Fz "Gm"({EF}E>)D   D>C "Am"Cz "Bb"F>D |1\

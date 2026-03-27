@@ -1,8 +1,11 @@
-%%textfont Helvetica 60
-%%centre L'Hanter-Dro
-%%textfont - 20
+%%textfont Helvetica 30
+%%text L'Hanter-Dro
+%%textfont Helvetica 20
 %%text Kazimodal
-%%textfont - 14
+%%textfont Helvetica 14
+
+% Does not seem to work:
+%%writefields BCDFGHNORSTWwXZ true
 
 %% Same rythm everywhere, so define a macro:
 %%MIDIdef gchord-hanter-dro gchord fccffz

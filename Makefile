@@ -102,8 +102,9 @@ jplayall: $(ALLMIDI_DIR)/$(ALLMIDI)
 
 %.ps : %.abc Makefile
 	#abc2ps $* -x -n -p -O = -o
-	#abcm2ps -i -x $* -O =
-	yaps $< $(YAPS_OPTIONS) || abcmidi-yaps $< $(YAPS_OPTIONS)
+	# The tool supporting UTF-8 encoding:
+	abcm2ps +i +N +x $* -O =
+	#yaps $< $(YAPS_OPTIONS) || abcmidi-yaps $< $(YAPS_OPTIONS)
 
 %.pdf : %.ps
 	ps2pdf $<

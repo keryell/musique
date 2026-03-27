@@ -1,8 +1,10 @@
 # The standard and extensions used here:
 # https://en.wikipedia.org/wiki/ABC_notation
 # https://abcnotation.com/wiki/abc:standard:v2.2
-# https://abc.sourceforge.net/standard/abc2midi.txt
-
+# https://abcmidi.sourceforge.io/
+# Implementation to run the following:
+# - https://github.com/sshlien/abcmidi
+# - https://github.com/keryell/music_utils
 
 LISTE_MORCEAUX=larides_8/LE_laride_8/LE_laride_8.abc plin/LE_plin/LE_plin.abc bourrees_2/saut_terne/saut_terne.abc larides_6/Groill/larides_6.abc scottish/Groilh/groilh.abc hanter-dro/L_HanterDro/hanter-dro.abc rond_saint-vincent/anneaux_d_or/anneaux_d_or.abc mazurka/Escholiers/Escholiers.abc andro/L_Andro/andro.abc kost_ar_c_hoad/LE_kost_ar_c_hoad/kost.abc dans_leon/LA_dans_leon/LA_dans_leon.abc cercles_circassiens/LE_cercle/LE_cercle.abc gavottes/LA_gavotte/LA_gavotte.abc valses/Floating_from_Skerry/Floating_from_Skerry.abc divers/galop_nantais/galop_nantais.abc
 
@@ -86,11 +88,13 @@ jplayall: $(ALLMIDI_DIR)/$(ALLMIDI)
 	$(TIMIDITY) -iat -OjS $(ALLMIDI_DIR)/$(ALLMIDI)
 
 %1.mid : %.abc Makefile
-	-abc2midi $<
+	# Output the parts with https://github.com/sshlien/abcmidi/pull/16
+	-abc2midi $< -PMAR
 	#cat $**.mid > $@
 
 %.mid : %.abc Makefile
-	-abc2midi $<
+	# Output the parts with https://github.com/sshlien/abcmidi/pull/16
+	-abc2midi $< -PMAR
 	mv $*1.mid $*.mid
 
 %.au : %.mid Makefile
@@ -108,6 +112,7 @@ $(ALLMIDI_DIR):
 	mkdir $(ALLMIDI_DIR)
 
 $(ALLMIDI_DIR)/$(ABC): $(ABC) $(ALLMIDI_DIR)
+  # https://github.com/keryell/music_utils
 	abccat $(ABC) > $@
 
 ### transpositions...

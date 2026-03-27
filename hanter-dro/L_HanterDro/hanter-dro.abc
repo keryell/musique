@@ -4,6 +4,9 @@
 %%text Kazimodal
 %%textfont - 14
 
+%% Same rythm everywhere, so define a macro:
+%%MIDIdef gchord-hanter-dro gchord fccffz
+
 X: 1
 T:Hanter-dro 1
 G:Kazimodal
@@ -15,7 +18,7 @@ M:3/4
 S:Tonioù Breizh-Izel 1926 (Pleuigner)
 K:G
 P:A
-%%MIDI gchord fccffz
+%%MIDIx gchord-hanter-dro
 %MIDI chordprog 105
 %MIDI bassprog 32
 %MIDI bassvol 127
@@ -36,7 +39,7 @@ M:3/4
 S:Tonioù Breizh-Izel 1925 (Pleskob)
 K:Gm
 P:B
-%%MIDI gchord fcfcfc
+%%MIDIx gchord-hanter-dro
 %%MIDI chordprog 25
 %%MIDI bassprog 36
 %%MIDI bassvol 127
@@ -60,7 +63,7 @@ S:Tonioù Breizh-Izel 1910 (Plañwour/An Oriant)
 K:EPhr
 K:C
 P:D
-%%MIDI gchord fccffz
+%%MIDIx gchord-hanter-dro
 %%MIDI chordprog 105
 %%MIDI bassprog 36
 %%MIDI bassvol 127
@@ -86,7 +89,7 @@ M:3/4
 S:Tonioù Breizh-Izel 1910 (Plañwour/An Oriant)
 K:Dm
 P:E
-%%MIDI gchord fccffz
+%%MIDIx gchord-hanter-dro
 %%MIDI chordprog 42
 %%MIDI bassprog 43
 %%MIDI program 41

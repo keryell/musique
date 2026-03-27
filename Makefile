@@ -89,12 +89,12 @@ jplayall: $(ALLMIDI_DIR)/$(ALLMIDI)
 
 %1.mid : %.abc Makefile
 	# Output the parts with https://github.com/sshlien/abcmidi/pull/16
-	-abc2midi $< -PMAR
+	abc2midi $< -PMAR
 	#cat $**.mid > $@
 
 %.mid : %.abc Makefile
 	# Output the parts with https://github.com/sshlien/abcmidi/pull/16
-	-abc2midi $< -PMAR
+	abc2midi $< -PMAR
 	mv $*1.mid $*.mid
 
 %.au : %.mid Makefile

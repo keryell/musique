@@ -103,7 +103,10 @@ jplayall: $(ALLMIDI_DIR)/$(ALLMIDI)
 %.ps : %.abc Makefile
 	#abc2ps $* -x -n -p -O = -o
 	# The tool supporting UTF-8 encoding:
-	abcm2ps +i +N +x $* -O =
+	# -i: Insert a red cercle around the errors in the PostScript output.
+	# -N3: print the page number at top left on even pages, top right on odd pages.
+	# -O =: generate a .ps file with the base name derived from the input file.
+	abcm2ps -i -N3 $* -O =
 	#yaps $< $(YAPS_OPTIONS) || abcmidi-yaps $< $(YAPS_OPTIONS)
 
 %.pdf : %.ps

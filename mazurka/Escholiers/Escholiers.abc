@@ -11,7 +11,7 @@ T:Mazurka des Escholiers de Saint-Gen\^et
 G:Kazimodal
 R:Mazurka
 C:Escholiers de Saint-Gen\^et, arrangement http://kazimodal.trad.org
-Q:C3=110
+Q:3/8=110
 P:AB2
 M:9/8
 S:Escholiers de Saint-Gen\^et
@@ -27,14 +27,14 @@ P:A
 E3 \
 P:B
 |: "Em"B3 B2c d2e | "CM7"B6 c2B |\
-	"D"A3 B3/2A3/2 G3/2A3/2 | "Bm"B2c B3/2A3/2 G3/2A3/2 |
+  "D"A3 B3/2A3/2 G3/2A3/2 | "Bm"B2c B3/2A3/2 G3/2A3/2 |
 "Em" B3 B2c d2e | "C"B6 c2B | "D"A3 B3/2A3/2 "Bm"G2F |1\
-	"Em"E6 E3 :|2 "Em"E6 e3/2d3/2 |
+  "Em"E6 E3 :|2 "Em"E6 e3/2d3/2 |
 |: "Am"c3 c2B "Bm"c2d | "C"e3 e3/2d3/2 "D"d3/2c3/2 |\
-	"Em"B3 B3/2"D"A3/2 B2c | "Bm"B3 "Em"B3 e3/2d3/2 |
+  "Em"B3 B3/2"D"A3/2 B2c | "Bm"B3 "Em"B3 e3/2d3/2 |
 "Am"c3 c2B "Bm"c2d | "C"e3 e3/2d3/2 "D"d3/2c3/2 |\
-	"Em"B3 A3/2G3/2 "D"F2G |1 "Bm"F3 "Em"E3 e3/2d3/2 :|2\
-	"Bm"F3 "Em"E3 E3 ||
+  "Em"B3 A3/2G3/2 "D"F2G |1 "Bm"F3 "Em"E3 e3/2d3/2 :|2\
+  "Bm"F3 "Em"E3 E3 ||
 
 
 X:2
@@ -42,7 +42,7 @@ T:Mazurka des Escholiers de Saint-Gen\^et
 G:Kazimodal
 R:Mazurka
 C:Escholiers de Saint-Gen\^et, arrangement Laurent Daverio & http://kazimodal.trad.org
-Q:C3=110
+Q:3/8=110
 P:C4
 M:9/8
 S:Escholiers de Saint-Gen\^et
@@ -57,25 +57,25 @@ P:C
 V:1
 %%MIDI program 75
 |: "Em"B3 B2c d2e | "CM7"B6 c2B |\
-	"D"A3 B3/2A3/2 G3/2A3/2 | "Bm"B2c B3/2A3/2 G3/2A3/2 |
+  "D"A3 B3/2A3/2 G3/2A3/2 | "Bm"B2c B3/2A3/2 G3/2A3/2 |
 "Em" B3 B2c d2e | "C"B6 c2B | "D"A3 B3/2A3/2 "Bm"G2F |1\
-	"Em"E6 E3 :|2 "Em"E6 e3/2d3/2 |
+  "Em"E6 E3 :|2 "Em"E6 e3/2d3/2 |
 |: "Am"c3 c2B "Bm"c2d | "C"e3 e3/2d3/2 "D"d3/2c3/2 |\
-	"Em"B3 B3/2"D"A3/2 B2c | "Bm"B3 "Em"B3 e3/2d3/2 |
+  "Em"B3 B3/2"D"A3/2 B2c | "Bm"B3 "Em"B3 e3/2d3/2 |
 "Am"c3 c2B "Bm"c2d | "C"e3 e3/2d3/2 "D"d3/2c3/2 |\
-	"Em"B3 A3/2G3/2 "D"F2G |1 "Bm"F3 "Em"E3 e3/2d3/2 :|2\
-	"Bm"F3 "Em"E3 E3 ||
+  "Em"B3 A3/2G3/2 "D"F2G |1 "Bm"F3 "Em"E3 e3/2d3/2 :|2\
+  "Bm"F3 "Em"E3 E3 ||
 V:2
 %%%MIDI transpose 12
 %%MIDI program 69
 |: B3 B2c dcB | G3/2C3/2 G2B A2G |\
-	A3/2D3/2 F3/2G3/2 A3/2B3/2 | g2f e3/2d3/2 B3/2G3/2 |
+  A3/2D3/2 F3/2G3/2 A3/2B3/2 | g2f e3/2d3/2 B3/2G3/2 |
 B3 B2c dcB | c3 c2B c2B | A3 D3/2F3/2 G2F |1 G6 E3 :|2 G6 e3/2d3/2 |
 |: c3 c2B cde | g3 g3/2a3/2 g3/2f3/2 |\
-	B3 B3/2A3/2 G2A | B6 e3/2d3/2 |
+  B3 B3/2A3/2 G2A | B6 e3/2d3/2 |
 c3 c2B cde | g3 g3/2f3/2 e3/2d3/2 |\
-	B3 A3/2G3/2 F2G |1 F3 E3 e3/2d3/2 :|2\
-	F3 E3 E3 ||
+  B3 A3/2G3/2 F2G |1 F3 E3 e3/2d3/2 :|2\
+  F3 E3 E3 ||
 V:3
 %%MIDI program 43
 %%MIDI transpose -12

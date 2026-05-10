@@ -65,6 +65,9 @@ festiv_install :
 	mkdir -p $(FESTIV_DIR)
 	cp -a $(PDF) $(PDFF) $(ALLMIDI_DIR)/$(ALLMIDI) $(FESTIV_DIR)
 
+display: $(PDF)
+	okular $< &
+
 index: *.abc
 	abc2mtex -i *.abc
 	sort_in

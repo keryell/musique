@@ -59,7 +59,7 @@ install :
 	cp -a $(ABC) $(ALLMIDI_DIR)/$(ALLMIDI) $(AU) $(HTML) $(PS) $(PDF) $(TARGET_DIR)
 	tar cf - *.mid | gzip -9 -c > $(TARGET_DIR)/$(ALLMIDI).tar.gz
 	echo
-	echo See also git and Makefile in $(TARGET_DIR) !
+	echo See also git and Makefile in $(PARTITION_DIR) !
 
 festiv_install :
 	mkdir -p $(FESTIV_DIR)

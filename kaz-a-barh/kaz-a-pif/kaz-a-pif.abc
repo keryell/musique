@@ -1,9 +1,9 @@
 %%textfont Helvetica 60
 %%center Kaz \`a Pif
-%%textfont - 20
+%%textfont * 20
 %%text Kaz A-Barh
 %%text Kazimodal
-%%textfont - 14
+%%textfont * 14
 %%vskip 1cm
 %
 X:1

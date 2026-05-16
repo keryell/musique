@@ -1,8 +1,8 @@
 %%textfont Helvetica 60
 %%center LE da\~ns Fisel
-%%textfont - 20
+%%textfont * 20
 %%text Kazimodal
-%%textfont - 14
+%%textfont * 14
 %%vskip 1cm
 
 % L'encha\^inement voulu :

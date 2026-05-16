@@ -1,8 +1,8 @@
 %%textfont Helvetica 60
 %%center Aurore Sand
-%%textfont - 20
+%%textfont * 20
 %%text Bourr\'ees 2 temps
-%%textfont - 14
+%%textfont * 14
 %%vskip 1cm
 
 X: 1

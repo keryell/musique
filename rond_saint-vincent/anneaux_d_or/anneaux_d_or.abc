@@ -1,8 +1,8 @@
 %%textfont Helvetica 40
 %%center Les Ronds de Saint Vincent
-%%textfont - 20
+%%textfont * 20
 %%text Kazimodal
-%%textfont - 14
+%%textfont * 14
 %%vskip 1cm
 
 X:1

@@ -1,8 +1,8 @@
 %%textfont Helvetica 60
 %%center LA Scottish
-%%textfont - 20
+%%textfont * 20
 %%text Groilh
-%%textfont - 14
+%%textfont * 14
 %%vskip 1cm
 
 % L'encha\^inement voulu :

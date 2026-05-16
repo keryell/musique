@@ -1,10 +1,10 @@
 %%textfont Helvetica 30
 %%center LE Plin
-%%textfont - 20
+%%textfont * 20
 %%textfont Helvetica 20
 %%text LE Plin --- Kazimodal
 %%textfont Helvetica 14
-%%textfont - 14
+%%textfont * 14
 
 %%writefields BCDFGHNORSTWwXZ true
 

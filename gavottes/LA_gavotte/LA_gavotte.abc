@@ -1,8 +1,8 @@
 %%textfont Helvetica 60
 %%center LA gavotte
-%%textfont - 20
+%%textfont * 20
 %%text Kazimodal
-%%textfont - 14
+%%textfont * 14
 %%vskip 1cm
 
 

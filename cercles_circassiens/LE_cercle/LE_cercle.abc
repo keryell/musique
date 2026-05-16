@@ -65,7 +65,7 @@ P:E
 P:F
 |: "D"a2 a a^gf | "A"ecA "F#m"A3 | "G"b2 b bc'b | "F#m"a2 f f2 "A"g |
 "D"adf agf | "A"ecA "F#m"ABc | "G"dcB "A"cBA |1\
-"Bm"B2 B B"F#m"f"E"^g :|2 "Bm"B3 " "z3 ||
+"Bm"B2 B B"F#m"f"E"^g :|2 "Bm"B3 [I:MIDI gchordoff]z3[I:MIDI gchordon] ||
 
 
 X: 3

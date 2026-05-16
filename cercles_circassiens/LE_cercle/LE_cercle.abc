@@ -11,7 +11,7 @@ T:Cercle circassien
 G:Kazimodal
 R:Cercle circassien
 C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
-Q:C3=140
+Q:3/8=140
 P:(AB)2AC
 M:6/8
 S:M\'ethode de Yann Dour, t. 1
@@ -41,7 +41,7 @@ T:Cercle circassien
 G:Kazimodal
 R:Cercle circassien
 C:?, arrangement Ronan Keryell http://kazimodal.trad.org
-Q:C3/1=140
+Q:3/8=140
 P:(DE)2DF
 M:6/8
 S:?
@@ -73,7 +73,7 @@ T:Tarentelle
 G:Kazimodal
 R:Tarentelle
 C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
-Q:C3/1=140
+Q:3/8=140
 P:G3
 M:6/8
 %%MIDI gchord fzcccf
@@ -95,9 +95,9 @@ X:4
 T:Jump at the sun
 G:Kazimodal
 R:Cercle circassien
-C:John Kirkpatrick (1968) http://johnkirkpatrick.co.uk copyright © SQUEEZER MUSIC
+C:John Kirkpatrick (1968) http://johnkirkpatrick.co.uk copyright ï¿½ SQUEEZER MUSIC
 C: arrangement Ronan Keryell http://kazimodal.trad.org
-Q:C3=140
+Q:3/8=140
 P:H3
 M:6/8
 %%MIDI gchord fzcczf

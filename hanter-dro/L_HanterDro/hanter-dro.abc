@@ -4,7 +4,6 @@
 %%text Kazimodal
 %%textfont Helvetica 14
 
-% Does not seem to work:
 %%writefields BCDFGHNORSTWwXZ true
 
 %% Same rythm everywhere, so define a macro:

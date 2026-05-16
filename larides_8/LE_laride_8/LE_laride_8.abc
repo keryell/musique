@@ -62,7 +62,7 @@ P:F4
 M:4/4
 K:Em
 P:E
-E
+E|
 P:F
 %%MIDI gchord fcffcfcz
 %%MIDI chordprog 42
@@ -71,7 +71,7 @@ P:F
 %%MIDI bassvol 127
 %%MIDI program 109
 |: "Am"A>B cA "Em"GA EE/2F/2 |1 "C"G>"D"A G"Em"E "Am"A2 c"Em"B :|2\
-	"C"G>"D"A G"Em"E "Am"A2 AE ||
+   "C"G>"D"A G"Em"E "Am"A2 AE ||
 |: "Am"A>B cB "G"d2 (cA) | "F"c2 BA "Em"B3 E |
 "Am"A>B cB "G"d2 (cA) | "F"Bc "G"A>"Em"G "Am"A3 E :|
 %|: "Am"A>[GB] [Ac]B "G"d2 (cA) | "F"c2 BA "Em"B3 E |

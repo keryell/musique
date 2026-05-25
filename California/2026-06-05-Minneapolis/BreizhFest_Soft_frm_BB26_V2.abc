@@ -23,7 +23,7 @@ W:https://www.youtube.com/watch?v=inQ6gJiGtAs
 R: Gavotte orig Am
 R:Hornpipe
 G:Lark23
-P: Should be swung...
+N: Should be swung...
 Q: 1/4=165  "     should be swung"
 M: 2/4
 L: 1/8
@@ -40,12 +40,12 @@ O:Bretagne
 G:Lark16
 L:1/8
 K:Dmaj
-Q:C2=72
+Q:1/4=72
 M:none
 |:"Em"EBG |"D"HA2 GFE "Bm"HD2| DAF "C"HG2 F"D"ED "Em"HE2:|
 Q:1/4=160
 M:2/4
-|:B|"Em"Bcdc BGEB/2B/2|Bcdc BAB3/2A/2| Bcdc BGEF| GA (3BAG "D"FG "Em"HE2|
+|:B|"Em"Bcdc BGEB/2B/2|Bcdc BAB3/2A/2| Bcdc BGEF| GA (3BAG "D"FG "Em"HE2:|
 
 X: 12
 T: Gavotte t3.3 Des Montagnes Squiban3 orig Am
@@ -91,7 +91,7 @@ C:
 S: https://www.youtube.com/watch?v=2fYyRstD07k 2nd tune
 A:Brittany
 Q: 1/4=160
-P: slightly swung
+N: slightly swung
 K:Am
 (3edc Bc df ec|dc AG A2e2 | (3edc Bc df ec|dc AG A2A2 || 
 |: e(cc)e d2 ec | dc B/A/B c2 cd| ef ed cB AB |dc AG A2A2 :|
@@ -121,7 +121,7 @@ L:1/8
 X:261
 T:Plinn Shep#2
 O:Shepherd Plinn#2 (frm Bm)
-J:Lark14
+G:Lark14
 Q:1/4=120
 M:4/4
 K:Emin
@@ -132,7 +132,7 @@ L:1/8
 X:262
 T:Plinn Shep#3 bm 
 O:Shepherd Plinn #3
-J:Lark15
+G:Lark15
 M:4/4
 K:Bm
 L:1/8
@@ -150,7 +150,7 @@ K:C
 X:285
 T:Rond de Loudeac s1.1
 C:  trans. Jim Oakden
-J:Lark19?
+G:Lark19?
 M:4/4
 Q: 1/4=170
 K:Am
@@ -185,7 +185,7 @@ X:286
 T:Rond de Loudeac s1.2 Baleu 39.2
 C:from Dave Shepard, p39#2, Breizh 
 O:trans. Jim Oakden
-J:Lark14
+G:Lark14
 M:6/8
 K:Am
 Q:140
@@ -197,7 +197,7 @@ X:287
 T:Rond de Loudeac s1.3 38.1
 M:4/4
 C:Shepard p38.1
-J:Lark19?
+G:Lark19?
 Q:1/4=170
 K:Am
 L:1/8
@@ -218,7 +218,7 @@ e2ge cdef|edcB A2A2|e2ge cdef|edcB A2A2||
 X:290
 T:Rond de Loudeac-Rinqueniee  Am
 Q:1/4=150
-P:4 RIQUENIEE
+N:4 RIQUENIEE
 F:httpg://www.youtube.com/watch?v=yZZSZh6Q7Pc&list=RDyZZSZh6Q7Pc&start_radio=1
 M:4/4
 L:1/8
@@ -231,7 +231,7 @@ M:6/8
 X:290
 T:Rond de Loudeac-Rinqueniee  Em
 Q:1/4=150
-P:4 RIQUENIEE
+N:4 RIQUENIEE
 F:httpg://www.youtube.com/watch?v=yZZSZh6Q7Pc&list=RDyZZSZh6Q7Pc&start_radio=1
 M:4/4
 L:1/8
@@ -261,7 +261,7 @@ O:NW Brittany
 S:https://www.youtube.com/watch?v=jRoLBJqyvwE  2nd tune
 M:6/4
 L:1/8
-Q:1/4=140  "      (in 3)
+Q:1/4=140  "      (in 3)"
 K:Em
 |:"Em"EB BG AB "D"B2AG "D"FG | "Em"EBBGAB "D"B2AG "D"F2:|
 |:"Em"!accent!Bz "Em"!accent!AG FE "D"FG/2A/2 GF "Em "GE|"Em"!accent!Bz "Em"!accent!AG FE"D" FD EF"Em"E2:|
@@ -271,7 +271,7 @@ T:Ronde de Landeda S1.2 Pevar
 C:frm Pevar Den "Fest-noz"
 O:NW Brittany
 S:https://www.youtube.com/watch?v=DKcl5u2I9gg  3nd tune
-P:B4
+N:B4
 M:6/4
 L:1/8
 Q:1/4=140
@@ -312,10 +312,10 @@ O: Breton-from John Skelton
 M:4/4
 L:1/8
 K:D
-|:"D"A2AB A3G |GFEF "Bm"D2 EF|"G"G2G2G3F|"Em"EFGA "A"GFED|\
+|:"D"A2AB A3G |GFEF "Bm"D2 EF|"G"G2G2G3F|"Em"EFGA "A"GFED|
 "D"A2AB A3G |GFEF "Bm"D2 EF|"G"G2GAG3F| "A"EFGA "D"D4:|
-|:"D"A2A2 "Bm"d4|dcde "/A"cB A2|"G"G2GA "D"F2D2|"A" EDEA "D"FED2\
-|"D"A2A2 "Bm"d4|dcde "/A"cB AF|"G"G2GA "D"F2D2|"A"EDEA "D"D4:|
+|:"D"A2A2 "Bm"d4|dcde "A"cB A2|"G"G2GA "D"F2D2|"A" EDEA "D"FED2
+|"D"A2A2 "Bm"d4|dcde "A"cB AF|"G"G2GA "D"F2D2|"A"EDEA "D"D4:|
 
 X:50
 T:y Cercle Gwenvidik
@@ -326,13 +326,13 @@ Q:1/4=205
 D:
 M:6/8
 K:G
-|: "Em" EGE "D"DEF |"Em" EGA "G"B2 B | BcB BAA | "Am"ABA AGF |"Em" EGE "D"DEF |"Em" EGA B2 ^c |\
+|: "Em" EGE "D"DEF |"Em" EGA "G"B2 B | BcB BAA | "Am"ABA AGF |"Em" EGE "D"DEF |"Em" EGA B2 ^c |
 "A"^c/<d/cB AGF |1 "D" EDF "Em"E2 E :|2 "D"EDF "Em"E2 A |: "Em"B2 B "G"BAG | 
 "D"A2 A Adc |"Em" B2 B "G"BAG | "D"FGA AGA |"Em" B2 B BAG | "D"A2 A Ade |"G(C)" B2 B BAF |"D" EDF "Em"E2 E :|] 
 
 X: 51
 T: y Cercle Zelda (Chapelloise) 
-P: Fast...
+N: Fast...
 C:  Catalonia/Occitania
 O: AABB for Cercle circassien
 R: jig

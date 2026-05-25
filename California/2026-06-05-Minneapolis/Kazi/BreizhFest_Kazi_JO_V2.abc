@@ -15,12 +15,12 @@
 %%oneperpage false
 %%footer "     $P"
 
-X:27
+X:10010027
 T:Da\~ns Kef K  Em
 G:Kazimodal
 R:Gavotte comme da\~ns kef
 C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
-Q:C2=164
+Q:1/4=164
 M:4/4
 K:Em
 || "D"FG AG F>E "Bm"D2 | DG F>G "C"E2 "Em"E>E |\
@@ -28,27 +28,27 @@ K:Em
 	|:"Em"E>B BA "G"B2 B>A | GB "D" AB/2A/2 "Em"G2 GE |\
 	"D"F>G ""AG F>E "Bm"D2 | DG "D"F>G "Em"E2 ""E>E :|
 
-X:28
+X:10020028
 T:Da\~ns Kef K (bal)  G
 G:Kazimodal
 R:Bal da\~ns kef
 C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
 M:12/8
 K:G
-Q:C3=90
+Q:3/8=90
 |: "G"G2 G "Em"G2 A "Bm"B2 B B2 c |1 "Am"d2 e "D"d2 B ABA "G"G2 :|2\
 	"Am"d2 e "D"d2 B ABA "G"G3 ||
-Q:C3=164
+Q:3/8=164
 |: "G"B3 ""A2 G F2 G "D"A3 | ABc ""B2 A "G"B2 c d2 G |\
 	"Em"B3 "Am"A3 GFG "D"A3 | ABc ""B2 ""A "C"G3 "G"G3 :|
 
 %%newpage
-X:35
+X:10030035
 T:gavotte K1 G
 G:Kazimodal
 R:Gavotte des montagnes
 C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
-Q:C3/1=156
+Q:3/8=156
 M:12/8
 S:TS94
 K:Gmaj
@@ -56,27 +56,27 @@ P:A
 |: "G"G2 A "Bm"B2 B B2 A "C"G3|"D"F2 G A2 F "G"G3 G3::\
 "G"G2 A "(A)"B2 B B2 A "C"G3|"D"F2 A "Bm"G2 F "Em"E3 E3:|
 
-X:36
+X:10040036
 T:gavotte K2 Em
 %T:TS2
 R:Gavotte des montagnes
 C:Traditionnel
 D:Pennoù Skoulm
-Q:C3/1=156
-P:C3D
+Q:3/8=156
+N:C3D
 M:12/8
 K:Gmaj
 P:C
 |: "Em"E2 B "G"B2 G "Am"A2 B "C"c3|"D"BBB A2 A "G"G3 G3::\
 "Em"E2 F "G"G2 A "A"B2 G "C"E3|G2 G "D"FED "Em"E3 E3:|
 
-X:37
+X:10050037
 T:gavotte K3 Em
 %T:TS3
 R:Gavotte des montagnes
 C:Traditionnel
 S:TS95
-Q:C3=156
+Q:3/8=156
 P:E4
 M:12/8
 K:Em
@@ -84,7 +84,7 @@ P:E
 |: "Em"B2 B A2 "Am"c B2 G "C"E3|GFE "D"F2 G "Bm"F3 F3::\
 	"Em"E2 F "C"G2 G "D(F#m)"F2 E "Bm"D3|"Em"E2 F "C"G2 G "D"F2 F "Em"E3:|
 
-X:11
+X:10060011
 T:Gavotte K3.1 t3.25 Bal Shep16  Em
 C:Tamm Kreiz
 C:Shephard p16
@@ -93,27 +93,27 @@ O:Bretagne
 G:Lark16
 L:1/8
 K:Dmaj
-Q:C2=72
+Q:1/4=72
 M:none
 |:"Em"EBG |"D"HA2 GFE "Bm"HD2| DAF "C"HG2 F"D"ED "Em"HE2:|
 Q:1/4=160
 M:2/4
-|:B|"Em"Bcdc BGEB/2B/2|Bcdc BAB3/2A/2| Bcdc BGEF| GA (3BAG "D"FG "Em"HE2|
+|:B|"Em"Bcdc BGEB/2B/2|Bcdc BAB3/2A/2| Bcdc BGEF| GA (3BAG "D"FG "Em"HE2:|
 
-X:36
+X:10070036
 T:gavotte K4 Am
 %T:TS2
 R:Gavotte des montagnes
 C:Traditionnel
 D:Pennoù Skoulm
-Q:C3=156
+Q:3/8=156
 M:12/8
 K:C
 |: "Am"A2 e "C"e2 c "Dm"d2 e "F"f3|"G"eee d2 d "C"c3 c3::\
 	"Am"A2 B "C"c2 d "D"e2 c "F"A3|c2 c "G"BAG "Am"A3 A3:|
 
 %%newpage
-X: 42
+X:10080042
 T:Hanter-dro K1 G
 G:Kazimodal
 R:Hanter-dro
@@ -129,7 +129,7 @@ P:A
 |: "G"{Bc}BA/2B/2 "Am"dd "Em"(BG) | "C"{GA}GF/2G/2 "Am"(BA/2)G/2 "D"A2 |\
 "G"{Bc}BA/2B/2 "Bm"dc "Em"(BG) | "C"{GA}GF/2G/2 "D"(AB) "G"G2 :|
 
-X:44
+X:10090044
 T:Hanter-dro K3 Em
 G:Kazimodal
 R:Hanter-zañs
@@ -150,7 +150,7 @@ P:D
 	"Bm"B(B/2c/2) "Am"AB {GA}"G"GE | \
 	"F"A(A/2B/2) {GA}"Dm"GF "Em"E z :|
 
-X:45
+X:10100045
 T:Hanter-dro K4 Em
 G:Kazimodal
 R:Hanter-zañs
@@ -172,7 +172,7 @@ P:E
 "D"A(A/2B/2) {GA}"Am"G"Bm"F "Em9"E2 ||
 
 %%newpage
-X:46
+X:10110046
 T:Kaz a barh K1  Em
 G:Kazimodal
 R:Kaz a barh
@@ -186,7 +186,7 @@ P:A
 |: "Em"(EG/2)F/2 E>G "G"GB "Bm"FF |1 "C"E/2(G/2F/2G/2) E>G (GB) "D"F2 :|2 "C"E/2(G/2F/2)A/2 ({GA}""G)>E "D"E"D"D "Em"E2 ||
 |: "Em"E(E/2G/2) "G"B>c ({Bc}B)G "Am"A2 |1 ({AB}A)F/2G/2 "D"A>B F/2(A/2G/2)B/2 "C"E(G/2F/2) :|2 "Am"AA/2A/2 A>B "C"G2 "Em"E2 ||
 
-X:47
+X:10120047
 T:Kaz a barh K2  G
 G:Kazimodal
 R:Kaz a barh
@@ -204,7 +204,7 @@ P:B
   "C"c/B/A/B/ "G"GB/c/ "D"d/c/B/c/ A2 :|2 \
   "C"c/B/A/B/ "G"Gd "D"e/d/e/f/ "G"g2||
 
-X:48
+X:10130048
 T:Kaz a barh K3  Em
 G:Kazimodal
 R:Kaz a barh
@@ -215,12 +215,12 @@ M:4/4
 S:Tonioù Breizh-Izel 1804 (Karnag), livre vert p. 485
 K:Em
 P:C
-|: ({EF}"Em"E)G/2A/2 "G"B3/2({AB}>A/2) "C"GE "D"G/2F/2E |1 "G"({Bc}B)(A/2B/2) "C"G>E "(Am)"GA "Bm"B2 :|2 "Bm"({Bc}B)A/2B/2 "C"G>E "D"(G/2E/2F/2D/2) "Em"E2 ||
+|: ({EF}"Em"E)G/2A/2 "G"B3/2({AB}A/2) "C"GE "D"G/2F/2E |1 "G"({Bc}B)(A/2B/2) "C"G>E "(Am)"GA "Bm"B2 :|2 "Bm"({Bc}B)A/2B/2 "C"G>E "D"(G/2E/2F/2D/2) "Em"E2 ||
 ({Bc}"G"Bc/2)B/2 "D"({AB}A)>F "Am"(AB/2)A/2 "Em"G/2F/2""E | (GA/2)F/2 "C"{A}G>E (G/2E/2)"D"F/2D/2 "Em"E2 |
 ({Bc}"G"Bc/2)B/2 "D"({AB}A)>F "Am"(AB/2)A/2 "Em"G/2F/2""G | "Am"(EG/2)E/2 "Bm"FA/2F/2 "C"(G/2A/2)"D"F/2G/2 "Em"E2 ||
 
 %%newpage
-X:51
+X:10140051
 T:Kost ar c'hoad K  Am
 G:Kazimodal
 R:Kost ar c'hoad
@@ -237,7 +237,7 @@ P:G
 |: "Am"A2 e>e "Em"B>c d2 | "F"(c/2B/2c) A2 c2 "Em"B>A |\
     "C"GG E2 "D"^F>G A>G | "F"A>c "G"(3(B>c)B "Am"A2 ""A2 :|
 
-X:59
+X:10150059
 T:Larid\'e a8 K1  Em
 G:Kazimodal
 R:Larid\'e
@@ -248,10 +248,10 @@ K:Am
 P:A
 M:12/8
 Q:3/8=140
-|: "Em"E2 E A2 B "Am"c2 B "()"A3 | "F"A2 A B2 A "D"A2 G "Em"E3 :|
+|: "Em"E2 E A2 B "Am"c2 B A3| "F"A2 A B2 A "D"A2 G "Em"E3 :|
 |: "Am"E2 E ""A2 B "F"c2 A ""d2 c |1"G" B3 ""ABc "D"A2 ""G ""A3 :|2"G" B3 ""ABc "F"A2 ""G "Am"A3 ||
 
-X:60
+X:10160060
 T:Larid\'e a8 K2  Em
 G:Kazimodal
 R:Larid\'e
@@ -264,7 +264,7 @@ K:Em
 |: "Bm"FB "Em"BA AG "C"E2 |"D" FG FE DE "Bm"F2 |"Bm"FB "Em"BA AG "C"E2 | FG "D"FE "Bm"FD "Em"E2 :|
 
 %%newpage
-X:55
+X:10170055
 T:Rid\'es d'octobre 2003 K1  G
 C:Traditionnel breton et J. HUBY (NEKETA)
 I:Rid\'es 6 T
@@ -277,7 +277,7 @@ P:A
 |: "G"GA B2 "C"cB |"D"Ac BA "G"GD |GA "Em"B2 "Am"cB |"Bm"A/B/c "D"B""A "G"G2 :|
 |: "G"Bc "Bm"d2 ed |B2 "C"cB "D"Ac |"G"Bc "Bm"d2 ed |"Am"c/d/c "D"BA "G"G2 :|
 
-X:56
+X:10180056
 T:Rid\'es d'octobre 2003 K2 Am
 I:Rid\'es 6 T
 Q:1/4=164
@@ -289,7 +289,7 @@ P:B
 K:G
 |: "G"Bc ""d2 BG |"Em" E2 "Am"AB "C"ce |"G" dc ""B2 cd | "C"c2 BA "G"G2 :|
 
-X:58
+X:10190058
 T:Rid\'es d'octobre 2003 K4  Am
 I:Rid\'es 6 T
 Q:1/4=164
@@ -300,7 +300,7 @@ P:D
 |: "Am"AG AB c2 |"G"Bc dc B2 |"F"AG AB c2 |"G"Bc dc B2 :|
 |: "Am"c2 A2 "Em"GA |Bd cB "Am"AB |"Am(F)"c2 A2 "Em"GA |"G"Bd ""c""B "Am"A2 :|
 
-X:77
+X:10200077
 T:Rond de Saint-Vincent ^Anes dans le pr\'e et alla danser
 G:Kazimodal
 R:Rond de Saint-Vincent

@@ -1,4 +1,4 @@
-X: 9
+X:10010009
 T: Gavotte t3.1 Des Montagnes  Squiban1 orig Am
 C: trad Breton, fr Didier Squiban
 S: Ker Eon: Suite de Gavottes des Montagnes set by Didier Squiban
@@ -14,7 +14,7 @@ K: Emin
 EFGA Bc (3B/c/B/ A|GEGF E2E2|EFGA Bc (3B/c/B/ A|GEGF E2E2||
 |:EFGA Bcd2|c/B/A cB G2G2|EFGA Bc (3B/c/B/ A|GEGF E2E2:|
 
-X: 10
+X:10020010
 T: Gavotte t3.2 Des Montagnes Squiban2 orig Am
 C: trad Breton, fr Didier Squiban
 S: Ker Eon: Suite de Gavottes des Montagnes set by Didier Squiban
@@ -31,7 +31,7 @@ K: Emin
 B,EEG GEG2|GEDF E2E2|B,EEG GEG2|GEDF E2E2||
 |:B,EEG GEG2|EGB2 BAB2|Bddc Bc B/c/B|A2GB BB A/B/A|G2EA AA G/A/G|EEDF E2E2:|
 
-X:11
+X:10030011
 T:Gavotte t3.25 Bal Shep16  Em
 C:Tamm Kreiz
 C:Shephard p16
@@ -47,7 +47,7 @@ Q:1/4=160
 M:2/4
 |:B|"Em"Bcdc BGEB/2B/2|Bcdc BAB3/2A/2| Bcdc BGEF| GA (3BAG "D"FG "Em"HE2:|
 
-X: 12
+X:10040012
 T: Gavotte t3.3 Des Montagnes Squiban3 orig Am
 C: trad Breton, fr Didier Squiban
 S: Ker Eon: Suite de Gavottes des Montagnes set by Didier Squiban
@@ -64,7 +64,7 @@ B2AB GFE2|FGED E2E2|B2AB GFE2|FGED E2E2||
 B2AB GF EF/G/|ABcd BAB2|B2AB GFEF|GAFD E2E2|
 B2AB GF EF/G/|ABce dcB2|A/B/A GA FEDE|FGED E2E2||
 
-X:23
+X:10050023
 T: Keff s1.1 Pilpazig
 O:Brittany
 G:Lark18
@@ -80,7 +80,7 @@ K:Am
  A | "G"Bcdc BA G2 | "Em"GcBc "Am"A2 AA| "G"Bcdc BA G2 |"Em" GcBc |"Am"A2 AA||
 |: "Am"Aeed e2 ed| "C"ce d/e/d c2 cA| "G"Bcdc BA G2 | "Em" GcBc "Am"A2 AA:||
 
-X:24
+X:10060024
 T:Keff s1.2 Kann al Loar 2016
 O:Brittany
 G:Lark24
@@ -96,7 +96,7 @@ K:Am
 (3edc Bc df ec|dc AG A2e2 | (3edc Bc df ec|dc AG A2A2 || 
 |: e(cc)e d2 ec | dc B/A/B c2 cd| ef ed cB AB |dc AG A2A2 :|
 
-X:25
+X:10070025
 T:Klamm s1.1 #1  Em
 M:3/2
 G:Lark15
@@ -108,7 +108,7 @@ E2 FG E2D2G4|(3GAG FG B2A2 FAGF|E2 FG E2D2G4|(3GAG FG B2A2 F4|
 E2 FG E2D2G4|(3GAG FG B2A2 FAGF|E2 FG E2D2G4|(3GAG FG B2A2 B4|
 |:B2AB GBdA B2G2|cBAB G2AF G2  z z6|B2AB GBdA B2G2|cBAB G2 F2E4:||
 
-X:26
+X:10080026
 T:Klamm s1.2 #2  Em
 M:3/2
 G:Lark14
@@ -118,7 +118,7 @@ L:1/8
 "Em"EFGE F2B2 "D"AGFG|"Em"EFGE F2B2 "D"AGFG|FEDE F2B2 AGF2:|
 |:"G"BdBA G2FE "Am"A4|"D"FGFE D2EF "G"Gz z6|"G"BdBA G2FE"Am"A4|"D"BddA B2 "Em"GFE4:|
 
-X:261
+X:10090261
 T:Plinn Shep#2
 O:Shepherd Plinn#2 (frm Bm)
 G:Lark14
@@ -129,7 +129,7 @@ L:1/8
 |:"Em"EGBc BA"G"G2|GFED "D"EF"Em"E2:|\
 |:"Em"EGBA Bde2|"C"efgf "G"edB2|BcBA GAB2|"D"AGED "Em"EFE2:|
 
-X:262
+X:10100262
 T:Plinn Shep#3 bm 
 O:Shepherd Plinn #3
 G:Lark15
@@ -139,7 +139,7 @@ L:1/8
 |e|"A"ecdB "E"BA"A"Ae|"A"ec"G"dc"Bm"B2Be|"A"ecdB BAAe|ecdcB2B2|
 |:"Bm"Bcde fgf2|(3def gf edce|ecdB BAAe|ecdcB2B2:|
 
-X:654
+X:10110654
 T:Rond de Landéda s1.2 G
 M:3/2
 L:1/8
@@ -147,7 +147,7 @@ K:C
 |:"G"BAGG GGAc "D"B2 A2|""BAGG GGAc "G"B2 A2 :|
 |: "G"!accent!B z "G"!accent!BA AGAB/c/ "D"BABG|"G"!accent!B z "G"!accent!BA AG"D"AB/c/ BA "G"G2 :|
 
-X:285
+X:10120285
 T:Rond de Loudeac s1.1
 C:  trans. Jim Oakden
 G:Lark19?
@@ -158,7 +158,7 @@ L:1/8
 AeeA cBAG|AeeA c2A2|AeeA cBAG|AeeA c2A2||
 |:AeeA cBAB| c2 BA GABG|BcdB d2 cA|cdBA GA B2|BcdBc2A2:|
 
-X:35
+X:10130035
 T:Rond de Loudeac s1.1  Am | 
 C:  trans. Jim Oakden
 G:Lark19?
@@ -169,7 +169,7 @@ L:1/8
 AeeA cBAG|AeeA c2A2|AeeA cBAG|AeeA c2A2||
 |:AeeA cBAB| c2 BA GABG|BcdB d2 cA|cdBA GA B2|BcdBc2A2:|
 
-X:36
+X:10140036
 T:Rond de Loudeac s1.2 Bal 39.2 Am
 C:from Dave Shepard, p39#2, Brittany 
 O:trans. Jim Oakden
@@ -181,7 +181,7 @@ L:1/8
 e|:e2d B2d|dcB A2e| e2dB2d|c3 A3:|
 |:ABc B3| ABc B2e| e2d B2d|c3A3:|
 
-X:286
+X:10150286
 T:Rond de Loudeac s1.2 Baleu 39.2
 C:from Dave Shepard, p39#2, Breizh 
 O:trans. Jim Oakden
@@ -193,7 +193,7 @@ L:1/8
 e|:e2d B2d|dcB A2e| e2dB2d|c3 A3:|
 |:ABc B3| ABc B2e| e2d B2d|c3A3:|
 
-X:287
+X:10160287
 T:Rond de Loudeac s1.3 38.1
 M:4/4
 C:Shepard p38.1
@@ -204,7 +204,7 @@ L:1/8
 eded cAA2|ededc2c2|eded cAA2|ededc2c2|
 e2ge cdef|edcB A2A2|e2ge cdef|edcB A2A2||
 
-X:37
+X:10170037
 T:Rond de Loudeac s1.3 38.1 Am
 M:4/4
 C:Shepard p38.1
@@ -215,7 +215,7 @@ L:1/8
 eded cAA2|ededc2c2|eded cAA2|ededc2c2|
 e2ge cdef|edcB A2A2|e2ge cdef|edcB A2A2||
 
-X:290
+X:10180290
 T:Rond de Loudeac-Rinqueniee  Am
 Q:1/4=150
 N:4 RIQUENIEE
@@ -228,7 +228,7 @@ Q:3/8=150
 M:6/8
 |:"Am"A2Bc3 |"F"A^GA B2 B |"Dm" d2 c B2A|"E"^G3"Am"A2 E:|
 
-X:290
+X:10190290
 T:Rond de Loudeac-Rinqueniee  Em
 Q:1/4=150
 N:4 RIQUENIEE
@@ -241,7 +241,7 @@ Q:3/8=150
 M:6/8
 |:"Em"e2fg3 |"C"e^de f2 f |"Am" a2 g f2e|"B"^d3"Em"e2 B:|
 
-X:39
+X:10200039
 T:Rond de St. Vincent Kornog2
 C: Kornog: Ar Seizh Avel
 O: Brittany
@@ -254,7 +254,7 @@ K:C
 |:AB cA{B} AG AE | AB cA{B} AG AF | AB cA{B} AG A2 :| 
 |: Ac Bc dc B2 | AA{c} BA GG A2 |Ac Bc dc B{c}B | AA{c} BA G2 A2 :| 
 
-X:179
+X:10210179
 T:Ronde de Landeda S1.1 Loffet
 C:frm Bernard Loffet
 O:NW Brittany
@@ -266,7 +266,7 @@ K:Em
 |:"Em"EB BG AB "D"B2AG "D"FG | "Em"EBBGAB "D"B2AG "D"F2:|
 |:"Em"!accent!Bz "Em"!accent!AG FE "D"FG/2A/2 GF "Em "GE|"Em"!accent!Bz "Em"!accent!AG FE"D" FD EF"Em"E2:|
 
-X:180
+X:10220180
 T:Ronde de Landeda S1.2 Pevar
 C:frm Pevar Den "Fest-noz"
 O:NW Brittany
@@ -280,7 +280,7 @@ K:Em
 |:"Am"AEEAAG "Am (F)"AA/2A/2 AB "G"AA | "Am"AEEAAG "F"AA/A/ AB "Am"A2 :|
 |:!accent!"Am"(A2"Am"A)BGB "F"AG/F/ EF "Em"GE|!accent!"Am"(A2"Am"A)B GB "F"AG/F/ "Em"EF "G"G2 :|
 
-X:40
+X:10230040
 T:Tricot s1.1  kejaj  "Le petit Moulin"
 G:Lark13
 Q:1/4=180
@@ -292,7 +292,7 @@ M:2/2
  |:"Am" ABcd "C"e2 e2| "Dm"dedc "Em"B2 AB|"Am (F)"d2 cB A2B2|"Dm"c2 BA "Em"B4|
 "Am"ABcd "C"e2 e2| "Dm"dedc "Em"B2 AB|"F"d2 c2 B2 A2|"G"c2 B2 "Am"A4:|
 
-X:41
+X:10240041
 T:Tricot s1.2   kejaj
 O:Brittany
 Q:1/4=150
@@ -305,7 +305,7 @@ B2 BB A2B2 G2E2|B2 AB d2c2 B4|B2 BB A2B2 G2E2|B2 AB d2c2 B4||
 M:2/2
 |:B2 BB A2A2|GAGE F4| BBBB A2 AF|G2A2 E4:|
 
-X:42
+X:10250042
 T: v Schottish JS
 G:Lark15
 O: Breton-from John Skelton
@@ -317,7 +317,7 @@ K:D
 |:"D"A2A2 "Bm"d4|dcde "A"cB A2|"G"G2GA "D"F2D2|"A" EDEA "D"FED2
 |"D"A2A2 "Bm"d4|dcde "A"cB AF|"G"G2GA "D"F2D2|"A"EDEA "D"D4:|
 
-X:50
+X:10260050
 T:y Cercle Gwenvidik
 C: Brittany (fr group Gwenvidik) | 
 G:Lark24
@@ -330,7 +330,7 @@ K:G
 "A"^c/<d/cB AGF |1 "D" EDF "Em"E2 E :|2 "D"EDF "Em"E2 A |: "Em"B2 B "G"BAG | 
 "D"A2 A Adc |"Em" B2 B "G"BAG | "D"FGA AGA |"Em" B2 B BAG | "D"A2 A Ade |"G(C)" B2 B BAF |"D" EDF "Em"E2 E :|] 
 
-X: 51
+X:10270051
 T: y Cercle Zelda (Chapelloise) 
 N: Fast...
 C:  Catalonia/Occitania

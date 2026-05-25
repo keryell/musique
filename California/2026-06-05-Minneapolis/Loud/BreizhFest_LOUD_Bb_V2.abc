@@ -1,5 +1,5 @@
 %%newpage
-X:7
+X:10010007
 T:Gavotte J5.1  Skelton 26.2* Em
 O:Brittany
 A:Brittany
@@ -14,7 +14,7 @@ L:1/8
 |:"G"G2A BAG A2B A2B|d2d B2A "D"B3B3::\
  "G"G2A BAG A2B A3|G2B A2G "Em"E3E3:|
 
-X:8
+X:10020008
 T:Gavotte J5.2   Skelton 15  Em
 B:Shepard #15
 O:Brittany (Dave Shepherd #15)
@@ -25,7 +25,7 @@ L:1/8
 |:"Em" E2D E2F G2A "G"B3| B2A "D"F2G "Em" E3E3:|
 |:"Em"E2B G2B "Am"c2B A3|"D"F2G AGF "Em"G2A B2G|"C"E2D E2F "G"G2A B3|B2A "D"F2G "Em"E3E3:|
 
-X:9
+X:10030009
 T:Gavotte Shep16   Em
 B:Shepard
 O:Brittany (Dave Shepherd #16)
@@ -38,7 +38,7 @@ L:1/8
 |: "Em"E2G G2B B2B "D"A2B | "Am"cBA A2B c2d "Bm"B3 | "Em"E2G G2B B2B A2B | AGF "D"G2F "Em" E3 E3 :|
 
 %%newpage
-X:15
+X:10040015
 T:Pach Pi S1.1 Shep 19.2  Em fr Am
 M:4/4
 C:Brittany (fr Shepherd p19#2)
@@ -49,7 +49,7 @@ Q:1/4=220  "    Drone E"
 |: E2 F2 G2 FG | AGFG E2 D2 |  E2 F2 G4 | FEDF E4  :|
 |: B2 B2 A2 FG| AGFG E2 D2 |B2 B2 A2 B2 | B2 GF E4 :|
 
-X:16
+X:10050016
 T:Pach Pi S1.2  8* JS
 O:Brittany
 M:4/4
@@ -65,7 +65,7 @@ E2B2 AGFG| A2A2G2F2|E2G2 FEDE| F2F2G2F2|
 E2B2 AGFG| A2A2G2F2|E2G2 FEDE| F2GF E4||
 
 %%newpage
-X:17
+X:10060017
 T:Plinn K1.1 
 %T:TS1
 G:Kazimodal
@@ -78,7 +78,7 @@ K:Gmaj
 |: "Em"Ed/2d/2 dc "D"cB "G"G2 | "Am"AB/2A/2 "C"GA "D"Bc "Bm"B2 ::\
 "Em"B2 "D"AB AG "Bm"FB/2B/2 | "Bm"BA "C"G"D"F "Em"E2 E2 :|
 
-X:18
+X:10070018
 T:Plinn K1.2
 %T:TS2
 G:Kazimodal
@@ -91,7 +91,7 @@ K:Em
 |: "Em"EG/2G/2 GB "G"BA "D"FG | "C"EG/2G/2 GB "D"BA "Bm"F2 ::\
 "Em"E>G "C"EG "D"FE "A"DE | "Bm"FG "C"EG "D"F2 "Em"E2 :|
 
-X:19
+X:10080019
 T:Plinn K1.3
 %T:TS3
 G:Kazimodal
@@ -104,7 +104,7 @@ K:Em
 |: "Em"EB/2B/2 (Bc) "D"Ac ({Bc}"C"B)G |1 "G"EB/2B/2 (Bc) "Am"Ac "Bm"B2 :|2 "Am"EA/2A/2 AB "C"G2 "Em"E2||
 |: ({GA}"Em"G/2)F/2G "C"E>E "Am"GE "D"F2 |1 ({Bc}"G"B)E "Am"(FG) "C"AG "D"F2:|2 "Em"Be "C"(g/2f/2e) "D"fd "A"e2 ||
 
-X:20
+X:10090020
 T:Plinn K1.4 Bal Baron/Anneix 2
 C:Baron/Anneix Dasansal e Breiz T5 #3 (Brittany)
 A:Brittany
@@ -114,14 +114,14 @@ A:Oakden
 Z:Baron/Anneix
 G:Lark15
 S: Dasansal e Breiz T5 #3
-Q:C3=72
+Q:3/8=72
 K: G
 | EEG HB3 Bcd c3| BAG A2F G2A B3 :|
 Q:1/4=156
 M:2/4
 |:  B2 cB GAB2 | B/A/B cB GAB2 | BA/G/ FA AG E2:|
 
-X:21
+X:10100021
 T:Plinn K1.5 
 %T:TD1
 G:Kazimodal
@@ -135,7 +135,7 @@ K:Em
 "Em"B>A "D"dc BA "G"G2 | (3GFG "D"AA GA "Em"B2 |\
 "Em"B>A "D"dc BA "G"G2 | (3GFG "D"AA GF "Em"E2 :|
 
-X:22
+X:10110022
 T:Plinn K1.6
 %T:TD3
 G:Kazimodal
@@ -149,11 +149,11 @@ K:Em
 |: "D"F>G AG "Bm"FD B2 | "C"EE DE "D"FG "Bm"F2 |\
 "D"F>G AG "Bm"FD B2 | "C"EE "D"DG/2G/2 G"Bm"F "Em"E2 :|
 
-X:23
+X:10120023
 T:Rond de loudeac J1.1 Skelton 1
 O:Shepherd p38#4 (Bm);  learned frm John Skelton
 G:Lark16
-P:Drone E
+N:Drone E
 M:4/4
 A:Brittany
 K:Em
@@ -162,13 +162,13 @@ Q:1/4=180
 |EB BA GA BA | GA BA G2E2 | EB BA GA BA | GA BA G2E2 |
 |:EG FE DE F2 | FA GF G2E2 | EG FE DE F2 | FA GF G2E2 :|
 
-X:24
+X:10130024
 T:Rond de loudeac J1.2 Skelton 2
 O:frm John Skelton; trad Breton
 G:Lark16
 M:4/4
 A:Brittany
-P: Drone E
+N: Drone E
 K:Em
 L:1/8
 Q:1/4=180
@@ -176,7 +176,7 @@ Q:1/4=180
 FG AG FE FD | FG AG F4 | FG AG FE FD | FG AG F4 ||
 |:EG BG DF AF | EF GA BA GF | EG BG DF AF | EF GF E4 :|
 
-X:25
+X:10140025
 T:Rond de Loudeac s1.2 Bal 39.2
 C:from Dave Shepard, p39#2, Brittany 
 O:trans. Jim Oakden
@@ -186,4 +186,4 @@ K:Am
 Q:140
 L:1/8
 e|:e2d B2d|dcB A2e| e2dB2d|c3 A3:|
-|:ABc B3| ABc B2e| e2d B2   .mjb | kvifgu908tr  d|c3A3:|
+|:ABc B3| ABc B2e| e2d B2d|c3A3:|

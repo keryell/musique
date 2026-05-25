@@ -1,0 +1,189 @@
+%%newpage
+X:7
+T:Gavotte J5.1  Skelton 26.2* Em
+O:Brittany
+A:Brittany
+Q:3/8=175 "     Drone E"
+Z:BAGAD CAP CAVAL
+C:trad Breton, from John Skelton
+G:
+M:12/8
+K:Em
+L:1/8
+%%MIDI gchordon
+|:"G"G2A BAG A2B A2B|d2d B2A "D"B3B3::\
+ "G"G2A BAG A2B A3|G2B A2G "Em"E3E3:|
+
+X:8
+T:Gavotte J5.2   Skelton 15  Em
+B:Shepard #15
+O:Brittany (Dave Shepherd #15)
+Q:3/8=175"     Drone E"
+M:12/8
+K:Em
+L:1/8
+|:"Em" E2D E2F G2A "G"B3| B2A "D"F2G "Em" E3E3:|
+|:"Em"E2B G2B "Am"c2B A3|"D"F2G AGF "Em"G2A B2G|"C"E2D E2F "G"G2A B3|B2A "D"F2G "Em"E3E3:|
+
+X:9
+T:Gavotte Shep16   Em
+B:Shepard
+O:Brittany (Dave Shepherd #16)
+Q:3/8=175"     Drone E"
+M:12/8
+K:Em
+L:1/8
+%%MIDI gchordon
+|: "Em"E2G G2B B2B A2B | AGF "D"G2F "Em" E3 E3:|
+|: "Em"E2G G2B B2B "D"A2B | "Am"cBA A2B c2d "Bm"B3 | "Em"E2G G2B B2B A2B | AGF "D"G2F "Em" E3 E3 :|
+
+%%newpage
+X:15
+T:Pach Pi S1.1 Shep 19.2  Em fr Am
+M:4/4
+C:Brittany (fr Shepherd p19#2)
+G:Lark15
+K:Em
+L:1/8
+Q:1/4=220  "    Drone E"
+|: E2 F2 G2 FG | AGFG E2 D2 |  E2 F2 G4 | FEDF E4  :|
+|: B2 B2 A2 FG| AGFG E2 D2 |B2 B2 A2 B2 | B2 GF E4 :|
+
+X:16
+T:Pach Pi S1.2  8* JS
+O:Brittany
+M:4/4
+A:Brittany
+Z:BAGAD CAP CAVAL
+C:trad Breton, from John Skelton
+G:
+K:Em
+L:1/8
+Q:1/4=220  "    Drone E"
+|:E2G2 FEDE| F2F2G2E2|E2G2 FEDE| F2 GF E4:|
+E2B2 AGFG| A2A2G2F2|E2G2 FEDE| F2F2G2F2|
+E2B2 AGFG| A2A2G2F2|E2G2 FEDE| F2GF E4||
+
+%%newpage
+X:17
+T:Plinn K1.1 
+%T:TS1
+G:Kazimodal
+R:Dañs Plin
+C:Traditionnel
+Q:1/4=160 "     Drone E"
+M:4/4
+S:Étienne Grandjean
+K:Gmaj
+|: "Em"Ed/2d/2 dc "D"cB "G"G2 | "Am"AB/2A/2 "C"GA "D"Bc "Bm"B2 ::\
+"Em"B2 "D"AB AG "Bm"FB/2B/2 | "Bm"BA "C"G"D"F "Em"E2 E2 :|
+
+X:18
+T:Plinn K1.2
+%T:TS2
+G:Kazimodal
+R:Dañs Plin
+C:Traditionnel
+Q:1/4=160 "     Drone E"
+M:4/4
+S:Diaouled Ar Menez
+K:Em
+|: "Em"EG/2G/2 GB "G"BA "D"FG | "C"EG/2G/2 GB "D"BA "Bm"F2 ::\
+"Em"E>G "C"EG "D"FE "A"DE | "Bm"FG "C"EG "D"F2 "Em"E2 :|
+
+X:19
+T:Plinn K1.3
+%T:TS3
+G:Kazimodal
+R:Dañs Plin
+C:Traditionnel
+Q:1/4=160 "     Drone E"
+M:4/4
+S:Tonioù Breizh-Izel 1213 (Duod)
+K:Em
+|: "Em"EB/2B/2 (Bc) "D"Ac ({Bc}"C"B)G |1 "G"EB/2B/2 (Bc) "Am"Ac "Bm"B2 :|2 "Am"EA/2A/2 AB "C"G2 "Em"E2||
+|: ({GA}"Em"G/2)F/2G "C"E>E "Am"GE "D"F2 |1 ({Bc}"G"B)E "Am"(FG) "C"AG "D"F2:|2 "Em"Be "C"(g/2f/2e) "D"fd "A"e2 ||
+
+X:20
+T:Plinn K1.4 Bal Baron/Anneix 2
+C:Baron/Anneix Dasansal e Breiz T5 #3 (Brittany)
+A:Brittany
+M:12/8
+L:1/8
+A:Oakden
+Z:Baron/Anneix
+G:Lark15
+S: Dasansal e Breiz T5 #3
+Q:C3=72
+K: G
+| EEG HB3 Bcd c3| BAG A2F G2A B3 :|
+Q:1/4=156
+M:2/4
+|:  B2 cB GAB2 | B/A/B cB GAB2 | BA/G/ FA AG E2:|
+
+X:21
+T:Plinn K1.5 
+%T:TD1
+G:Kazimodal
+R:Dañs Plin
+C:Traditionnel
+Q:1/4=160 "     Drone E"
+M:4/4
+S:Pennoù Skoulm
+K:Em
+|: "Em"E>D EF BA "D"F2 | "C"G2 EG "D"FF "Em"E2 :|
+"Em"B>A "D"dc BA "G"G2 | (3GFG "D"AA GA "Em"B2 |\
+"Em"B>A "D"dc BA "G"G2 | (3GFG "D"AA GF "Em"E2 :|
+
+X:22
+T:Plinn K1.6
+%T:TD3
+G:Kazimodal
+R:Dañs Plin
+C:Traditionnel
+Q:1/4=160 "     Drone E"
+M:4/4
+S:Pennoù Skoulm
+K:Em
+|: "Em"BE/2E/2 ED EF "D"E2 | FF "C"BB AG "Bm"F2 :|
+|: "D"F>G AG "Bm"FD B2 | "C"EE DE "D"FG "Bm"F2 |\
+"D"F>G AG "Bm"FD B2 | "C"EE "D"DG/2G/2 G"Bm"F "Em"E2 :|
+
+X:23
+T:Rond de loudeac J1.1 Skelton 1
+O:Shepherd p38#4 (Bm);  learned frm John Skelton
+G:Lark16
+P:Drone E
+M:4/4
+A:Brittany
+K:Em
+L:1/8
+Q:1/4=180
+|EB BA GA BA | GA BA G2E2 | EB BA GA BA | GA BA G2E2 |
+|:EG FE DE F2 | FA GF G2E2 | EG FE DE F2 | FA GF G2E2 :|
+
+X:24
+T:Rond de loudeac J1.2 Skelton 2
+O:frm John Skelton; trad Breton
+G:Lark16
+M:4/4
+A:Brittany
+P: Drone E
+K:Em
+L:1/8
+Q:1/4=180
+| EG FE DE FD | EG FE D2E2 | EG FE DE FD | EG FE D2E2 ||
+FG AG FE FD | FG AG F4 | FG AG FE FD | FG AG F4 ||
+|:EG BG DF AF | EF GA BA GF | EG BG DF AF | EF GF E4 :|
+
+X:25
+T:Rond de Loudeac s1.2 Bal 39.2
+C:from Dave Shepard, p39#2, Brittany 
+O:trans. Jim Oakden
+G:Lark14
+M:6/8
+K:Am
+Q:140
+L:1/8
+e|:e2d B2d|dcB A2e| e2dB2d|c3 A3:|
+|:ABc B3| ABc B2e| e2d B2   .mjb | kvifgu908tr  d|c3A3:|

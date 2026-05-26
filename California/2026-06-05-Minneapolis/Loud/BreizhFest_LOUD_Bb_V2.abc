@@ -8,7 +8,9 @@ Z:BAGAD CAP CAVAL
 C:trad Breton, from John Skelton
 G:
 M:12/8
+P:A3
 K:Em
+P:A
 L:1/8
 %%MIDI gchordon
 |:"G"G2A BAG A2B A2B|d2d B2A "D"B3B3::\
@@ -20,7 +22,9 @@ B:Shepard #15
 O:Brittany (Dave Shepherd #15)
 Q:3/8=175"     Drone E"
 M:12/8
+P:A3
 K:Em
+P:A
 L:1/8
 |:"Em" E2D E2F G2A "G"B3| B2A "D"F2G "Em" E3E3:|
 |:"Em"E2B G2B "Am"c2B A3|"D"F2G AGF "Em"G2A B2G|"C"E2D E2F "G"G2A B3|B2A "D"F2G "Em"E3E3:|
@@ -31,7 +35,9 @@ B:Shepard
 O:Brittany (Dave Shepherd #16)
 Q:3/8=175"     Drone E"
 M:12/8
+P:A3
 K:Em
+P:A
 L:1/8
 %%MIDI gchordon
 |: "Em"E2G G2B B2B A2B | AGF "D"G2F "Em" E3 E3:|
@@ -43,7 +49,9 @@ T:Pach Pi S1.1 Shep 19.2  Em fr Am
 M:4/4
 C:Brittany (fr Shepherd p19#2)
 G:Lark15
+P:A3
 K:Em
+P:A
 L:1/8
 Q:1/4=220  "    Drone E"
 |: E2 F2 G2 FG | AGFG E2 D2 |  E2 F2 G4 | FEDF E4  :|
@@ -57,7 +65,9 @@ A:Brittany
 Z:BAGAD CAP CAVAL
 C:trad Breton, from John Skelton
 G:
+P:A3
 K:Em
+P:A
 L:1/8
 Q:1/4=220  "    Drone E"
 |:E2G2 FEDE| F2F2G2E2|E2G2 FEDE| F2 GF E4:|
@@ -74,7 +84,9 @@ C:Traditionnel
 Q:1/4=160 "     Drone E"
 M:4/4
 S:Étienne Grandjean
+P:A3
 K:Gmaj
+P:A
 |: "Em"Ed/2d/2 dc "D"cB "G"G2 | "Am"AB/2A/2 "C"GA "D"Bc "Bm"B2 ::\
 "Em"B2 "D"AB AG "Bm"FB/2B/2 | "Bm"BA "C"G"D"F "Em"E2 E2 :|
 
@@ -87,7 +99,9 @@ C:Traditionnel
 Q:1/4=160 "     Drone E"
 M:4/4
 S:Diaouled Ar Menez
+P:A3
 K:Em
+P:A
 |: "Em"EG/2G/2 GB "G"BA "D"FG | "C"EG/2G/2 GB "D"BA "Bm"F2 ::\
 "Em"E>G "C"EG "D"FE "A"DE | "Bm"FG "C"EG "D"F2 "Em"E2 :|
 
@@ -100,7 +114,9 @@ C:Traditionnel
 Q:1/4=160 "     Drone E"
 M:4/4
 S:Tonioù Breizh-Izel 1213 (Duod)
+P:A3
 K:Em
+P:A
 |: "Em"EB/2B/2 (Bc) "D"Ac ({Bc}"C"B)G |1 "G"EB/2B/2 (Bc) "Am"Ac "Bm"B2 :|2 "Am"EA/2A/2 AB "C"G2 "Em"E2||
 |: ({GA}"Em"G/2)F/2G "C"E>E "Am"GE "D"F2 |1 ({Bc}"G"B)E "Am"(FG) "C"AG "D"F2:|2 "Em"Be "C"(g/2f/2e) "D"fd "A"e2 ||
 
@@ -115,7 +131,11 @@ Z:Baron/Anneix
 G:Lark15
 S: Dasansal e Breiz T5 #3
 Q:3/8=72
+P:A3
 K: G
+P:A
+M:12/8
+Q:3/8=72
 | EEG HB3 Bcd c3| BAG A2F G2A B3 :|
 Q:1/4=156
 M:2/4
@@ -130,7 +150,9 @@ C:Traditionnel
 Q:1/4=160 "     Drone E"
 M:4/4
 S:Pennoù Skoulm
+P:A3
 K:Em
+P:A
 |: "Em"E>D EF BA "D"F2 | "C"G2 EG "D"FF "Em"E2 :|
 "Em"B>A "D"dc BA "G"G2 | (3GFG "D"AA GA "Em"B2 |\
 "Em"B>A "D"dc BA "G"G2 | (3GFG "D"AA GF "Em"E2 :|
@@ -144,7 +166,9 @@ C:Traditionnel
 Q:1/4=160 "     Drone E"
 M:4/4
 S:Pennoù Skoulm
+P:A3
 K:Em
+P:A
 |: "Em"BE/2E/2 ED EF "D"E2 | FF "C"BB AG "Bm"F2 :|
 |: "D"F>G AG "Bm"FD B2 | "C"EE DE "D"FG "Bm"F2 |\
 "D"F>G AG "Bm"FD B2 | "C"EE "D"DG/2G/2 G"Bm"F "Em"E2 :|
@@ -156,7 +180,9 @@ G:Lark16
 N:Drone E
 M:4/4
 A:Brittany
+P:A3
 K:Em
+P:A
 L:1/8
 Q:1/4=180
 |EB BA GA BA | GA BA G2E2 | EB BA GA BA | GA BA G2E2 |
@@ -169,7 +195,9 @@ G:Lark16
 M:4/4
 A:Brittany
 N: Drone E
+P:A3
 K:Em
+P:A
 L:1/8
 Q:1/4=180
 | EG FE DE FD | EG FE D2E2 | EG FE DE FD | EG FE D2E2 ||
@@ -182,7 +210,9 @@ C:from Dave Shepard, p39#2, Brittany
 O:trans. Jim Oakden
 G:Lark14
 M:6/8
+P:A3
 K:Am
+P:A
 Q:140
 L:1/8
 e|:e2d B2d|dcB A2e| e2dB2d|c3 A3:|

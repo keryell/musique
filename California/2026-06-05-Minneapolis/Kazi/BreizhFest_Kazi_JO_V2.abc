@@ -22,7 +22,9 @@ R:Gavotte comme da\~ns kef
 C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
 Q:1/4=164
 M:4/4
+P:A3
 K:Em
+P:A
 || "D"FG AG F>E "Bm"D2 | DG F>G "C"E2 "Em"E>E |\
 	"Am"FG AG F>E "Bm"D2 | DG F>G "Em"E2 E>E ||
 	|:"Em"E>B BA "G"B2 B>A | GB "D" AB/2A/2 "Em"G2 GE |\
@@ -34,7 +36,9 @@ G:Kazimodal
 R:Bal da\~ns kef
 C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
 M:12/8
+P:A3
 K:G
+P:A
 Q:3/8=90
 |: "G"G2 G "Em"G2 A "Bm"B2 B B2 c |1 "Am"d2 e "D"d2 B ABA "G"G2 :|2\
 	"Am"d2 e "D"d2 B ABA "G"G3 ||
@@ -51,6 +55,7 @@ C:Traditionnel, arrangement Ronan Keryell http://kazimodal.trad.org
 Q:3/8=156
 M:12/8
 S:TS94
+P:A3
 K:Gmaj
 P:A
 |: "G"G2 A "Bm"B2 B B2 A "C"G3|"D"F2 G A2 F "G"G3 G3::\
@@ -65,6 +70,7 @@ D:Pennoù Skoulm
 Q:3/8=156
 N:C3D
 M:12/8
+P:C3
 K:Gmaj
 P:C
 |: "Em"E2 B "G"B2 G "Am"A2 B "C"c3|"D"BBB A2 A "G"G3 G3::\
@@ -92,7 +98,9 @@ A:Bretagne
 O:Bretagne
 G:Lark16
 L:1/8
+P:A3
 K:Dmaj
+P:A
 Q:1/4=72
 M:none
 |:"Em"EBG |"D"HA2 GFE "Bm"HD2| DAF "C"HG2 F"D"ED "Em"HE2:|
@@ -108,7 +116,9 @@ C:Traditionnel
 D:Pennoù Skoulm
 Q:3/8=156
 M:12/8
+P:A3
 K:C
+P:A
 |: "Am"A2 e "C"e2 c "Dm"d2 e "F"f3|"G"eee d2 d "C"c3 c3::\
 	"Am"A2 B "C"c2 d "D"e2 c "F"A3|c2 c "G"BAG "Am"A3 A3:|
 
@@ -226,7 +236,7 @@ G:Kazimodal
 R:Kost ar c'hoad
 C:Tonio\`u Breizh-Izel No 1400 (Mael-Karaez), Polig Monjarret, arrangement http://kazimodal.trad.org
 S:Tonio\`u Breizh-Izel No 1400 (Mael-Karaez), Polig Monjarret
-P:
+P:(FG)3
 M:4/4
 K:Am
 P:F
@@ -257,9 +267,10 @@ G:Kazimodal
 R:Larid\'e
 C:Traditionnel, arrangement http://kazimodal.trad.org
 Q:1/4=140
-P:
+P:A3
 M:4/4
 K:Em
+P:A
 |: "Em"GF EF "D"GA "G"B2 | AB "Am"cB A2 "Bm"F2 :|
 |: "Bm"FB "Em"BA AG "C"E2 |"D" FG FE DE "Bm"F2 |"Bm"FB "Em"BA AG "C"E2 | FG "D"FE "Bm"FD "Em"E2 :|
 
@@ -283,6 +294,7 @@ I:Rid\'es 6 T
 Q:1/4=164
 M:3/4
 L:1/8
+P:B3
 K:Am
 P:B
 |: "Am"EG "Am"A2 cd | "F"c/d/e dc "G"BG |"Am"EG ""A2 cd | "F"(3:2:3cde dc "G"B2 :|
@@ -295,6 +307,7 @@ I:Rid\'es 6 T
 Q:1/4=164
 M:3/4
 L:1/8
+P:D3
 K:Am
 P:D
 |: "Am"AG AB c2 |"G"Bc dc B2 |"F"AG AB c2 |"G"Bc dc B2 :|

@@ -41,6 +41,11 @@ YAPS_OPTIONS=-s $(ZOOM) -N -x
 AB2AB	= abc2abc
 #TIMIDITY=timidity -c gravis.cfg
 TIMIDITY=timidity
+#ABC2MIDI=abc2midi
+ABC2MIDI=$(HOME)/sources/musique/abcmidi/build/sanitize/abc2midi
+# Output parts in MIDI meta-events and output lyrics as MIDI lyric meta-events
+# (type 5) instead of separate karaoke file.
+ABC2MIDI_OPTIONS=-PMAR -lyrics
 
 TARGETS = $(PS) $(PDF) $(PST) $(PDFT) $(MIDI) $(AU) $(HTML) $(ALLMIDI_DIR)/$(ALLMIDI) $(PSF) $(PDFF)
 
@@ -91,13 +96,11 @@ jplayall: $(ALLMIDI_DIR)/$(ALLMIDI)
 	$(TIMIDITY) -iat -OjS $(ALLMIDI_DIR)/$(ALLMIDI)
 
 %1.mid : %.abc Makefile
-	# Output the parts with https://github.com/sshlien/abcmidi/pull/16
-	abc2midi $< -PMAR
+	$(ABC2MIDI) $< $(ABC2MIDI_OPTIONS)
 	#cat $**.mid > $@
 
 %.mid : %.abc Makefile
-	# Output the parts with https://github.com/sshlien/abcmidi/pull/16
-	abc2midi $< -PMAR
+	$(ABC2MIDI) $< $(ABC2MIDI_OPTIONS)
 	mv $*1.mid $*.mid
 
 %.au : %.mid Makefile

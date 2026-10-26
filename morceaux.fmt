@@ -1,0 +1,10 @@
+% abcm2ps format shared by all the tunes, read with -F by the Makefile.
+
+% Also print the information fields hidden by default (book, discography,
+% file, group, history, notes, rhythm, source, transcription, X: number).
+% This only adds fields: the default M, P and Q stay displayed.
+writefields BCDFGHNORSTWwXZ true
+
+% Keep these extra fields small so that they do not add pages
+historyfont Times-Italic 11
+textspace 0.2cm

@@ -6,6 +6,11 @@
 # - https://github.com/sshlien/abcmidi
 # - https://github.com/keryell/music_utils
 
+# Directory of this Makefile, also when included from a tune directory
+MORCEAUX_DIR := $(abspath $(dir $(lastword $(MAKEFILE_LIST))))
+# abcm2ps format shared by all the tunes
+FORMAT_FILE = $(MORCEAUX_DIR)/morceaux.fmt
+
 LISTE_MORCEAUX=larides_8/LE_laride_8/LE_laride_8.abc plin/LE_plin/LE_plin.abc bourrees_2/saut_terne/saut_terne.abc larides_6/Groill/larides_6.abc scottish/Groilh/groilh.abc hanter-dro/L_HanterDro/hanter-dro.abc rond_saint-vincent/anneaux_d_or/anneaux_d_or.abc mazurka/Escholiers/Escholiers.abc andro/L_Andro/andro.abc kost_ar_c_hoad/LE_kost_ar_c_hoad/kost.abc dans_leon/LA_dans_leon/LA_dans_leon.abc cercles_circassiens/LE_cercle/LE_cercle.abc gavottes/LA_gavotte/LA_gavotte.abc valses/Floating_from_Skerry/Floating_from_Skerry.abc divers/galop_nantais/galop_nantais.abc
 
 LISTE_MORCEAUX_MID=$(shell echo $(LISTE_MORCEAUX) | sed 's,\([^/]*\.\)abc,all/\1mid,g')
@@ -106,13 +111,14 @@ jplayall: $(ALLMIDI_DIR)/$(ALLMIDI)
 %.au : %.mid Makefile
 	-$(TIMIDITY) -id -OrMU -s8 -o $@ $*.mid
 
-%.ps : %.abc Makefile
+%.ps : %.abc Makefile $(FORMAT_FILE)
 	#abc2ps $* -x -n -p -O = -o
 	# The tool supporting UTF-8 encoding:
 	# -i: Insert a red cercle around the errors in the PostScript output.
 	# -N3: print the page number at top left on even pages, top right on odd pages.
+	# -F: read the format file shared by all the tunes.
 	# -O =: generate a .ps file with the base name derived from the input file.
-	abcm2ps -i -N3 $* -O =
+	abcm2ps -i -N3 -F $(FORMAT_FILE) $* -O =
 	#yaps $< $(YAPS_OPTIONS) || abcmidi-yaps $< $(YAPS_OPTIONS)
 
 %.pdf : %.ps
